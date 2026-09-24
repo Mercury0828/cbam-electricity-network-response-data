@@ -41,6 +41,9 @@ processed/
     outage_events_v4.csv        every outage event with its treated hours, blocks, weights and confirming messages
                                 (identifiers of the Elexon REMIT and Nord Pool UMM messages, JAO offered capacity)
     headline_numbers_v4.json    the numbers quoted in the paper, collected from the artefacts above
+inputs/source/                  public price files read by the code: World Bank monthly commodity prices
+                                (wb_cmo_monthly_*.xlsx), ACER LNG price assessments, ECB exchange rates, UK allowance
+                                prices (DESNZ page); the EEX auction reports are not included (see the code README)
 law/
   default_values.csv            CBAM default values for electricity by exporting country, with legal basis
   charged_borders.csv           exporting countries charged in 2026
