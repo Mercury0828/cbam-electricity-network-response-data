@@ -14,8 +14,9 @@ git clone https://github.com/Mercury0828/cbam-electricity-network-response-data 
 ```
 
 Every number in the tables and figures of the paper is read from the files below. The raw downloads are not
-redistributed; the code downloads them from the original sources, and `manifest/download_manifest.jsonl` records each
-request (URL, time, SHA-256, size).
+redistributed; the code downloads them from the original sources, and `manifest/download_manifest.jsonl` records the
+requests of the project (URL, time, SHA-256 and size where the downloader logged them; the Nord Pool UMM entries
+carry the unit and source only).
 
 ## Layout
 
@@ -40,7 +41,8 @@ processed/
                                 (outage_rs_*), recovery check (outage_synthetic10_v4.json), subsets, events
     outage_events_v4.csv        every outage event with its treated hours, blocks, weights and confirming messages
                                 (identifiers of the Elexon REMIT and Nord Pool UMM messages, JAO offered capacity)
-    headline_numbers_v4.json    the numbers quoted in the paper, collected from the artefacts above
+    headline_numbers_v4.json    an early collection of outage and model numbers; the code README maps every table
+                                and figure of the paper to its artefact
 inputs/source/                  public price files read by the code: World Bank monthly commodity prices
                                 (wb_cmo_monthly_*.xlsx), ACER LNG price assessments, ECB exchange rates, UK allowance
                                 prices (DESNZ page); the EEX auction reports are not included (see the code README)
