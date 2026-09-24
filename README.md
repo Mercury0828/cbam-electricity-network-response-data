@@ -63,4 +63,4 @@ remain subject to their providers' terms; `DATA_SOURCES.md` lists the sources an
 
 ## Citation
 
-See `CITATION.cff`. The citation will be updated with the journal reference and the archive DOI.
+See `CITATION.cff`. This data repository is archived at Zenodo, https://doi.org/10.5281/zenodo.22947118 (all versions; the DOI resolves to the latest release); the companion code repository at https://doi.org/10.5281/zenodo.22947112. The citation will be updated with the journal reference.

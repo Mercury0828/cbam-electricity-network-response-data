@@ -14,3 +14,8 @@ authors:
 license: CC-BY-4.0
 repository: "https://github.com/Mercury0828/cbam-electricity-network-response-data"
 type: dataset
+doi: 10.5281/zenodo.22947118
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22947118
+    description: Zenodo archive, all versions
