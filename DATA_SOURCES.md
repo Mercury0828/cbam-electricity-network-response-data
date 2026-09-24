@@ -11,7 +11,7 @@ data must respect the terms of the original providers and give the attributions 
 | Joint Allocation Office (https://www.jao.eu) | Explicit capacity auctions on the GB links and the Serbia-Hungary border (offered capacity, allocation, price) | JAO publication terms. Only derived quantities are included (offered-capacity coverage of outage hours, auction summaries). |
 | Nord Pool UMM platform (https://umm.nordpoolgroup.com) | Transmission unavailability messages published under REMIT | Only message identifiers and derived confirmation flags are included. |
 | European Union Agency for the Cooperation of Energy Regulators (ACER) | Daily LNG price assessments, used to derive the TTF gas price | ACER publication; reuse with acknowledgement of the source. |
-| World Bank Commodity Price Data (Pink Sheet) | Monthly coal price | CC BY 4.0. Attribution: "World Bank Commodity Price Data." |
+| World Bank Commodity Price Data (Pink Sheet) | Monthly coal price; monthly gas price (natural gas, Europe) of the graph model | CC BY 4.0. Attribution: "World Bank Commodity Price Data." |
 | European Energy Exchange (EEX), EU ETS primary auction reports | Monthly EU allowance prices of the graph model | EEX publication; not redistributed here. |
 | KOBiZE (Poland) monthly EU ETS market reports; UK Department for Energy Security and Net Zero; Bank of England; European Central Bank | Monthly EU and UK allowance prices, exchange rates | Public statistics; UK government data under the Open Government Licence v3.0. |
 | HM Revenue and Customs | Carbon Price Support rate | Open Government Licence v3.0. |
