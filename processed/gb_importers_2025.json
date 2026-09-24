@@ -1,0 +1,288 @@
+[
+ {
+  "label": "GB->FR marginal_v2",
+  "border": "GB->FR",
+  "year": 2025,
+  "candidate_rule": "marginal_v2",
+  "intertemporal_policy": "unresolve",
+  "conditioned_on": "GB->FR export hours, all inputs present; NOT regime R1",
+  "export_hours": 598,
+  "hours_total": 8745,
+  "mwh_total": 674858.0,
+  "mwh_determined": 0.0,
+  "mwh_misdirected": 0.0,
+  "mwh_aligned": 0.0,
+  "determinacy_pct": 0.0,
+  "labels": {
+   "UNRESOLVED": 270,
+   "UNDETERMINED": 328
+  },
+  "validation": {
+   "determined_hours": 0,
+   "agreement_pct": null,
+   "agreement_volume_pct": null,
+   "coverage_failure_pct": null,
+   "coverage_failure_volume_pct": null,
+   "responders_outside": {},
+   "validated_mwh_aligned": 0.0,
+   "validated_mwh_misdirected": 0.0,
+   "validated_determinacy_pct": 0.0
+  },
+  "determinacy_by_month_pct": {
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "5": 0.0,
+   "6": 0.0,
+   "7": 0.0,
+   "8": 0.0,
+   "9": 0.0,
+   "10": 0.0,
+   "11": 0.0,
+   "12": 0.0
+  }
+ },
+ {
+  "label": "GB->FR marginal_v3",
+  "border": "GB->FR",
+  "year": 2025,
+  "candidate_rule": "marginal_v3",
+  "intertemporal_policy": "unresolve",
+  "conditioned_on": "GB->FR export hours, all inputs present; NOT regime R1",
+  "export_hours": 598,
+  "hours_total": 8745,
+  "mwh_total": 674858.0,
+  "mwh_determined": 0.0,
+  "mwh_misdirected": 0.0,
+  "mwh_aligned": 0.0,
+  "determinacy_pct": 0.0,
+  "labels": {
+   "UNRESOLVED": 598
+  },
+  "validation": {
+   "determined_hours": 0,
+   "agreement_pct": null,
+   "agreement_volume_pct": null,
+   "coverage_failure_pct": null,
+   "coverage_failure_volume_pct": null,
+   "responders_outside": {},
+   "validated_mwh_aligned": 0.0,
+   "validated_mwh_misdirected": 0.0,
+   "validated_determinacy_pct": 0.0
+  },
+  "determinacy_by_month_pct": {
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "5": 0.0,
+   "6": 0.0,
+   "7": 0.0,
+   "8": 0.0,
+   "9": 0.0,
+   "10": 0.0,
+   "11": 0.0,
+   "12": 0.0
+  }
+ },
+ {
+  "label": "GB->NL marginal_v2",
+  "border": "GB->NL",
+  "year": 2025,
+  "candidate_rule": "marginal_v2",
+  "intertemporal_policy": "unresolve",
+  "conditioned_on": "GB->FR export hours, all inputs present; NOT regime R1",
+  "export_hours": 3623,
+  "hours_total": 8751,
+  "mwh_total": 2853503.0,
+  "mwh_determined": 24547.0,
+  "mwh_misdirected": 24547.0,
+  "mwh_aligned": 0.0,
+  "determinacy_pct": 0.8602409038995228,
+  "labels": {
+   "UNDETERMINED": 3305,
+   "DETERMINED-MISDIRECTED": 31,
+   "UNRESOLVED": 287
+  },
+  "validation": {
+   "determined_hours": 31,
+   "agreement_pct": 70.96774193548387,
+   "agreement_volume_pct": 67.29131869474885,
+   "coverage_failure_pct": 87.09677419354838,
+   "coverage_failure_volume_pct": 94.45146046360044,
+   "responders_outside": {
+    "exporter:GB_ccgt": 24,
+    "importer:NL_ccgt": 2,
+    "exporter:GB_pumped": 2,
+    "exporter:GB_solar": 1,
+    "importer:NL_coal": 2
+   },
+   "validated_mwh_aligned": 0.0,
+   "validated_mwh_misdirected": 1362.0,
+   "validated_determinacy_pct": 0.047730806661145965
+  },
+  "determinacy_by_month_pct": {
+   "1": 0.0,
+   "2": 4.871245418380701,
+   "3": 0.2540169741550959,
+   "4": 0.0,
+   "5": 0.4864466692301634,
+   "6": 1.86347001269699,
+   "7": 0.0,
+   "8": 0.7678111095906117,
+   "9": 2.3748741756832787,
+   "10": 0.0,
+   "11": 0.0,
+   "12": 0.0
+  }
+ },
+ {
+  "label": "GB->NL marginal_v3",
+  "border": "GB->NL",
+  "year": 2025,
+  "candidate_rule": "marginal_v3",
+  "intertemporal_policy": "unresolve",
+  "conditioned_on": "GB->FR export hours, all inputs present; NOT regime R1",
+  "export_hours": 3623,
+  "hours_total": 8751,
+  "mwh_total": 2853503.0,
+  "mwh_determined": 14115.0,
+  "mwh_misdirected": 14115.0,
+  "mwh_aligned": 0.0,
+  "determinacy_pct": 0.49465516594866027,
+  "labels": {
+   "UNRESOLVED": 2277,
+   "UNDETERMINED": 1329,
+   "DETERMINED-MISDIRECTED": 17
+  },
+  "validation": {
+   "determined_hours": 17,
+   "agreement_pct": 64.70588235294117,
+   "agreement_volume_pct": 61.4311016648955,
+   "coverage_failure_pct": 76.47058823529412,
+   "coverage_failure_volume_pct": 90.35069075451648,
+   "responders_outside": {
+    "exporter:GB_solar": 1,
+    "exporter:GB_ccgt": 11,
+    "exporter:GB_pumped": 1,
+    "importer:NL_coal": 2
+   },
+   "validated_mwh_aligned": 0.0,
+   "validated_mwh_misdirected": 1362.0,
+   "validated_determinacy_pct": 0.047730806661145965
+  },
+  "determinacy_by_month_pct": {
+   "1": 0.0,
+   "2": 0.7101184052054494,
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.4864466692301634,
+   "6": 1.86347001269699,
+   "7": 0.0,
+   "8": 0.7678111095906117,
+   "9": 1.583759764541081,
+   "10": 0.0,
+   "11": 0.0,
+   "12": 0.0
+  }
+ },
+ {
+  "label": "GB->BE marginal_v2",
+  "border": "GB->BE",
+  "year": 2025,
+  "candidate_rule": "marginal_v2",
+  "intertemporal_policy": "unresolve",
+  "conditioned_on": "GB->FR export hours, all inputs present; NOT regime R1",
+  "export_hours": 3103,
+  "hours_total": 8751,
+  "mwh_total": 2067516.0,
+  "mwh_determined": 25877.0,
+  "mwh_misdirected": 25877.0,
+  "mwh_aligned": 0.0,
+  "determinacy_pct": 1.2515985366014095,
+  "labels": {
+   "UNRESOLVED": 627,
+   "UNDETERMINED": 2447,
+   "DETERMINED-MISDIRECTED": 29
+  },
+  "validation": {
+   "determined_hours": 29,
+   "agreement_pct": 6.896551724137931,
+   "agreement_volume_pct": 2.890597828187193,
+   "coverage_failure_pct": 93.10344827586206,
+   "coverage_failure_volume_pct": 97.1094021718128,
+   "responders_outside": {
+    "importer:BE_ccgt": 18,
+    "exporter:GB_solar": 1,
+    "importer:BE_pumped": 8,
+    "exporter:GB_ccgt": 9,
+    "exporter:GB_pumped": 1
+   },
+   "validated_mwh_aligned": 0.0,
+   "validated_mwh_misdirected": 748.0,
+   "validated_determinacy_pct": 0.03617868011662304
+  },
+  "determinacy_by_month_pct": {
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 2.15511431753531,
+   "5": 0.5559605278905051,
+   "6": 3.0995794275468365,
+   "7": 0.6255355612682091,
+   "8": 0.3776224774604353,
+   "9": 3.25751638346479,
+   "10": 1.481951056144296,
+   "11": 2.435755725715464,
+   "12": 0.9870476351105302
+  }
+ },
+ {
+  "label": "GB->BE marginal_v3",
+  "border": "GB->BE",
+  "year": 2025,
+  "candidate_rule": "marginal_v3",
+  "intertemporal_policy": "unresolve",
+  "conditioned_on": "GB->FR export hours, all inputs present; NOT regime R1",
+  "export_hours": 3103,
+  "hours_total": 8751,
+  "mwh_total": 2067516.0,
+  "mwh_determined": 5531.0,
+  "mwh_misdirected": 5531.0,
+  "mwh_aligned": 0.0,
+  "determinacy_pct": 0.2675190905415,
+  "labels": {
+   "UNRESOLVED": 2686,
+   "UNDETERMINED": 411,
+   "DETERMINED-MISDIRECTED": 6
+  },
+  "validation": {
+   "determined_hours": 6,
+   "agreement_pct": 0.0,
+   "agreement_volume_pct": 0.0,
+   "coverage_failure_pct": 100.0,
+   "coverage_failure_volume_pct": 100.0,
+   "responders_outside": {
+    "exporter:GB_solar": 1,
+    "importer:BE_pumped": 5,
+    "exporter:GB_ccgt": 5
+   },
+   "validated_mwh_aligned": 0.0,
+   "validated_mwh_misdirected": 0.0,
+   "validated_determinacy_pct": 0.0
+  },
+  "determinacy_by_month_pct": {
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.5559605278905051,
+   "6": 1.0832926823908906,
+   "7": 0.0,
+   "8": 0.0,
+   "9": 1.7042138438193066,
+   "10": 0.0,
+   "11": 0.0,
+   "12": 0.0
+  }
+ }
+]

@@ -1,0 +1,322 @@
+[
+ {
+  "year": 2025,
+  "border": "2025 GB->NL",
+  "labelled_mwh": 2407812.0,
+  "resolved_pct": 97.52479117412734,
+  "e_dec": 0.43,
+  "kappa_mean_interval": [
+   -0.40630815260587755,
+   0.31398364990839606
+  ],
+  "kappa_quantiles_mid": {
+   "0.1": -0.21422353696083668,
+   "0.25": 0.011594644838686968,
+   "0.5": 0.011594644839279605,
+   "0.75": 0.011594644840436513,
+   "0.9": 0.011594644840436513
+  },
+  "share_kappa_negative_pct": 0.8141831671243436,
+  "share_kappa_below_half_edec_pct": 4.106300658024796,
+  "mean_signed_wedge_W": [
+   0.11601635009160394,
+   0.8363081526058775
+  ],
+  "share_edec_above_kappa_interval_pct": 100.0,
+  "share_eall_above_kappa_interval_pct": 4.106300658024796,
+  "share_eall_inside_kappa_interval_pct": 95.8936993419752,
+  "mean_abs_wedge": {
+   "R-default": [
+    0.11601635009160438,
+    0.8363081526058777
+   ],
+   "R-allsources": [
+    0.009941326901955667,
+    0.5993081526058774
+   ],
+   "R-hourly-avg": [
+    0.00977341870591608,
+    0.5626703105381197
+   ]
+  }
+ },
+ {
+  "year": 2025,
+  "border": "2025 GB->BE",
+  "labelled_mwh": 1313102.0,
+  "resolved_pct": 74.94378226099185,
+  "e_dec": 0.43,
+  "kappa_mean_interval": [
+   -0.30607487908537123,
+   0.3319886874059489
+  ],
+  "kappa_quantiles_mid": {
+   "0.1": 0.011594644838686968,
+   "0.25": 0.011594644839279605,
+   "0.5": 0.011594644839279605,
+   "0.75": 0.011594644840436513,
+   "0.9": 0.011594644840436513
+  },
+  "share_kappa_negative_pct": 0.0,
+  "share_kappa_below_half_edec_pct": 0.4052998167697559,
+  "mean_signed_wedge_W": [
+   0.0980113125940511,
+   0.7360748790853713
+  ],
+  "share_edec_above_kappa_interval_pct": 98.83649556546254,
+  "share_eall_above_kappa_interval_pct": 0.4052998167697559,
+  "share_eall_inside_kappa_interval_pct": 98.43119574869279,
+  "mean_abs_wedge": {
+   "R-default": [
+    0.10063306393055883,
+    0.7375291350126039
+   ],
+   "R-allsources": [
+    0.002370957878924877,
+    0.5060441460323118
+   ],
+   "R-hourly-avg": [
+    0.0033806839807920945,
+    0.49605782723792846
+   ]
+  }
+ },
+ {
+  "year": 2025,
+  "border": "2025 GB->FR",
+  "labelled_mwh": 36018.0,
+  "resolved_pct": 5.831467386816784,
+  "e_dec": 0.43,
+  "kappa_mean_interval": [
+   0.22295224531554325,
+   0.442783800061265
+  ],
+  "kappa_quantiles_mid": {
+   "0.1": -0.0,
+   "0.25": -0.0,
+   "0.5": 0.4924946448008076,
+   "0.75": 0.4924946448008076,
+   "0.9": 0.4924946448019646
+  },
+  "share_kappa_negative_pct": 0.0,
+  "share_kappa_below_half_edec_pct": 32.32550391470931,
+  "mean_signed_wedge_W": [
+   -0.012783800061265005,
+   0.20704775468445674
+  ],
+  "share_edec_above_kappa_interval_pct": 32.32550391470931,
+  "share_eall_above_kappa_interval_pct": 32.32550391470931,
+  "share_eall_inside_kappa_interval_pct": 0.0,
+  "mean_abs_wedge": {
+   "R-default": [
+    0.13899966683325005,
+    0.290783133727765
+   ],
+   "R-allsources": [
+    0.15472869042632123,
+    0.37456024517204284
+   ],
+   "R-hourly-avg": [
+    0.1945298078039884,
+    0.41436136254970996
+   ]
+  }
+ },
+ {
+  "year": 2025,
+  "border": "2025 RS->HU",
+  "labelled_mwh": 1008905.0,
+  "resolved_pct": 90.0319290956338,
+  "e_dec": 1.041,
+  "kappa_mean_interval": [
+   0.014841710163848436,
+   0.8638164538138383
+  ],
+  "kappa_quantiles_mid": {
+   "0.1": 0.19805517412040125,
+   "0.25": 0.1980551741206628,
+   "0.5": 0.6193408884061155,
+   "0.75": 0.619340888406377,
+   "0.9": 0.619340888406377
+  },
+  "share_kappa_negative_pct": 0.0,
+  "share_kappa_below_half_edec_pct": 0.02834756493426041,
+  "mean_signed_wedge_W": [
+   0.1771835461861616,
+   1.0261582898361514
+  ],
+  "share_edec_above_kappa_interval_pct": 100.0,
+  "share_eall_above_kappa_interval_pct": 0.02834756493426041,
+  "share_eall_inside_kappa_interval_pct": 99.97165243506574,
+  "mean_abs_wedge": {
+   "R-default": [
+    0.17718354618617607,
+    1.026158289836154
+   ],
+   "R-allsources": [
+    0.00012705895186526122,
+    0.7141582898361536
+   ]
+  }
+ },
+ {
+  "year": 2026,
+  "border": "2026 GB->NL",
+  "labelled_mwh": 1342374.0,
+  "resolved_pct": 98.80713686348982,
+  "e_dec": 0.43,
+  "kappa_mean_interval": [
+   -0.39718262017631495,
+   0.3093953479133654
+  ],
+  "kappa_quantiles_mid": {
+   "0.1": -0.21422353696083668,
+   "0.25": 0.011594644839279605,
+   "0.5": 0.011594644839279605,
+   "0.75": 0.011594644840436513,
+   "0.9": 0.011594644840436513
+  },
+  "share_kappa_negative_pct": 2.4171356119829497,
+  "share_kappa_below_half_edec_pct": 7.759536463012544,
+  "mean_signed_wedge_W": [
+   0.12060465208663457,
+   0.8271826201763149
+  ],
+  "share_edec_above_kappa_interval_pct": 100.0,
+  "share_eall_above_kappa_interval_pct": 7.759536463012544,
+  "share_eall_inside_kappa_interval_pct": 92.24046353698746,
+  "mean_abs_wedge": {
+   "R-default": [
+    0.12060465208663602,
+    0.8271826201763139
+   ],
+   "R-allsources": [
+    0.0095426811687852,
+    0.590182620176316
+   ],
+   "R-hourly-avg": [
+    0.008439987149191636,
+    0.5584146001429673
+   ]
+  }
+ },
+ {
+  "year": 2026,
+  "border": "2026 GB->BE",
+  "labelled_mwh": 748499.0,
+  "resolved_pct": 74.3549931654905,
+  "e_dec": 0.43,
+  "kappa_mean_interval": [
+   -0.308899366106851,
+   0.3305593194268136
+  ],
+  "kappa_quantiles_mid": {
+   "0.1": 0.011594644839279605,
+   "0.25": 0.011594644839279605,
+   "0.5": 0.011594644839843876,
+   "0.75": 0.011594644840436513,
+   "0.9": 0.011594644840436513
+  },
+  "share_kappa_negative_pct": 0.0,
+  "share_kappa_below_half_edec_pct": 0.13426871645787103,
+  "mean_signed_wedge_W": [
+   0.09944068057318639,
+   0.738899366106851
+  ],
+  "share_edec_above_kappa_interval_pct": 99.54896399327187,
+  "share_eall_above_kappa_interval_pct": 0.13426871645787103,
+  "share_eall_inside_kappa_interval_pct": 99.414695276814,
+  "mean_abs_wedge": {
+   "R-default": [
+    0.10045701039398909,
+    0.7394631128075126
+   ],
+   "R-allsources": [
+    0.0008755108385709004,
+    0.5046010234794069
+   ],
+   "R-hourly-avg": [
+    0.0013092285434115193,
+    0.5039069476714022
+   ]
+  }
+ },
+ {
+  "year": 2026,
+  "border": "2026 GB->FR",
+  "labelled_mwh": 4057.0,
+  "resolved_pct": 2.052576724984063,
+  "e_dec": 0.43,
+  "kappa_mean_interval": [
+   -0.30405446131933855,
+   0.19592083770654942
+  ],
+  "kappa_quantiles_mid": {
+   "0.1": -0.2983053551359284,
+   "0.25": -0.2983053551359284,
+   "0.5": -0.0,
+   "0.75": 0.011594644841593366,
+   "0.9": 0.4924946448008076
+  },
+  "share_kappa_negative_pct": 0.0,
+  "share_kappa_below_half_edec_pct": 59.723933941335964,
+  "mean_signed_wedge_W": [
+   0.23407916229345058,
+   0.7340544613193385
+  ],
+  "share_edec_above_kappa_interval_pct": 83.36209021444417,
+  "share_eall_above_kappa_interval_pct": 59.723933941335964,
+  "share_eall_inside_kappa_interval_pct": 23.63815627310821,
+  "mean_abs_wedge": {
+   "R-default": [
+    0.2715697475648193,
+    0.7548500665648623
+   ],
+   "R-allsources": [
+    0.12901217904812148,
+    0.5967137589483971
+   ],
+   "R-hourly-avg": [
+    0.1499491565341615,
+    0.6203161426907613
+   ]
+  }
+ },
+ {
+  "year": 2026,
+  "border": "2026 RS->HU",
+  "labelled_mwh": 595313.0,
+  "resolved_pct": 99.99848821310148,
+  "e_dec": 1.041,
+  "kappa_mean_interval": [
+   -0.3168365798567904,
+   0.6812794833971157
+  ],
+  "kappa_quantiles_mid": {
+   "0.1": -0.09354482587959873,
+   "0.25": -0.09354482587933716,
+   "0.5": 0.19805517412040125,
+   "0.75": 0.1980551741206628,
+   "0.9": 0.619340888406377
+  },
+  "share_kappa_negative_pct": 0.0,
+  "share_kappa_below_half_edec_pct": 31.327553740637278,
+  "mean_signed_wedge_W": [
+   0.3597205166028842,
+   1.3578365798567904
+  ],
+  "share_edec_above_kappa_interval_pct": 100.0,
+  "share_eall_above_kappa_interval_pct": 31.327553740637278,
+  "share_eall_inside_kappa_interval_pct": 68.67244625936272,
+  "mean_abs_wedge": {
+   "R-default": [
+    0.359720516602883,
+    1.3578365798567928
+   ],
+   "R-allsources": [
+    0.14041580474439333,
+    1.045836579856791
+   ]
+  }
+ }
+]

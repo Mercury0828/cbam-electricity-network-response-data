@@ -1,0 +1,28 @@
+{
+ "GB->NL": {
+  "within_window_slope_F_on_Fhat": 1.0079235713149097,
+  "level_slope": 1.0584463510279363,
+  "sign_agreement": 0.9223590892123927,
+  "mae_mw": 262.6738554769741,
+  "mean_abs_F": 790.2366943359375,
+  "level_slope_plus": 0.9723754264781207,
+  "mean_F_plus": 573.2250366210938,
+  "mean_Fhat_plus": 508.7490734287412,
+  "level_slope_minus": 0.8221534444143406,
+  "mean_F_minus": -763.4075317382812,
+  "mean_Fhat_minus": -678.2175935742428
+ },
+ "GB->BE": {
+  "within_window_slope_F_on_Fhat": 1.0096502314881928,
+  "level_slope": 1.0246340159401237,
+  "sign_agreement": 0.9401270033262776,
+  "mae_mw": 190.74674762257789,
+  "mean_abs_F": 767.7615966796875,
+  "level_slope_plus": 1.0607226947310449,
+  "mean_F_plus": 419.08642578125,
+  "mean_Fhat_plus": 316.93443172979863,
+  "level_slope_minus": 0.8326140385752817,
+  "mean_F_minus": -767.99609375,
+  "mean_Fhat_minus": -738.6758134025878
+ }
+}

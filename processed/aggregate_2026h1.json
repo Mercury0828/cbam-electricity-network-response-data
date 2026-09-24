@@ -1,0 +1,149 @@
+{
+ "exposure_jan_jun_2026": {
+  "BritNed": {
+   "export_mwh": 1143614.0,
+   "L_gross_eur": 37038834.3544,
+   "L_credit_uka_cps_eur": 837670.3360699995,
+   "L_credit_uka_eur": 8050227.537269986,
+   "L_allsources_proxy_eur": 16624407.047440028
+  },
+  "Nemo": {
+   "export_mwh": 805786.0,
+   "L_gross_eur": 26096637.598400027,
+   "L_credit_uka_cps_eur": 448564.8821779986,
+   "L_credit_uka_eur": 4951762.137859999,
+   "L_allsources_proxy_eur": 11713141.991839953
+  },
+  "IFA": {
+   "export_mwh": 72049.0,
+   "L_gross_eur": 2333949.4936,
+   "L_credit_uka_cps_eur": 15985.134329999999,
+   "L_credit_uka_eur": 206454.98496,
+   "L_allsources_proxy_eur": 1047563.37736
+  },
+  "IFA2": {
+   "export_mwh": 58159.0,
+   "L_gross_eur": 1884176.8552000148,
+   "L_credit_uka_cps_eur": 17825.406878000005,
+   "L_credit_uka_eur": 155476.3396899991,
+   "L_allsources_proxy_eur": 845688.6815199981
+  },
+  "ElecLink": {
+   "export_mwh": 31317.0,
+   "L_gross_eur": 1014467.8335999999,
+   "L_credit_uka_cps_eur": 5485.886765999994,
+   "L_credit_uka_eur": 98540.31059,
+   "L_allsources_proxy_eur": 455330.91136000014
+  },
+  "Viking": {
+   "export_mwh": 1266708.0,
+   "L_gross_eur": 41025363.56319992,
+   "L_credit_uka_cps_eur": 757966.8873020015,
+   "L_credit_uka_eur": 8514771.592859989,
+   "L_allsources_proxy_eur": 18413709.69232002
+  },
+  "East-West": {
+   "export_mwh": 807959.0,
+   "L_gross_eur": 26169868.903199833,
+   "L_credit_uka_cps_eur": 564088.6909499988,
+   "L_credit_uka_eur": 4790817.04269001,
+   "L_allsources_proxy_eur": 11746010.926319975
+  },
+  "Greenlink": {
+   "export_mwh": 1476711.0,
+   "L_gross_eur": 47826903.011199616,
+   "L_credit_uka_cps_eur": 1104498.0036119963,
+   "L_credit_uka_eur": 9991061.000259928,
+   "L_allsources_proxy_eur": 21466493.677120164
+  },
+  "TOTAL GB->EU (covered)": {
+   "export_mwh": 5662303.0,
+   "L_gross_eur": 183390201.6127994,
+   "L_credit_uka_cps_eur": 3752085.2280859943,
+   "L_credit_uka_eur": 36759110.94617991,
+   "L_allsources_proxy_eur": 82312346.30528013
+  }
+ },
+ "GB->NL": {
+  "gap_gross": {
+   "resolved_mwh": 1127036.0,
+   "common_scenario_range_eur": [
+    38241166.69216687,
+    40527280.41601827
+   ],
+   "outer_bound_eur": [
+    36991732.180992074,
+    41791615.25780492
+   ]
+  },
+  "gap_credit_uka_cps": {
+   "resolved_mwh": 1127036.0,
+   "common_scenario_range_eur": [
+    2564007.1528189424,
+    4850120.876670293
+   ],
+   "outer_bound_eur": [
+    1314572.6416440783,
+    6114455.718456964
+   ]
+  },
+  "emissions": {
+   "dCO2_t_per_imposed_100GWh_cut": [
+    -24482.40394404037,
+    37199.95391589425
+   ]
+  }
+ },
+ "GB->BE": {
+  "gap_gross": {
+   "resolved_mwh": 614719.0,
+   "common_scenario_range_eur": [
+    20986263.83541953,
+    23276446.804102935
+   ],
+   "outer_bound_eur": [
+    20642838.250835963,
+    23620045.329461496
+   ]
+  },
+  "gap_credit_uka_cps": {
+   "resolved_mwh": 614719.0,
+   "common_scenario_range_eur": [
+    1241863.5968235484,
+    3532046.565506963
+   ],
+   "outer_bound_eur": [
+    898438.0122399358,
+    3875645.090865565
+   ]
+  },
+  "emissions": {
+   "dCO2_t_per_imposed_100GWh_cut": [
+    -33051.31149225205,
+    30848.408579548177
+   ]
+  }
+ },
+ "RS->HU": {
+  "export_mwh": 366193.0,
+  "L_gross_eur": 28700765.99640004,
+  "gap_gross": {
+   "resolved_mwh": 366186.0,
+   "common_scenario_range_eur": [
+    -2274443.8550172714,
+    2529430.6335996403
+   ],
+   "outer_bound_eur": [
+    -2586303.9058353086,
+    2855158.482439925
+   ]
+  },
+  "emissions": {
+   "dCO2_t_per_imposed_100GWh_cut": [
+    -77029.89900788532,
+    30640.624021281976
+   ]
+  },
+  "note": "model levels; model-dependent per A41"
+ }
+}

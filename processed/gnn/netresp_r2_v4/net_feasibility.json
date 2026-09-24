@@ -1,0 +1,723 @@
+{
+ "_meta": {
+  "delta_MW": 100.0,
+  "models": 3,
+  "links_checked": 58,
+  "capacity_proxy": "99th percentile of |flow| over the sample (fe.caps)",
+  "zone_range": "min and max of observed dispatchable output in the same calendar month"
+ },
+ "GB->NL": {
+  "hours": 3939,
+  "by_model": [
+   {
+    "hours_any_new_crossing": 0.2718964204112719,
+    "hours_any_link_base_beyond_proxy": 0.46153846153846156,
+    "share_abs_flow_change_beyond_proxy": 0.005207198525749002,
+    "share_abs_flow_change_on_links_at_or_above_proxy": 0.004278052132576704,
+    "share_abs_output_change_outside_month_range": 0.0016229096683369382,
+    "hours_any_link_violation": 0.46636202081746636,
+    "pairs_link_violation": 0.011148078370590096,
+    "max_link_overshoot_MW": 1032.025146484375,
+    "mean_link_overshoot_MW_when_violated": 85.00365040467065,
+    "share_abs_flow_change_on_links_within_100MW": 0.01789483241736889,
+    "hours_any_zone_outside_month_range": 0.048743335872048744,
+    "max_zone_excess_MW": 41.96734619140625,
+    "mean_zone_excess_MW_when_outside": 2.849121328002145,
+    "hours_any_zone_negative": 0.0012693577050012694,
+    "max_abs_link_change_MW": 77.08235168457031,
+    "max_abs_zone_change_MW": 102.10331726074219
+   },
+   {
+    "hours_any_new_crossing": 0.28357451129728356,
+    "hours_any_link_base_beyond_proxy": 0.46153846153846156,
+    "share_abs_flow_change_beyond_proxy": 0.006863803045351191,
+    "share_abs_flow_change_on_links_at_or_above_proxy": 0.005611944478005171,
+    "share_abs_output_change_outside_month_range": 0.001450167959510247,
+    "hours_any_link_violation": 0.4727088093424727,
+    "pairs_link_violation": 0.011272787197748114,
+    "max_link_overshoot_MW": 1032.029541015625,
+    "mean_link_overshoot_MW_when_violated": 84.9019125852129,
+    "share_abs_flow_change_on_links_within_100MW": 0.0236018355935812,
+    "hours_any_zone_outside_month_range": 0.04772784970804773,
+    "max_zone_excess_MW": 20.095703125,
+    "mean_zone_excess_MW_when_outside": 2.291775110063958,
+    "hours_any_zone_negative": 0.0012693577050012694,
+    "max_abs_link_change_MW": 81.79711151123047,
+    "max_abs_zone_change_MW": 102.10333251953125
+   },
+   {
+    "hours_any_new_crossing": 0.2741812642802742,
+    "hours_any_link_base_beyond_proxy": 0.46153846153846156,
+    "share_abs_flow_change_beyond_proxy": 0.005951510274832424,
+    "share_abs_flow_change_on_links_at_or_above_proxy": 0.00499773258343339,
+    "share_abs_output_change_outside_month_range": 0.0015112282574468747,
+    "hours_any_link_violation": 0.4582381315054582,
+    "pairs_link_violation": 0.010831852416010831,
+    "max_link_overshoot_MW": 1032.021484375,
+    "mean_link_overshoot_MW_when_violated": 87.01778223640041,
+    "share_abs_flow_change_on_links_within_100MW": 0.020213158801198006,
+    "hours_any_zone_outside_month_range": 0.04747397816704747,
+    "max_zone_excess_MW": 28.69921875,
+    "mean_zone_excess_MW_when_outside": 2.732624796129042,
+    "hours_any_zone_negative": 0.0010154861640010156,
+    "max_abs_link_change_MW": 71.84297180175781,
+    "max_abs_zone_change_MW": 102.10332489013672
+   }
+  ],
+  "range_over_models": {
+   "hours_any_new_crossing": [
+    0.2718964204112719,
+    0.28357451129728356
+   ],
+   "hours_any_link_base_beyond_proxy": [
+    0.46153846153846156,
+    0.46153846153846156
+   ],
+   "share_abs_flow_change_beyond_proxy": [
+    0.005207198525749002,
+    0.006863803045351191
+   ],
+   "share_abs_flow_change_on_links_at_or_above_proxy": [
+    0.004278052132576704,
+    0.005611944478005171
+   ],
+   "share_abs_output_change_outside_month_range": [
+    0.001450167959510247,
+    0.0016229096683369382
+   ],
+   "hours_any_link_violation": [
+    0.4582381315054582,
+    0.4727088093424727
+   ],
+   "pairs_link_violation": [
+    0.010831852416010831,
+    0.011272787197748114
+   ],
+   "max_link_overshoot_MW": [
+    1032.021484375,
+    1032.029541015625
+   ],
+   "mean_link_overshoot_MW_when_violated": [
+    84.9019125852129,
+    87.01778223640041
+   ],
+   "share_abs_flow_change_on_links_within_100MW": [
+    0.01789483241736889,
+    0.0236018355935812
+   ],
+   "hours_any_zone_outside_month_range": [
+    0.04747397816704747,
+    0.048743335872048744
+   ],
+   "max_zone_excess_MW": [
+    20.095703125,
+    41.96734619140625
+   ],
+   "mean_zone_excess_MW_when_outside": [
+    2.291775110063958,
+    2.849121328002145
+   ],
+   "hours_any_zone_negative": [
+    0.0010154861640010156,
+    0.0012693577050012694
+   ],
+   "max_abs_link_change_MW": [
+    71.84297180175781,
+    81.79711151123047
+   ],
+   "max_abs_zone_change_MW": [
+    102.10331726074219,
+    102.10333251953125
+   ]
+  },
+  "decomposition_charged": {
+   "all": {
+    "absorb_importer": [
+     0.15767640280660786,
+     0.15240327302365525,
+     0.16511509053147763
+    ],
+    "absorb_exporter": [
+     0.5513175391504327,
+     0.49687438963749186,
+     0.5792427423269689
+    ],
+    "E_x": [
+     0.2086986571599152,
+     0.18790800460338286,
+     0.21978290132511172
+    ],
+    "E_m": [
+     0.0800691576950782,
+     0.0767270722000338,
+     0.08350875889213857
+    ],
+    "third": [
+     0.13615792778419478,
+     0.11727214938752548,
+     0.14737174882877613
+    ],
+    "network": [
+     0.007528428319357788,
+     0.006091216984176435,
+     0.00893357847717024
+    ],
+    "share_of_hours": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "no_new_crossing": {
+    "absorb_importer": [
+     0.15862850935076536,
+     0.15457615802558736,
+     0.16608779703557575
+    ],
+    "absorb_exporter": [
+     0.56508116688106,
+     0.5146147539499173,
+     0.5921978238060838
+    ],
+    "E_x": [
+     0.21283254299606078,
+     0.19382224899695866,
+     0.222642616327056
+    ],
+    "E_m": [
+     0.0804213217151462,
+     0.07778041186211873,
+     0.0836753472085651
+    ],
+    "third": [
+     0.13913361802302723,
+     0.11995334779333248,
+     0.15138798317211863
+    ],
+    "network": [
+     0.006722396742112664,
+     0.0039115106584925305,
+     0.009163425582705716
+    ],
+    "share_of_hours": [
+     0.6984687868080095,
+     0.6863957597173145,
+     0.7058303886925795
+    ]
+   },
+   "no_new_crossing_no_zone_exit": {
+    "absorb_importer": [
+     0.1608523980816913,
+     0.1556304689103791,
+     0.168220738847507
+    ],
+    "absorb_exporter": [
+     0.5625394604769475,
+     0.5101572405178706,
+     0.5902286712821242
+    ],
+    "E_x": [
+     0.2138775538697172,
+     0.19388213854303557,
+     0.22396717131415564
+    ],
+    "E_m": [
+     0.08150495312169248,
+     0.07790959039161513,
+     0.08468200608585123
+    ],
+    "third": [
+     0.13850052906334595,
+     0.11969917182624559,
+     0.15026358732232747
+    ],
+    "network": [
+     0.006127928315321207,
+     0.00372662367482521,
+     0.008403498457978036
+    ],
+    "share_of_hours": [
+     0.660188457008245,
+     0.6492932862190812,
+     0.6678445229681979
+    ]
+   }
+  }
+ },
+ "GB->BE": {
+  "hours": 3216,
+  "by_model": [
+   {
+    "hours_any_new_crossing": 0.26088308457711445,
+    "hours_any_link_base_beyond_proxy": 0.48818407960199006,
+    "share_abs_flow_change_beyond_proxy": 0.005969278888578738,
+    "share_abs_flow_change_on_links_at_or_above_proxy": 0.0049674236215651035,
+    "share_abs_output_change_outside_month_range": 0.0014967395998362189,
+    "hours_any_link_violation": 0.45740049751243783,
+    "pairs_link_violation": 0.010719429169939775,
+    "max_link_overshoot_MW": 2434.48681640625,
+    "mean_link_overshoot_MW_when_violated": 94.75856838857248,
+    "share_abs_flow_change_on_links_within_100MW": 0.023718254640698433,
+    "hours_any_zone_outside_month_range": 0.05099502487562189,
+    "max_zone_excess_MW": 22.7734375,
+    "mean_zone_excess_MW_when_outside": 2.333785400390625,
+    "hours_any_zone_negative": 0.0,
+    "max_abs_link_change_MW": 75.5329360961914,
+    "max_abs_zone_change_MW": 102.1032943725586
+   },
+   {
+    "hours_any_new_crossing": 0.2667910447761194,
+    "hours_any_link_base_beyond_proxy": 0.48818407960199006,
+    "share_abs_flow_change_beyond_proxy": 0.007189837025333179,
+    "share_abs_flow_change_on_links_at_or_above_proxy": 0.006017396226525307,
+    "share_abs_output_change_outside_month_range": 0.0014726153533220917,
+    "hours_any_link_violation": 0.45740049751243783,
+    "pairs_link_violation": 0.010637601466352448,
+    "max_link_overshoot_MW": 2428.44970703125,
+    "mean_link_overshoot_MW_when_violated": 96.30756510416667,
+    "share_abs_flow_change_on_links_within_100MW": 0.027088887989521027,
+    "hours_any_zone_outside_month_range": 0.05099502487562189,
+    "max_zone_excess_MW": 18.0517578125,
+    "mean_zone_excess_MW_when_outside": 2.1675788496182933,
+    "hours_any_zone_negative": 0.0003109452736318408,
+    "max_abs_link_change_MW": 81.15978240966797,
+    "max_abs_zone_change_MW": 102.10333251953125
+   },
+   {
+    "hours_any_new_crossing": 0.2683457711442786,
+    "hours_any_link_base_beyond_proxy": 0.48818407960199006,
+    "share_abs_flow_change_beyond_proxy": 0.007111065145655803,
+    "share_abs_flow_change_on_links_at_or_above_proxy": 0.005989745259284973,
+    "share_abs_output_change_outside_month_range": 0.0016919938298609967,
+    "hours_any_link_violation": 0.45304726368159204,
+    "pairs_link_violation": 0.01050122196037357,
+    "max_link_overshoot_MW": 2439.98388671875,
+    "mean_link_overshoot_MW_when_violated": 97.39365074256798,
+    "share_abs_flow_change_on_links_within_100MW": 0.02711125649511814,
+    "hours_any_zone_outside_month_range": 0.05161691542288557,
+    "max_zone_excess_MW": 30.73388671875,
+    "mean_zone_excess_MW_when_outside": 2.726737871561965,
+    "hours_any_zone_negative": 0.0003109452736318408,
+    "max_abs_link_change_MW": 84.63003540039062,
+    "max_abs_zone_change_MW": 102.10332489013672
+   }
+  ],
+  "range_over_models": {
+   "hours_any_new_crossing": [
+    0.26088308457711445,
+    0.2683457711442786
+   ],
+   "hours_any_link_base_beyond_proxy": [
+    0.48818407960199006,
+    0.48818407960199006
+   ],
+   "share_abs_flow_change_beyond_proxy": [
+    0.005969278888578738,
+    0.007189837025333179
+   ],
+   "share_abs_flow_change_on_links_at_or_above_proxy": [
+    0.0049674236215651035,
+    0.006017396226525307
+   ],
+   "share_abs_output_change_outside_month_range": [
+    0.0014726153533220917,
+    0.0016919938298609967
+   ],
+   "hours_any_link_violation": [
+    0.45304726368159204,
+    0.45740049751243783
+   ],
+   "pairs_link_violation": [
+    0.01050122196037357,
+    0.010719429169939775
+   ],
+   "max_link_overshoot_MW": [
+    2428.44970703125,
+    2439.98388671875
+   ],
+   "mean_link_overshoot_MW_when_violated": [
+    94.75856838857248,
+    97.39365074256798
+   ],
+   "share_abs_flow_change_on_links_within_100MW": [
+    0.023718254640698433,
+    0.02711125649511814
+   ],
+   "hours_any_zone_outside_month_range": [
+    0.05099502487562189,
+    0.05161691542288557
+   ],
+   "max_zone_excess_MW": [
+    18.0517578125,
+    30.73388671875
+   ],
+   "mean_zone_excess_MW_when_outside": [
+    2.1675788496182933,
+    2.726737871561965
+   ],
+   "hours_any_zone_negative": [
+    0.0,
+    0.0003109452736318408
+   ],
+   "max_abs_link_change_MW": [
+    75.5329360961914,
+    84.63003540039062
+   ],
+   "max_abs_zone_change_MW": [
+    102.1032943725586,
+    102.10333251953125
+   ]
+  },
+  "decomposition_charged": {
+   "all": {
+    "absorb_importer": [
+     0.13676308763548703,
+     0.11891490025316297,
+     0.14736603673902543
+    ],
+    "absorb_exporter": [
+     0.5208957740695753,
+     0.48024761380449793,
+     0.5425074313293431
+    ],
+    "E_x": [
+     0.19613533251288104,
+     0.18024507013218755,
+     0.20445151829913835
+    ],
+    "E_m": [
+     0.03667976145525337,
+     0.03149370154845872,
+     0.04024113626103745
+    ],
+    "third": [
+     0.13521883846388028,
+     0.12247425806410538,
+     0.14246597241472805
+    ],
+    "network": [
+     -0.024236732593747354,
+     -0.026277110519623434,
+     -0.022938990136325138
+    ],
+    "share_of_hours": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "no_new_crossing": {
+    "absorb_importer": [
+     0.1411947600675351,
+     0.12322336173545051,
+     0.15130701948408323
+    ],
+    "absorb_exporter": [
+     0.5391887104244176,
+     0.5022394780809274,
+     0.5651878809930273
+    ],
+    "E_x": [
+     0.2020416344279177,
+     0.1875226067963863,
+     0.21197288634383896
+    ],
+    "E_m": [
+     0.037560703558119676,
+     0.032327529222498826,
+     0.0409109126373343
+    ],
+    "third": [
+     0.13943365110357775,
+     0.12830556566628593,
+     0.14542303811698726
+    ],
+    "network": [
+     -0.025047279766220343,
+     -0.02688951190760157,
+     -0.022613391801542045
+    ],
+    "share_of_hours": [
+     0.7225205871822413,
+     0.7185821697099892,
+     0.7261009667024705
+    ]
+   },
+   "no_new_crossing_no_zone_exit": {
+    "absorb_importer": [
+     0.1403999857750907,
+     0.12203111473329387,
+     0.15298330137710958
+    ],
+    "absorb_exporter": [
+     0.5366462289515507,
+     0.4977634659118197,
+     0.5637617439170993
+    ],
+    "E_x": [
+     0.20318673063099904,
+     0.18780212427659687,
+     0.2135983501464699
+    ],
+    "E_m": [
+     0.03810108869422866,
+     0.03264154210410225,
+     0.04209940574340339
+    ],
+    "third": [
+     0.1388850224171483,
+     0.12753243454713847,
+     0.1446281497947706
+    ],
+    "network": [
+     -0.026200619519622072,
+     -0.02762814762535613,
+     -0.023969249439979447
+    ],
+    "share_of_hours": [
+     0.6752595775152166,
+     0.6702470461868958,
+     0.6799140708915145
+    ]
+   }
+  }
+ },
+ "RS->HU": {
+  "hours": 3452,
+  "by_model": [
+   {
+    "hours_any_new_crossing": 0.2552143684820394,
+    "hours_any_link_base_beyond_proxy": 0.5194090382387022,
+    "share_abs_flow_change_beyond_proxy": 0.004061708725396736,
+    "share_abs_flow_change_on_links_at_or_above_proxy": 0.0036583179607987404,
+    "share_abs_output_change_outside_month_range": 0.003071849948498821,
+    "hours_any_link_violation": 0.5168018539976825,
+    "pairs_link_violation": 0.012441300237848387,
+    "max_link_overshoot_MW": 2877.0703125,
+    "mean_link_overshoot_MW_when_violated": 119.44787511638566,
+    "share_abs_flow_change_on_links_within_100MW": 0.014562780037522316,
+    "hours_any_zone_outside_month_range": 0.10254924681344148,
+    "max_zone_excess_MW": 20.739501953125,
+    "mean_zone_excess_MW_when_outside": 2.148775153295698,
+    "hours_any_zone_negative": 0.04982618771726535,
+    "max_abs_link_change_MW": 63.682838439941406,
+    "max_abs_zone_change_MW": 67.44590759277344
+   },
+   {
+    "hours_any_new_crossing": 0.27896871378910776,
+    "hours_any_link_base_beyond_proxy": 0.5194090382387022,
+    "share_abs_flow_change_beyond_proxy": 0.005101660536501026,
+    "share_abs_flow_change_on_links_at_or_above_proxy": 0.004256570711731911,
+    "share_abs_output_change_outside_month_range": 0.0025882132141672753,
+    "hours_any_link_violation": 0.5179606025492468,
+    "pairs_link_violation": 0.01236506678050863,
+    "max_link_overshoot_MW": 2877.126953125,
+    "mean_link_overshoot_MW_when_violated": 108.96302762170706,
+    "share_abs_flow_change_on_links_within_100MW": 0.017467010766267776,
+    "hours_any_zone_outside_month_range": 0.10139049826187717,
+    "max_zone_excess_MW": 15.507568359375,
+    "mean_zone_excess_MW_when_outside": 1.7247826755593343,
+    "hours_any_zone_negative": 0.050695249130938584,
+    "max_abs_link_change_MW": 61.26118469238281,
+    "max_abs_zone_change_MW": 56.42831039428711
+   },
+   {
+    "hours_any_new_crossing": 0.28041714947856317,
+    "hours_any_link_base_beyond_proxy": 0.5194090382387022,
+    "share_abs_flow_change_beyond_proxy": 0.0042224884127963856,
+    "share_abs_flow_change_on_links_at_or_above_proxy": 0.003611839609220624,
+    "share_abs_output_change_outside_month_range": 0.002898140993393035,
+    "hours_any_link_violation": 0.548667439165701,
+    "pairs_link_violation": 0.013483157488158403,
+    "max_link_overshoot_MW": 2877.18212890625,
+    "mean_link_overshoot_MW_when_violated": 116.9810489750879,
+    "share_abs_flow_change_on_links_within_100MW": 0.014681173488497734,
+    "hours_any_zone_outside_month_range": 0.10428736964078796,
+    "max_zone_excess_MW": 18.680908203125,
+    "mean_zone_excess_MW_when_outside": 2.016055728625239,
+    "hours_any_zone_negative": 0.0518539976825029,
+    "max_abs_link_change_MW": 73.11055755615234,
+    "max_abs_zone_change_MW": 68.85711669921875
+   }
+  ],
+  "range_over_models": {
+   "hours_any_new_crossing": [
+    0.2552143684820394,
+    0.28041714947856317
+   ],
+   "hours_any_link_base_beyond_proxy": [
+    0.5194090382387022,
+    0.5194090382387022
+   ],
+   "share_abs_flow_change_beyond_proxy": [
+    0.004061708725396736,
+    0.005101660536501026
+   ],
+   "share_abs_flow_change_on_links_at_or_above_proxy": [
+    0.003611839609220624,
+    0.004256570711731911
+   ],
+   "share_abs_output_change_outside_month_range": [
+    0.0025882132141672753,
+    0.003071849948498821
+   ],
+   "hours_any_link_violation": [
+    0.5168018539976825,
+    0.548667439165701
+   ],
+   "pairs_link_violation": [
+    0.01236506678050863,
+    0.013483157488158403
+   ],
+   "max_link_overshoot_MW": [
+    2877.0703125,
+    2877.18212890625
+   ],
+   "mean_link_overshoot_MW_when_violated": [
+    108.96302762170706,
+    119.44787511638566
+   ],
+   "share_abs_flow_change_on_links_within_100MW": [
+    0.014562780037522316,
+    0.017467010766267776
+   ],
+   "hours_any_zone_outside_month_range": [
+    0.10139049826187717,
+    0.10428736964078796
+   ],
+   "max_zone_excess_MW": [
+    15.507568359375,
+    20.739501953125
+   ],
+   "mean_zone_excess_MW_when_outside": [
+    1.7247826755593343,
+    2.148775153295698
+   ],
+   "hours_any_zone_negative": [
+    0.04982618771726535,
+    0.0518539976825029
+   ],
+   "max_abs_link_change_MW": [
+    61.26118469238281,
+    73.11055755615234
+   ],
+   "max_abs_zone_change_MW": [
+    56.42831039428711,
+    68.85711669921875
+   ]
+  },
+  "decomposition_charged": {
+   "all": {
+    "absorb_importer": [
+     0.03020500085028476,
+     0.027159092950420464,
+     0.03358511917742705
+    ],
+    "absorb_exporter": [
+     0.16206087497936492,
+     0.12248250417891922,
+     0.18801405479603697
+    ],
+    "E_x": [
+     0.07037336328338735,
+     0.05403869869768285,
+     0.08379858456803864
+    ],
+    "E_m": [
+     0.013799484739641418,
+     0.012429450450850582,
+     0.015371411198410337
+    ],
+    "third": [
+     0.0950055194049519,
+     0.08148209798793817,
+     0.10177422402521627
+    ],
+    "network": [
+     0.03843164086120598,
+     0.033333062832073,
+     0.042089010010439035
+    ],
+    "share_of_hours": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "no_new_crossing": {
+    "absorb_importer": [
+     0.030247318829898038,
+     0.028249785717430927,
+     0.03185649268972414
+    ],
+    "absorb_exporter": [
+     0.16371576522672018,
+     0.1265317830568235,
+     0.18599820369519918
+    ],
+    "E_x": [
+     0.06780179840455254,
+     0.054685560697031836,
+     0.07606518477759498
+    ],
+    "E_m": [
+     0.013813700295899317,
+     0.012938887642202973,
+     0.014476862221353543
+    ],
+    "third": [
+     0.08348898890998985,
+     0.0696413223241971,
+     0.09088896054291264
+    ],
+    "network": [
+     0.029500890801336607,
+     0.027894649269368185,
+     0.03175889634518255
+    ],
+    "share_of_hours": [
+     0.6739596739596739,
+     0.6698841698841699,
+     0.6782496782496783
+    ]
+   },
+   "no_new_crossing_no_zone_exit": {
+    "absorb_importer": [
+     0.03037164213118489,
+     0.028212580252210875,
+     0.03174547073607339
+    ],
+    "absorb_exporter": [
+     0.16058999190574005,
+     0.12628687216955273,
+     0.18393152098774304
+    ],
+    "E_x": [
+     0.06743302151213652,
+     0.055238303018805376,
+     0.07635377896938665
+    ],
+    "E_m": [
+     0.013890848146233334,
+     0.012937817690037552,
+     0.014460327236138184
+    ],
+    "third": [
+     0.08446803343198961,
+     0.0714885846471618,
+     0.09181474058145081
+    ],
+    "network": [
+     0.030925860066086438,
+     0.029188099318393966,
+     0.03385411975527692
+    ],
+    "share_of_hours": [
+     0.6261261261261262,
+     0.620978120978121,
+     0.631917631917632
+    ]
+   }
+  }
+ }
+}

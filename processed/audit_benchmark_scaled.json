@@ -1,0 +1,696 @@
+{
+ "S26 credit UKA+CPS": {
+  "GB->NL": {
+   "charged_mwh": 1142565.0,
+   "resolved_mwh": 1127036.0,
+   "resolved_pct": 98.6408650711338,
+   "tau_ref": [
+    -2.1124492909436934,
+    -0.2195303500206129
+   ],
+   "u": [
+    0.0,
+    0.33772316018173926
+   ],
+   "positive_target_share_pct": 22.0053307968867,
+   "positive_target_share_by_month_pct": {
+    "1": 39.12170936135049,
+    "2": 0.0,
+    "3": 99.69424589174874,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0
+   },
+   "rules": {
+    "G  gross default": {
+     "mean_charge": 32.38766330374544,
+     "signed_gap": [
+      32.607193653765975,
+      34.50011259468905
+     ],
+     "regret": [
+      32.04994014356366,
+      32.38766330374544
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 32.4048
+    },
+    "A  all-sources proxy": {
+     "mean_charge": 14.536788413076374,
+     "signed_gap": [
+      14.75631876309701,
+      16.64923770402006
+     ],
+     "regret": [
+      14.199065252894638,
+      14.536788413076374
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 14.54448
+    },
+    "C  default + credit": {
+     "mean_charge": 0.7319224584236894,
+     "signed_gap": [
+      0.951452808444303,
+      2.844371749367377
+     ],
+     "regret": [
+      0.4545626711051784,
+      0.792285831286919
+     ],
+     "robustly_above_feasible_oracle_pct": 36.14400959685405,
+     "hourly_max_regret": 3.8894360000000034
+    },
+    "AC all-sources proxy + credit": {
+     "mean_charge": 0.3285140336645853,
+     "signed_gap": [
+      0.548044383685199,
+      2.440963324608279
+     ],
+     "regret": [
+      0.05837543759554142,
+      0.38887740652781455
+     ],
+     "robustly_above_feasible_oracle_pct": 21.343328873256933,
+     "hourly_max_regret": 1.7457236000000016
+    }
+   }
+  },
+  "GB->BE": {
+   "charged_mwh": 804829.0,
+   "resolved_mwh": 614719.0,
+   "resolved_pct": 76.37883326768792,
+   "tau_ref": [
+    -2.770431628674577,
+    -0.6039275035233646
+   ],
+   "u": [
+    0.0003232695155881952,
+    0.10402180111590034
+   ],
+   "positive_target_share_pct": 6.518750843881513,
+   "positive_target_share_by_month_pct": {
+    "1": 2.8101071975497702,
+    "2": 0.0,
+    "3": 100.0,
+    "4": 1.8241201130934972,
+    "5": 0.0,
+    "6": 0.0
+   },
+   "rules": {
+    "G  gross default": {
+     "mean_charge": 32.38613582075715,
+     "signed_gap": [
+      32.990063324280435,
+      35.15656744943181
+     ],
+     "regret": [
+      32.28211401964124,
+      32.38581255124155
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 32.4048
+    },
+    "A  all-sources proxy": {
+     "mean_charge": 14.536102821874671,
+     "signed_gap": [
+      15.140030325398111,
+      17.306534450549282
+     ],
+     "regret": [
+      14.432081020758774,
+      14.535779552359084
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 14.54448
+    },
+    "C  default + credit": {
+     "mean_charge": 0.2667442961808567,
+     "signed_gap": [
+      0.87067179970422,
+      3.0371759248554353
+     ],
+     "regret": [
+      0.166942388077826,
+      0.27064091967813797
+     ],
+     "robustly_above_feasible_oracle_pct": 22.243333946079428,
+     "hourly_max_regret": 3.8894360000000034
+    },
+    "AC all-sources proxy + credit": {
+     "mean_charge": 0.11972476549512884,
+     "signed_gap": [
+      0.723652269018492,
+      2.8901563941697086
+     ],
+     "regret": [
+      0.02292594372031722,
+      0.1237590198882512
+     ],
+     "robustly_above_feasible_oracle_pct": 16.381305930026564,
+     "hourly_max_regret": 1.7457236000000016
+    }
+   }
+  }
+ },
+ "S26 credit UKA only": {
+  "GB->NL": {
+   "charged_mwh": 1142565.0,
+   "resolved_mwh": 1127036.0,
+   "resolved_pct": 98.6408650711338,
+   "tau_ref": [
+    -2.1124492909436934,
+    -0.2195303500206129
+   ],
+   "u": [
+    0.0,
+    0.33772316018173926
+   ],
+   "positive_target_share_pct": 22.0053307968867,
+   "positive_target_share_by_month_pct": {
+    "1": 39.12170936135049,
+    "2": 0.0,
+    "3": 99.69424589174874,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0
+   },
+   "rules": {
+    "G  gross default": {
+     "mean_charge": 32.38766330374544,
+     "signed_gap": [
+      32.607193653765975,
+      34.50011259468905
+     ],
+     "regret": [
+      32.04994014356366,
+      32.38766330374544
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 32.4048
+    },
+    "A  all-sources proxy": {
+     "mean_charge": 14.536788413076374,
+     "signed_gap": [
+      14.75631876309701,
+      16.64923770402006
+     ],
+     "regret": [
+      14.199065252894638,
+      14.536788413076374
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 14.54448
+    },
+    "C  default + credit": {
+     "mean_charge": 7.0041322117217275,
+     "signed_gap": [
+      7.223662561742351,
+      9.116581502665417
+     ],
+     "regret": [
+      6.726772424403221,
+      7.064495584584956
+     ],
+     "robustly_above_feasible_oracle_pct": 87.97411972643287,
+     "hourly_max_regret": 12.822170000000002
+    },
+    "AC all-sources proxy + credit": {
+     "mean_charge": 3.1437151554937084,
+     "signed_gap": [
+      3.363245505514323,
+      5.256164446437385
+     ],
+     "regret": [
+      2.866355368175194,
+      3.204078528356937
+     ],
+     "robustly_above_feasible_oracle_pct": 87.97411972643287,
+     "hourly_max_regret": 5.755067
+    }
+   }
+  },
+  "GB->BE": {
+   "charged_mwh": 804829.0,
+   "resolved_mwh": 614719.0,
+   "resolved_pct": 76.37883326768792,
+   "tau_ref": [
+    -2.770431628674577,
+    -0.6039275035233646
+   ],
+   "u": [
+    0.0003232695155881952,
+    0.10402180111590034
+   ],
+   "positive_target_share_pct": 6.518750843881513,
+   "positive_target_share_by_month_pct": {
+    "1": 2.8101071975497702,
+    "2": 0.0,
+    "3": 100.0,
+    "4": 1.8241201130934972,
+    "5": 0.0,
+    "6": 0.0
+   },
+   "rules": {
+    "G  gross default": {
+     "mean_charge": 32.38613582075715,
+     "signed_gap": [
+      32.990063324280435,
+      35.15656744943181
+     ],
+     "regret": [
+      32.28211401964124,
+      32.38581255124155
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 32.4048
+    },
+    "A  all-sources proxy": {
+     "mean_charge": 14.536102821874671,
+     "signed_gap": [
+      15.140030325398111,
+      17.306534450549282
+     ],
+     "regret": [
+      14.432081020758774,
+      14.535779552359084
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 14.54448
+    },
+    "C  default + credit": {
+     "mean_charge": 5.2144057622588456,
+     "signed_gap": [
+      5.818333265782223,
+      7.98483739093344
+     ],
+     "regret": [
+      5.114603854155813,
+      5.218302385756127
+     ],
+     "robustly_above_feasible_oracle_pct": 76.62997239389054,
+     "hourly_max_regret": 12.822170000000002
+    },
+    "AC all-sources proxy + credit": {
+     "mean_charge": 2.3404193305022267,
+     "signed_gap": [
+      2.9443468340255974,
+      5.110850959176814
+     ],
+     "regret": [
+      2.240617422399197,
+      2.3443159539995078
+     ],
+     "robustly_above_feasible_oracle_pct": 76.62997239389054,
+     "hourly_max_regret": 5.755067
+    }
+   }
+  }
+ },
+ "PFX post-CPS fixed state": {
+  "GB->NL": {
+   "charged_mwh": 1142565.0,
+   "resolved_mwh": 1127036.0,
+   "resolved_pct": 98.6408650711338,
+   "tau_ref": [
+    1.9229277361041572,
+    5.0612425516232715
+   ],
+   "u": [
+    1.9264386266144025,
+    5.062455729353159
+   ],
+   "positive_target_share_pct": 99.73638818990698,
+   "positive_target_share_by_month_pct": {
+    "1": 100.0,
+    "2": 100.0,
+    "3": 99.69424589174874,
+    "4": 98.87946584566566,
+    "5": 100.0,
+    "6": 100.0
+   },
+   "rules": {
+    "G  gross default": {
+     "mean_charge": 32.38766330374544,
+     "signed_gap": [
+      27.326420752122196,
+      30.46473556764135
+     ],
+     "regret": [
+      27.32520757439231,
+      30.4612246771311
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 32.4048
+    },
+    "A  all-sources proxy": {
+     "mean_charge": 14.536788413076374,
+     "signed_gap": [
+      9.47554586145315,
+      12.61386067697224
+     ],
+     "regret": [
+      9.474332683723263,
+      12.610349786461995
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 14.54448
+    },
+    "C  default + credit": {
+     "mean_charge": 7.0041322117217275,
+     "signed_gap": [
+      1.9428896600984473,
+      5.081204475617572
+     ],
+     "regret": [
+      2.40517383952171,
+      5.540740757964119
+     ],
+     "robustly_above_feasible_oracle_pct": 86.7762875365117,
+     "hourly_max_regret": 12.822170000000002
+    },
+    "AC all-sources proxy + credit": {
+     "mean_charge": 3.1437151554937084,
+     "signed_gap": [
+      -1.9175273961295678,
+      1.2207874193895456
+     ],
+     "regret": [
+      0.15583970238055048,
+      2.2004030749202115
+     ],
+     "robustly_above_feasible_oracle_pct": 0.26361181009302276,
+     "hourly_max_regret": 5.755067
+    }
+   }
+  },
+  "GB->BE": {
+   "charged_mwh": 804829.0,
+   "resolved_mwh": 614719.0,
+   "resolved_pct": 76.37883326768792,
+   "tau_ref": [
+    1.7295829359287143,
+    4.227527312301041
+   ],
+   "u": [
+    1.7295829359287143,
+    4.227527312301041
+   ],
+   "positive_target_share_pct": 99.86644304145472,
+   "positive_target_share_by_month_pct": {
+    "1": 100.0,
+    "2": 100.0,
+    "3": 100.0,
+    "4": 99.19957102466608,
+    "5": 100.0,
+    "6": 100.0
+   },
+   "rules": {
+    "G  gross default": {
+     "mean_charge": 32.38613582075715,
+     "signed_gap": [
+      28.158608508456155,
+      30.656552884828503
+     ],
+     "regret": [
+      28.158608508456155,
+      30.656552884828503
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 32.3704
+    },
+    "A  all-sources proxy": {
+     "mean_charge": 14.536102821874671,
+     "signed_gap": [
+      10.30857550957369,
+      12.806519885946026
+     ],
+     "regret": [
+      10.30857550957369,
+      12.806519885946026
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 14.52904
+    },
+    "C  default + credit": {
+     "mean_charge": 5.2144057622588456,
+     "signed_gap": [
+      0.9868784499578207,
+      3.484822826330138
+     ],
+     "regret": [
+      1.6628559882363034,
+      4.160800364608638
+     ],
+     "robustly_above_feasible_oracle_pct": 76.62997239389054,
+     "hourly_max_regret": 11.013765796841819
+    },
+    "AC all-sources proxy + credit": {
+     "mean_charge": 2.3404193305022267,
+     "signed_gap": [
+      -1.8871079817988055,
+      0.6108363945735173
+     ],
+     "regret": [
+      0.164728857382125,
+      1.944585922678135
+     ],
+     "robustly_above_feasible_oracle_pct": 0.13355695854528654,
+     "hourly_max_regret": 4.1329020000000005
+    }
+   }
+  }
+ },
+ "PRD post-CPS re-dispatched": {
+  "GB->NL": {
+   "charged_mwh": 1142565.0,
+   "resolved_mwh": 1127036.0,
+   "resolved_pct": 98.6408650711338,
+   "tau_ref": [
+    1.9229277361041572,
+    5.0612425516232715
+   ],
+   "u": [
+    1.9264386266144025,
+    5.062455729353159
+   ],
+   "positive_target_share_pct": 99.73638818990698,
+   "positive_target_share_by_month_pct": {
+    "1": 100.0,
+    "2": 100.0,
+    "3": 99.69424589174874,
+    "4": 98.87946584566566,
+    "5": 100.0,
+    "6": 100.0
+   },
+   "rules": {
+    "G  gross default": {
+     "mean_charge": 32.38766330374544,
+     "signed_gap": [
+      27.326420752122196,
+      30.46473556764135
+     ],
+     "regret": [
+      27.32520757439231,
+      30.4612246771311
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 32.4048
+    },
+    "A  all-sources proxy": {
+     "mean_charge": 14.536788413076374,
+     "signed_gap": [
+      9.47554586145315,
+      12.61386067697224
+     ],
+     "regret": [
+      9.474332683723263,
+      12.610349786461995
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 14.54448
+    },
+    "C  default + credit": {
+     "mean_charge": 7.0041322117217275,
+     "signed_gap": [
+      1.9428896600984473,
+      5.081204475617572
+     ],
+     "regret": [
+      2.40517383952171,
+      5.540740757964119
+     ],
+     "robustly_above_feasible_oracle_pct": 86.7762875365117,
+     "hourly_max_regret": 12.822170000000002
+    },
+    "AC all-sources proxy + credit": {
+     "mean_charge": 3.1437151554937084,
+     "signed_gap": [
+      -1.9175273961295678,
+      1.2207874193895456
+     ],
+     "regret": [
+      0.15583970238055048,
+      2.2004030749202115
+     ],
+     "robustly_above_feasible_oracle_pct": 0.26361181009302276,
+     "hourly_max_regret": 5.755067
+    }
+   }
+  },
+  "GB->BE": {
+   "charged_mwh": 804829.0,
+   "resolved_mwh": 614719.0,
+   "resolved_pct": 76.37883326768792,
+   "tau_ref": [
+    1.7295829359287143,
+    4.227527312301041
+   ],
+   "u": [
+    1.7295829359287143,
+    4.227527312301041
+   ],
+   "positive_target_share_pct": 99.86644304145472,
+   "positive_target_share_by_month_pct": {
+    "1": 100.0,
+    "2": 100.0,
+    "3": 100.0,
+    "4": 99.19957102466608,
+    "5": 100.0,
+    "6": 100.0
+   },
+   "rules": {
+    "G  gross default": {
+     "mean_charge": 32.38613582075715,
+     "signed_gap": [
+      28.158608508456155,
+      30.656552884828503
+     ],
+     "regret": [
+      28.158608508456155,
+      30.656552884828503
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 32.3704
+    },
+    "A  all-sources proxy": {
+     "mean_charge": 14.536102821874671,
+     "signed_gap": [
+      10.30857550957369,
+      12.806519885946026
+     ],
+     "regret": [
+      10.30857550957369,
+      12.806519885946026
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 14.52904
+    },
+    "C  default + credit": {
+     "mean_charge": 5.2144057622588456,
+     "signed_gap": [
+      0.9868784499578207,
+      3.484822826330138
+     ],
+     "regret": [
+      1.6628559882363034,
+      4.160800364608638
+     ],
+     "robustly_above_feasible_oracle_pct": 76.62997239389054,
+     "hourly_max_regret": 11.013765796841819
+    },
+    "AC all-sources proxy + credit": {
+     "mean_charge": 2.3404193305022267,
+     "signed_gap": [
+      -1.8871079817988055,
+      0.6108363945735173
+     ],
+     "regret": [
+      0.164728857382125,
+      1.944585922678135
+     ],
+     "robustly_above_feasible_oracle_pct": 0.13355695854528654,
+     "hourly_max_regret": 4.1329020000000005
+    }
+   }
+  }
+ },
+ "RS 2026": {
+  "RS->HU": {
+   "charged_mwh": 366193.0,
+   "resolved_mwh": 366186.0,
+   "resolved_pct": 99.99808843970256,
+   "tau_ref": [
+    32.304704661299105,
+    39.02447785792799
+   ],
+   "u": [
+    32.304704661299105,
+    39.02447785792799
+   ],
+   "positive_target_share_pct": 100.0,
+   "positive_target_share_by_month_pct": {
+    "1": 100.0,
+    "2": 100.0,
+    "3": 100.0,
+    "4": 100.0,
+    "5": 100.0,
+    "6": 100.0
+   },
+   "rules": {
+    "G  gross default": {
+     "mean_charge": 78.37606347921559,
+     "signed_gap": [
+      39.351585621287505,
+      46.071358817916355
+     ],
+     "regret": [
+      39.351585621287505,
+      46.071358817916355
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 49.68597037885738
+    },
+    "A  all-sources proxy": {
+     "mean_charge": 54.88583119726036,
+     "signed_gap": [
+      15.86135333933244,
+      22.58112653596131
+     ],
+     "regret": [
+      15.86135333933244,
+      22.58112653596131
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 26.173650378857374
+    },
+    "C  default + credit": {
+     "mean_charge": 74.21206347921549,
+     "signed_gap": [
+      35.18758562128744,
+      41.90735881791639
+     ],
+     "regret": [
+      35.18758562128744,
+      41.90735881791639
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 45.521970378857375
+    },
+    "AC all-sources proxy + credit": {
+     "mean_charge": 51.96983119726044,
+     "signed_gap": [
+      12.945353339332401,
+      19.665126535961335
+     ],
+     "regret": [
+      12.945353339332401,
+      19.665126535961335
+     ],
+     "robustly_above_feasible_oracle_pct": 100.0,
+     "hourly_max_regret": 23.257650378857377
+    }
+   }
+  }
+ }
+}

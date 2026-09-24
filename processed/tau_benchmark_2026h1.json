@@ -1,0 +1,224 @@
+[
+ {
+  "rules": {
+   "enacted_gross": {
+    "mean_charge": 32.38766330374544,
+    "inside_pct": 0.0,
+    "above_pct": 100.0,
+    "below_pct": 0.0,
+    "mean_abs_gap_eur_mwh": [
+     21.266837184622727,
+     28.250847424795282
+    ]
+   },
+   "allsources_proxy_gross": {
+    "mean_charge": 14.536788413076374,
+    "inside_pct": 14.800680723597118,
+    "above_pct": 85.19931927640289,
+    "below_pct": 0.0,
+    "mean_abs_gap_eur_mwh": [
+     3.831973306534792,
+     10.399972534126286
+    ]
+   },
+   "enacted_art9_full": {
+    "mean_charge": 6.833691815780515,
+    "inside_pct": 87.71050791633985,
+    "above_pct": 0.26361181009302276,
+    "below_pct": 12.025880273567125,
+    "mean_abs_gap_eur_mwh": [
+     0.41438994909006427,
+     5.1503434764023535
+    ]
+   },
+   "allsources_proxy_art9_full": {
+    "mean_charge": 3.067215163827071,
+    "inside_pct": 17.300600868117787,
+    "above_pct": 0.26361181009302276,
+    "below_pct": 82.43578732178919,
+    "mean_abs_gap_eur_mwh": [
+     1.3139896299090599,
+     8.088290027099324
+    ]
+   }
+  },
+  "border": "GB->NL",
+  "charged_mwh": 1142565.0,
+  "resolved_mwh": 1127036.0,
+  "resolved_pct": 98.6408650711338,
+  "gross_eur_mwh": 32.38766330374544,
+  "art9_full_hypothetical_eur_mwh": 6.833691815780515,
+  "tau_star_eur_mwh": [
+   4.136815878950115,
+   11.120826119122706
+  ],
+  "gap_terms_eur_mwh": {
+   "factor_error": [
+    -16.841985698644507,
+    7.623283956175141
+   ],
+   "exporter_carbon_not_deducted": [
+    19.54544869661535,
+    38.85482310797316
+   ],
+   "importer_price_gap": [
+    -0.6169113181115755,
+    0.9530258654105078
+   ]
+  },
+  "share_gross_above_tau_interval_pct": 100.0,
+  "share_tau_negative_pct": 0.26361181009302276,
+  "share_gross_above_tau_full_bounds_pct": [
+   98.6408650711338,
+   100.0
+  ]
+ },
+ {
+  "rules": {
+   "enacted_gross": {
+    "mean_charge": 32.38613582075715,
+    "inside_pct": 0.0,
+    "above_pct": 100.0,
+    "below_pct": 0.0,
+    "mean_abs_gap_eur_mwh": [
+     23.00882294112862,
+     28.577275160982353
+    ]
+   },
+   "allsources_proxy_gross": {
+    "mean_charge": 14.536102821874671,
+    "inside_pct": 5.5576613054094635,
+    "above_pct": 94.44233869459053,
+    "below_pct": 0.0,
+    "mean_abs_gap_eur_mwh": [
+     5.315002237506417,
+     10.727242162100017
+    ]
+   },
+   "enacted_art9_full": {
+    "mean_charge": 4.883187035002973,
+    "inside_pct": 76.49641543534526,
+    "above_pct": 0.13355695854528654,
+    "below_pct": 23.37002760610946,
+    "mean_abs_gap_eur_mwh": [
+     0.6503774640572039,
+     4.6764469592918525
+    ]
+   },
+   "allsources_proxy_art9_full": {
+    "mean_charge": 2.191756041292036,
+    "inside_pct": 5.5576613054094635,
+    "above_pct": 0.13355695854528654,
+    "below_pct": 94.30878173604525,
+    "mean_abs_gap_eur_mwh": [
+     1.6412468282839918,
+     7.196596394758226
+    ]
+   }
+  },
+  "border": "GB->BE",
+  "charged_mwh": 804829.0,
+  "resolved_mwh": 614719.0,
+  "resolved_pct": 76.37883326768792,
+  "gross_eur_mwh": 32.38613582075715,
+  "art9_full_hypothetical_eur_mwh": 4.883187035002973,
+  "tau_star_eur_mwh": [
+   3.8088606597746897,
+   9.377312879628537
+  ],
+  "gap_terms_eur_mwh": {
+   "factor_error": [
+    -16.90537357180033,
+    7.590638352315409
+   ],
+   "exporter_carbon_not_deducted": [
+    21.06125882210941,
+    41.868135066472696
+   ],
+   "importer_price_gap": [
+    -1.703078637917891,
+    -0.3254819290683946
+   ]
+  },
+  "share_gross_above_tau_interval_pct": 100.0,
+  "share_tau_negative_pct": 0.0,
+  "share_gross_above_tau_full_bounds_pct": [
+   76.37883326768792,
+   100.0
+  ]
+ },
+ {
+  "rules": {
+   "enacted_gross": {
+    "mean_charge": 78.37606347921559,
+    "inside_pct": 100.0,
+    "above_pct": 0.0,
+    "below_pct": 0.0,
+    "mean_abs_gap_eur_mwh": [
+     0.0,
+     9.558183015591622
+    ]
+   },
+   "allsources_proxy_gross": {
+    "mean_charge": 54.88583119726036,
+    "inside_pct": 0.0,
+    "above_pct": 0.0,
+    "below_pct": 100.0,
+    "mean_abs_gap_eur_mwh": [
+     15.69321524023328,
+     30.55304709692706
+    ]
+   },
+   "enacted_art9_full": {
+    "mean_charge": 74.21206347921549,
+    "inside_pct": 95.13607838639379,
+    "above_pct": 0.0,
+    "below_pct": 4.863921613606204,
+    "mean_abs_gap_eur_mwh": [
+     0.06375725729547244,
+     11.636908759912258
+    ]
+   },
+   "allsources_proxy_art9_full": {
+    "mean_charge": 51.96983119726044,
+    "inside_pct": 0.0,
+    "above_pct": 0.0,
+    "below_pct": 100.0,
+    "mean_abs_gap_eur_mwh": [
+     18.609215240233315,
+     33.46904709692703
+    ]
+   }
+  },
+  "border": "RS->HU",
+  "charged_mwh": 366193.0,
+  "resolved_mwh": 366186.0,
+  "resolved_pct": 99.99808843970256,
+  "gross_eur_mwh": 78.37606347921559,
+  "art9_full_hypothetical_eur_mwh": 74.21206347921549,
+  "tau_star_eur_mwh": [
+   70.57904643749369,
+   85.43887829418739
+  ],
+  "gap_terms_eur_mwh": {
+   "factor_error": [
+    -11.20166184823153,
+    2.281262942766795
+   ],
+   "exporter_carbon_not_deducted": [
+    4.0428,
+    4.759127107250104
+   ],
+   "importer_price_gap": [
+    -0.6202800739905052,
+    1.472954098954975
+   ]
+  },
+  "share_gross_above_tau_interval_pct": 0.0,
+  "share_tau_negative_pct": 0.0,
+  "share_gross_above_tau_full_bounds_pct": [
+   0.0,
+   0.0019115602974387822
+  ]
+ }
+]

@@ -1,0 +1,34 @@
+{
+ "1": {
+  "gas_usd_mmbtu": 11.76,
+  "coal_usd_tonne": 90.6
+ },
+ "2": {
+  "gas_usd_mmbtu": 11.24,
+  "coal_usd_tonne": 91.2
+ },
+ "3": {
+  "gas_usd_mmbtu": 17.91,
+  "coal_usd_tonne": 93.8
+ },
+ "4": {
+  "gas_usd_mmbtu": 15.41,
+  "coal_usd_tonne": 94.8
+ },
+ "5": {
+  "gas_usd_mmbtu": 16.17,
+  "coal_usd_tonne": 95.6
+ },
+ "6": {
+  "gas_usd_mmbtu": 15.17,
+  "coal_usd_tonne": 96.3
+ },
+ "7": {
+  "gas_usd_mmbtu": 18.06,
+  "coal_usd_tonne": 96.3
+ },
+ "8": {
+  "gas_usd_mmbtu": 21.11,
+  "coal_usd_tonne": 96.8
+ }
+}

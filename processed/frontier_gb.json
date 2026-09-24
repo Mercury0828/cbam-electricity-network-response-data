@@ -1,0 +1,68 @@
+{
+ "class_cuts_fixed_on_2025": {
+  "price": [
+   83.0488285,
+   93.054918,
+   103.24958600000001,
+   117.63869700000001
+  ],
+  "ren": [
+   0.27387596674246006,
+   0.433529807832704
+  ],
+  "gas": [
+   0.2841609893556454,
+   0.4443994292728269
+  ]
+ },
+ "2025": {
+  "labelled_mwh": 3137414.0,
+  "default_misdirected_pct": 0.6248458125067332,
+  "GAP_H_pct": 0.6248458125067332,
+  "GAP_H_ci95": [
+   0.203273046399357,
+   1.1195752791825961
+  ],
+  "avoidable_by_exporter_rule_pct": 0.0,
+  "classes_used": 36
+ },
+ "2026": {
+  "labelled_mwh": 1839689.0,
+  "default_misdirected_pct": 1.7637220204067101,
+  "GAP_H_pct": 1.7637220204067101,
+  "GAP_H_ci95": [
+   0.1332954361619902,
+   5.071770814664232
+  ],
+  "avoidable_by_exporter_rule_pct": 0.0,
+  "classes_used": 34
+ },
+ "out_of_sample_2025_to_2026": {
+  "helpful_kept_pct": 93.20467319816605,
+  "harmful_charged_pct_of_labelled": 0.39642570021346
+ },
+ "price_only_sensitivity": {
+  "price_5": {
+   "GAP_H_2026": 1.7637220204067101,
+   "ci": [
+    0.1332954361619902,
+    5.071770814664232
+   ],
+   "oos": {
+    "helpful_kept_pct": 92.1300523117546,
+    "harmful_charged_pct_of_labelled": 0.39642570021346
+   }
+  },
+  "price_10": {
+   "GAP_H_2026": 1.7637220204067101,
+   "ci": [
+    0.1332954361619902,
+    5.071770814664232
+   ],
+   "oos": {
+    "helpful_kept_pct": 96.3144946830585,
+    "harmful_charged_pct_of_labelled": 0.5399825731414386
+   }
+  }
+ }
+}

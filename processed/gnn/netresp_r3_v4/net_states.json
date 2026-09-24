@@ -1,0 +1,857 @@
+{
+ "annual_credit_prices": {
+  "with_cps_h1_mean": 81.25,
+  "with_cps_dec2025": 91.58,
+  "allowance_only_h1_mean": 60.5
+ },
+ "GB->NL|graph": {
+  "hours": 1132,
+  "volume_gwh": 790.833375,
+  "states": {
+   "S26": {
+    "mean_u": 0.02751130962583144,
+    "mean_u_range": [
+     0.0211335385553522,
+     0.04061305290218813
+    ],
+    "mean_tau": -1.4396918381021593,
+    "share_positive_u": 0.08692270353410414,
+    "regret": {
+     "gross_default": 32.35804407174638,
+     "all_sources": 14.508330989455189,
+     "default_credit": 0.9149527952534305,
+     "all_sources_credit": 0.4016355065001608,
+     "zero": 0.02751130962583144,
+     "default_annual_credit_81": 0.02751130962583144,
+     "default_annual_credit_92": 0.02751130962583144,
+     "default_annual_credit_uka": 6.343044071746383,
+     "default_credit_uka": 6.728062904969075
+    },
+    "regret_range": {
+     "gross_default": [
+      32.34494232847002,
+      32.36442184281686
+     ],
+     "all_sources": [
+      14.49522924617883,
+      14.514708760525668
+     ],
+     "default_credit": [
+      0.9089378305749167,
+      0.9259386343859565
+     ],
+     "all_sources_credit": [
+      0.39572076380169685,
+      0.41265834053104367
+     ],
+     "zero": [
+      0.021133538555352202,
+      0.04061305290218814
+     ],
+     "default_annual_credit_81": [
+      0.021133538555352202,
+      0.04061305290218814
+     ],
+     "default_annual_credit_92": [
+      0.021133538555352202,
+      0.04061305290218814
+     ],
+     "default_annual_credit_uka": [
+      6.329942328470026,
+      6.349421842816862
+     ],
+     "default_credit_uka": [
+      6.722047940290561,
+      6.739048744101601
+     ]
+    },
+    "mean_charge": {
+     "gross_default": 32.385555381372214,
+     "all_sources": 14.535842299081018,
+     "default_credit": 0.9368987731688171,
+     "all_sources_credit": 0.42051503074786445,
+     "zero": 0.0,
+     "default_annual_credit_81": 0.0,
+     "default_annual_credit_92": 0.0,
+     "default_annual_credit_uka": 6.370555381372214,
+     "default_credit_uka": 6.750008882884462
+    },
+    "mean_u_two_zone": 0.024621120755961096,
+    "regret_two_zone": {
+     "gross_default": 32.360934260616254,
+     "all_sources": 14.511221178325059,
+     "default_credit": 0.9122776524128561,
+     "all_sources_credit": 0.3970817374789859,
+     "zero": 0.024621120755961096,
+     "default_annual_credit_81": 0.024621120755961096,
+     "default_annual_credit_92": 0.024621120755961096,
+     "default_annual_credit_uka": 6.345934260616253
+    }
+   },
+   "W27": {
+    "mean_u": 0.07625714847417821,
+    "mean_u_range": [
+     0.0733700872661253,
+     0.078690266056498
+    ],
+    "mean_tau": -1.4385274372582229,
+    "share_positive_u": 0.2280804410916522,
+    "regret": {
+     "gross_default": 32.406844556686686,
+     "all_sources": 14.503367570353841,
+     "default_credit": 0.1055517587064134,
+     "all_sources_credit": 0.02732718986260237,
+     "zero": 0.07625714847417821,
+     "default_annual_credit_81": 0.4391895365786893,
+     "default_annual_credit_92": 0.07625714847417821,
+     "default_annual_credit_uka": 6.391844556686692,
+     "default_credit_uka": 6.546538494917677
+    },
+    "regret_range": {
+     "gross_default": [
+      32.40441143910437,
+      32.40973161789474
+     ],
+     "all_sources": [
+      14.50093445277152,
+      14.506254631561895
+     ],
+     "default_credit": [
+      0.10311913228145464,
+      0.10835477855791126
+     ],
+     "all_sources_credit": [
+      0.02616795737225691,
+      0.030678241765131665
+     ],
+     "zero": [
+      0.07337008726612533,
+      0.07869026605649801
+     ],
+     "default_annual_credit_81": [
+      0.43630247537063643,
+      0.4416226541610091
+     ],
+     "default_annual_credit_92": [
+      0.07337008726612533,
+      0.07869026605649801
+     ],
+     "default_annual_credit_uka": [
+      6.3894114391043715,
+      6.394731617894745
+     ],
+     "default_credit_uka": [
+      6.544105377335356,
+      6.549425556125729
+     ]
+    },
+    "mean_charge": {
+     "gross_default": 32.48310170516087,
+     "all_sources": 14.579624718828018,
+     "default_credit": 0.18073167306565302,
+     "all_sources_credit": 0.08111909977132799,
+     "zero": 0.0,
+     "default_annual_credit_81": 0.3629323881045111,
+     "default_annual_credit_92": 0.0,
+     "default_annual_credit_uka": 6.468101705160871,
+     "default_credit_uka": 6.622795643391854
+    },
+    "mean_u_two_zone": 0.16376183280750087,
+    "regret_two_zone": {
+     "gross_default": 32.31933987235336,
+     "all_sources": 14.415862886020518,
+     "default_credit": 0.018132640229229315,
+     "all_sources_credit": 0.08264273303617288,
+     "zero": 0.16376183280750087,
+     "default_annual_credit_81": 0.526694220912012,
+     "default_annual_credit_92": 0.16376183280750087,
+     "default_annual_credit_uka": 6.304339872353369
+    }
+   },
+   "NOCPS": {
+    "mean_u": 3.6785436095929023,
+    "mean_u_range": [
+     3.678167670222974,
+     3.692024833521222
+    ],
+    "mean_tau": 3.6825831589028595,
+    "share_positive_u": 0.9994282929700583,
+    "regret": {
+     "gross_default": 28.707011771779307,
+     "all_sources": 10.860076044393034,
+     "default_credit": 3.9213860208839155,
+     "all_sources_credit": 1.7639044344910648,
+     "zero": 3.6785436095929023,
+     "default_annual_credit_uka": 2.870737871591945
+    },
+    "regret_range": {
+     "gross_default": [
+      28.69353054785099,
+      28.707387711149234
+     ],
+     "all_sources": [
+      10.84662350267706,
+      10.860176568649077
+     ],
+     "default_credit": [
+      3.8623758504688794,
+      4.024608968720051
+     ],
+     "all_sources_credit": [
+      1.7060421181039724,
+      1.8239458826499828
+     ],
+     "zero": [
+      3.678167670222977,
+      3.6920248335212227
+     ],
+     "default_annual_credit_uka": [
+      2.865460679405936,
+      2.878342306832422
+     ]
+    },
+    "mean_charge": {
+     "gross_default": 32.385555381372214,
+     "all_sources": 14.535842299081018,
+     "default_credit": 6.750008882884462,
+     "all_sources_credit": 3.0296551497597712,
+     "zero": 0.0,
+     "default_annual_credit_uka": 6.370555381372214
+    },
+    "mean_u_two_zone": 5.915215404012151,
+    "regret_two_zone": {
+     "gross_default": 26.470339977360066,
+     "all_sources": 8.621971660151681,
+     "default_credit": 2.6585465822738703,
+     "all_sources_credit": 2.939805634465529,
+     "zero": 5.915215404012151,
+     "default_annual_credit_uka": 1.4105976946654046
+    }
+   },
+   "CONV": {
+    "mean_u": 1.9312466916455538e-06,
+    "mean_u_range": [
+     2.2926861123191854e-06,
+     1.928485405284065e-05
+    ],
+    "mean_tau": -0.042942082919297485,
+    "share_positive_u": 0.0008064277762682942,
+    "regret": {
+     "gross_default": 32.48309977391417,
+     "all_sources": 14.579622787581327,
+     "default_credit": 1.9312466916455538e-06,
+     "all_sources_credit": 1.9312466916455538e-06,
+     "zero": 1.9312466916455538e-06
+    },
+    "regret_range": {
+     "gross_default": [
+      32.483082420306815,
+      32.48309941247475
+     ],
+     "all_sources": [
+      14.579605433973963,
+      14.579622426141906
+     ],
+     "default_credit": [
+      2.2926861123191854e-06,
+      1.928485405284065e-05
+     ],
+     "all_sources_credit": [
+      2.2926861123191854e-06,
+      1.928485405284065e-05
+     ],
+     "zero": [
+      2.2926861123191854e-06,
+      1.928485405284065e-05
+     ]
+    },
+    "mean_charge": {
+     "gross_default": 32.48310170516087,
+     "all_sources": 14.579624718828018,
+     "default_credit": 0.0,
+     "all_sources_credit": 0.0,
+     "zero": 0.0
+    },
+    "mean_u_two_zone": 2.2635369055637172e-07,
+    "regret_two_zone": {
+     "gross_default": 32.48310147880718,
+     "all_sources": 14.579624492474327,
+     "default_credit": 2.2635369055637172e-07,
+     "all_sources_credit": 2.2635369055637172e-07,
+     "zero": 2.2635369055637172e-07
+    }
+   }
+  },
+  "outage_anchored": {
+   "outage_A": {
+    "E_x": 0.21684615880988048,
+    "S26": {
+     "gross_default": 31.913083520545822,
+     "all_sources": 14.06337043825463,
+     "default_credit": 0.4644269123424276,
+     "all_sources_credit": 0.0519568300785251,
+     "zero": 0.47247186082638964
+    },
+    "NOCPS": {
+     "gross_default": 28.981570501869733,
+     "all_sources": 11.13185741957853,
+     "default_credit": 3.3460240033819786,
+     "all_sources_credit": 0.37432972974271356,
+     "zero": 3.403984879502484
+    }
+   },
+   "outage_B": {
+    "E_x": 0.32081835245119344,
+    "S26": {
+     "gross_default": 31.686545332949972,
+     "all_sources": 13.836832250658777,
+     "default_credit": 0.23788872474657458,
+     "all_sources_credit": 0.2784950176743781,
+     "zero": 0.6990100484222426
+    },
+    "NOCPS": {
+     "gross_default": 27.34944670965613,
+     "all_sources": 9.499733627364936,
+     "default_credit": 1.713900211168383,
+     "all_sources_credit": 2.006453521956309,
+     "zero": 5.036108671716081
+    }
+   },
+   "two_zone": {
+    "E_x": 0.38794171763760393,
+    "S26": {
+     "gross_default": 31.54029463877762,
+     "all_sources": 13.690581556486425,
+     "default_credit": 0.09163803057422454,
+     "all_sources_credit": 0.4247457118467282,
+     "zero": 0.8452607425945926
+    },
+    "NOCPS": {
+     "gross_default": 26.29576459045295,
+     "all_sources": 8.446051508161755,
+     "default_credit": 0.6602180919652006,
+     "all_sources_credit": 3.0601356411594907,
+     "zero": 6.089790790919263
+    }
+   }
+  },
+  "decomposition": {
+   "declaration_factor": {
+    "mean": 13.813990449249552,
+    "range": [
+     13.727031098376155,
+     13.873473662913355
+    ]
+   },
+   "credit": {
+    "mean": 20.08275924765938,
+    "range": [
+     19.953577582694102,
+     20.177101961045715
+    ]
+   },
+   "valuation_eu_set": {
+    "mean": -0.11486409000880374,
+    "range": [
+     -0.18279681935349523,
+     -0.07210190450238153
+    ]
+   },
+   "valuation_other": {
+    "mean": 0.0433616125742415,
+    "range": [
+     0.040053210367585856,
+     0.04506592800743267
+    ]
+   },
+   "gap_gross_minus_tau": 33.82524721947438
+  },
+  "decomposition_two_zone": {
+   "declaration_factor": 3.167470261540911,
+   "credit": 31.39550501411038,
+   "valuation_importer": -0.03411909823989058
+  },
+  "liability_gross_meur": 25.611578063499998,
+  "liability_gap_meur": 25.589821201657937,
+  "benchmark_liability_meur": 0.021756861842066263,
+  "covered_share_of_export_volume": 0.699563819401528,
+  "export_volume_gwh_all": 1130.466375
+ },
+ "GB->BE|graph": {
+  "hours": 931,
+  "volume_gwh": 598.41525,
+  "states": {
+   "S26": {
+    "mean_u": 0.0401243147254955,
+    "mean_u_range": [
+     0.0354913222395245,
+     0.044698147776432405
+    ],
+    "mean_tau": -1.77249400452791,
+    "share_positive_u": 0.08158402547394973,
+    "regret": {
+     "gross_default": 32.34512138748547,
+     "all_sources": 14.495578988825006,
+     "default_credit": 0.6242904907970244,
+     "all_sources_credit": 0.25835925680914645,
+     "zero": 0.0401243147254955,
+     "default_annual_credit_81": 0.0401243147254955,
+     "default_annual_credit_92": 0.0401243147254955,
+     "default_annual_credit_uka": 6.3301213874854705,
+     "default_credit_uka": 5.635569223905286
+    },
+    "regret_range": {
+     "gross_default": [
+      32.340547554434536,
+      32.34975437997144
+     ],
+     "all_sources": [
+      14.49100515577407,
+      14.500211981310978
+     ],
+     "default_credit": [
+      0.6197166577460874,
+      0.6289234832829953
+     ],
+     "all_sources_credit": [
+      0.25378542375820956,
+      0.2630402389550436
+     ],
+     "zero": [
+      0.0354913222395245,
+      0.044698147776432405
+     ],
+     "default_annual_credit_81": [
+      0.0354913222395245,
+      0.044698147776432405
+     ],
+     "default_annual_credit_92": [
+      0.0354913222395245,
+      0.044698147776432405
+     ],
+     "default_annual_credit_uka": [
+      6.325547554434533,
+      6.334754379971441
+     ],
+     "default_credit_uka": [
+      5.630995390854349,
+      5.640202216391256
+     ]
+    },
+    "mean_charge": {
+     "gross_default": 32.385245702210966,
+     "all_sources": 14.5357033035505,
+     "default_credit": 0.6644148055225199,
+     "all_sources_credit": 0.2982140871298752,
+     "zero": 0.0,
+     "default_annual_credit_81": 0.0,
+     "default_annual_credit_92": 0.0,
+     "default_annual_credit_uka": 6.3702457022109655,
+     "default_credit_uka": 5.675693538630782
+    },
+    "mean_u_two_zone": 0.2008447601710247,
+    "regret_two_zone": {
+     "gross_default": 32.18440094203994,
+     "all_sources": 14.334858543379477,
+     "default_credit": 0.46357004535149515,
+     "all_sources_credit": 0.12031575734638963,
+     "zero": 0.2008447601710247,
+     "default_annual_credit_81": 0.2008447601710247,
+     "default_annual_credit_92": 0.2008447601710247,
+     "default_annual_credit_uka": 6.169400942039942
+    }
+   },
+   "W27": {
+    "mean_u": 0.04408022594887548,
+    "mean_u_range": [
+     0.04348962198358221,
+     0.04490192112591392
+    ],
+    "mean_tau": -1.7029960275253606,
+    "share_positive_u": 0.15817486268941172,
+    "regret": {
+     "gross_default": 33.090826823068916,
+     "all_sources": 14.828098984424232,
+     "default_credit": 0.08131915489006618,
+     "all_sources_credit": 0.019767294820959916,
+     "zero": 0.04408022594887548,
+     "default_annual_credit_81": 0.5773694029563974,
+     "default_annual_credit_92": 0.04408022594887548,
+     "default_annual_credit_uka": 7.075826823068926,
+     "default_credit_uka": 6.0510152325116175
+    },
+    "regret_range": {
+     "gross_default": [
+      33.09000512789188,
+      33.09141742703421
+     ],
+     "all_sources": [
+      14.827277289247194,
+      14.828689588389524
+     ],
+     "default_credit": [
+      0.08049745971302771,
+      0.0818954196186161
+     ],
+     "all_sources_credit": [
+      0.018335873243727496,
+      0.02209207770354754
+     ],
+     "zero": [
+      0.04348962198358222,
+      0.04490192112591394
+     ],
+     "default_annual_credit_81": [
+      0.5767787989911041,
+      0.5781910981334357
+     ],
+     "default_annual_credit_92": [
+      0.04348962198358222,
+      0.04490192112591394
+     ],
+     "default_annual_credit_uka": [
+      7.075005127891887,
+      7.07641742703422
+     ],
+     "default_credit_uka": [
+      6.050193537334579,
+      6.05160583647691
+     ]
+    },
+    "mean_charge": {
+     "gross_default": 33.13490704901779,
+     "all_sources": 14.872179210373107,
+     "default_credit": 0.12533826852474295,
+     "all_sources_credit": 0.05625647866343114,
+     "zero": 0.0,
+     "default_annual_credit_81": 0.5332891770075219,
+     "default_annual_credit_92": 0.0,
+     "default_annual_credit_uka": 7.119907049017802,
+     "default_credit_uka": 6.095095458460493
+    },
+    "mean_u_two_zone": 0.11498568107840709,
+    "regret_two_zone": {
+     "gross_default": 33.01992136793938,
+     "all_sources": 14.7571935292947,
+     "default_credit": 0.010427637699602883,
+     "all_sources_credit": 0.05872920241497596,
+     "zero": 0.11498568107840709,
+     "default_annual_credit_81": 0.6482748580859289,
+     "default_annual_credit_92": 0.11498568107840709,
+     "default_annual_credit_uka": 7.004921367939395
+    }
+   },
+   "NOCPS": {
+    "mean_u": 3.0368851606325005,
+    "mean_u_range": [
+     3.011029351288307,
+     3.0389059343509985
+    ],
+    "mean_tau": 3.0288595948151626,
+    "share_positive_u": 1.0,
+    "regret": {
+     "gross_default": 29.348360541578465,
+     "all_sources": 11.498818142918001,
+     "default_credit": 3.460420658086453,
+     "all_sources_credit": 1.460487698951692,
+     "zero": 3.0368851606325005,
+     "default_annual_credit_uka": 3.3823008204741463
+    },
+    "regret_range": {
+     "gross_default": [
+      29.346339767859966,
+      29.374216350922655
+     ],
+     "all_sources": [
+      11.496797369199502,
+      11.524673952262198
+     ],
+     "default_credit": [
+      3.441016041420018,
+      3.5233684285167066
+     ],
+     "all_sources_credit": [
+      1.4250007022262001,
+      1.523923612629936
+     ],
+     "zero": [
+      3.0110293512883057,
+      3.0389059343509994
+     ],
+     "default_annual_credit_uka": [
+      3.3831432027370307,
+      3.405857483596015
+     ]
+    },
+    "mean_charge": {
+     "gross_default": 32.385245702210966,
+     "all_sources": 14.5357033035505,
+     "default_credit": 5.675693538630782,
+     "all_sources_credit": 2.5474624487342825,
+     "zero": 0.0,
+     "default_annual_credit_uka": 6.3702457022109655
+    },
+    "mean_u_two_zone": 5.271351606157966,
+    "regret_two_zone": {
+     "gross_default": 27.113894096052995,
+     "all_sources": 9.26435169739254,
+     "default_credit": 1.5434887201388185,
+     "all_sources_credit": 2.7238891574236845,
+     "zero": 5.271351606157966,
+     "default_annual_credit_uka": 2.4901339320412084
+    }
+   },
+   "CONV": {
+    "mean_u": 0.0,
+    "mean_u_range": [
+     0.0,
+     1.5526239168255275e-06
+    ],
+    "mean_tau": -0.04203204195725455,
+    "share_positive_u": 0.0,
+    "regret": {
+     "gross_default": 33.13490704901779,
+     "all_sources": 14.872179210373107,
+     "default_credit": 0.0,
+     "all_sources_credit": 0.0,
+     "zero": 0.0
+    },
+    "regret_range": {
+     "gross_default": [
+      33.13490549639388,
+      33.13490704901779
+     ],
+     "all_sources": [
+      14.87217765774919,
+      14.872179210373107
+     ],
+     "default_credit": [
+      0.0,
+      1.5526239168255275e-06
+     ],
+     "all_sources_credit": [
+      0.0,
+      1.5526239168255275e-06
+     ],
+     "zero": [
+      0.0,
+      1.5526239168255275e-06
+     ]
+    },
+    "mean_charge": {
+     "gross_default": 33.13490704901779,
+     "all_sources": 14.872179210373107,
+     "default_credit": 0.0,
+     "all_sources_credit": 0.0,
+     "zero": 0.0
+    },
+    "mean_u_two_zone": 1.8240750178847117e-07,
+    "regret_two_zone": {
+     "gross_default": 33.13490686661029,
+     "all_sources": 14.872179027965606,
+     "default_credit": 1.8240750178847117e-07,
+     "all_sources_credit": 1.8240750178847117e-07,
+     "zero": 1.8240750178847117e-07
+    }
+   }
+  },
+  "outage_anchored": {
+   "outage_A": {
+    "E_x": 0.21684615880988048,
+    "S26": {
+     "gross_default": 32.05018570585289,
+     "all_sources": 14.200643307192427,
+     "default_credit": 0.32935480916444493,
+     "all_sources_credit": 0.036845909228199664,
+     "zero": 0.3350599963580748
+    },
+    "NOCPS": {
+     "gross_default": 29.523030952364117,
+     "all_sources": 11.673488553703658,
+     "default_credit": 2.813478788783939,
+     "all_sources_credit": 0.3147523011125632,
+     "zero": 2.862214749846845
+    }
+   },
+   "outage_B": {
+    "E_x": 0.32081835245119344,
+    "S26": {
+     "gross_default": 31.889532996973955,
+     "all_sources": 14.03999059831349,
+     "default_credit": 0.1687021002855084,
+     "all_sources_credit": 0.19749861810713623,
+     "zero": 0.4957127052370114
+    },
+    "NOCPS": {
+     "gross_default": 28.15067209737047,
+     "all_sources": 10.301129698710012,
+     "default_credit": 1.4411199337902905,
+     "all_sources_credit": 1.687111156106211,
+     "zero": 4.234573604840493
+    }
+   },
+   "two_zone": {
+    "E_x": 0.38645826951482914,
+    "S26": {
+     "gross_default": 31.788109432484767,
+     "all_sources": 13.938567033824304,
+     "default_credit": 0.06727853579632267,
+     "all_sources_credit": 0.298922182596322,
+     "zero": 0.5971362697261972
+    },
+    "NOCPS": {
+     "gross_default": 27.284271973755732,
+     "all_sources": 9.434729575095272,
+     "default_credit": 0.5747198101755513,
+     "all_sources_credit": 2.553511279720949,
+     "zero": 5.100973728455233
+    }
+   }
+  },
+  "decomposition": {
+   "declaration_factor": {
+    "mean": 14.979455095283871,
+    "range": [
+     14.870060296217943,
+     15.168453589184505
+    ]
+   },
+   "credit": {
+    "mean": 19.59798413771248,
+    "range": [
+     19.32992822100834,
+     19.751333365856276
+    ]
+   },
+   "valuation_eu_set": {
+    "mean": -0.4613496286790228,
+    "range": [
+     -0.4940156624038165,
+     -0.4432979858960651
+    ]
+   },
+   "valuation_other": {
+    "mean": 0.0416501024215473,
+    "range": [
+     0.04020579831392635,
+     0.043964508464410613
+    ]
+   },
+   "gap_gross_minus_tau": 34.15773970673887
+  },
+  "decomposition_two_zone": {
+   "declaration_factor": 3.2791355835181704,
+   "credit": 32.324147290045715,
+   "valuation_importer": -0.4622381142078556
+  },
+  "liability_gross_meur": 19.3798249032,
+  "liability_gap_meur": 19.355813901372468,
+  "benchmark_liability_meur": 0.024011001827536068,
+  "covered_share_of_export_volume": 0.7497235120469191,
+  "export_volume_gwh_all": 798.18125
+ },
+ "RS->HU|graph": {
+  "hours": 1554,
+  "volume_gwh": 426.352,
+  "states": {
+   "S26": {
+    "mean_u": 5.586045851108433,
+    "mean_u_range": [
+     5.420183481500294,
+     6.52681971590044
+    ],
+    "mean_tau": 5.785442053647813,
+    "share_positive_u": 0.9908244830562539,
+    "regret": {
+     "gross_default": 72.84319085752668,
+     "all_sources": 49.33702193044296,
+     "default_credit": 68.67919085752668,
+     "all_sources_credit": 46.42102193044296,
+     "zero": 5.586045851108433
+    },
+    "regret_range": {
+     "gross_default": [
+      71.90241699273469,
+      73.00905322713481
+     ],
+     "all_sources": [
+      48.39624806565096,
+      49.50288430005109
+     ],
+     "default_credit": [
+      67.73841699273466,
+      68.84505322713483
+     ],
+     "all_sources_credit": [
+      45.48024806565095,
+      46.586884300051096
+     ],
+     "zero": [
+      5.420183481500292,
+      6.5268197159004435
+     ]
+    },
+    "mean_charge": {
+     "gross_default": 78.42923670863512,
+     "all_sources": 54.923067781551396,
+     "default_credit": 74.26523670863513,
+     "all_sources_credit": 52.007067781551385,
+     "zero": 0.0
+    },
+    "boundary_outflow_mean": 0.07215392999489273,
+    "mean_u_boundary_upper": 11.635763606105874,
+    "regret_gross_default_boundary_upper": 66.79347310252923,
+    "regret_all_sources_boundary_upper": 43.28730417544552,
+    "mean_u_two_zone": 38.726926207265784,
+    "regret_two_zone": {
+     "gross_default": 39.702310501369325,
+     "all_sources": 23.392459674783723,
+     "default_credit": 35.594056843188,
+     "all_sources_credit": 22.40100400198162,
+     "zero": 38.726926207265784
+    }
+   }
+  },
+  "decomposition": {
+   "declaration_factor": {
+    "mean": 73.20915525561003,
+    "range": [
+     72.56557263518954,
+     73.53308282054847
+    ]
+   },
+   "credit": {
+    "mean": 0.2771529592592669,
+    "range": [
+     0.2599618265342763,
+     0.3113141044805614
+    ]
+   },
+   "valuation_eu_set": {
+    "mean": 0.07988609579993765,
+    "range": [
+     0.05216279524056364,
+     0.10612364786954039
+    ]
+   },
+   "valuation_other": {
+    "mean": -0.9223996556819277,
+    "range": [
+     -1.023680039336906,
+     -0.8588936888933941
+    ]
+   },
+   "gap_gross_minus_tau": 72.64379465498729
+  },
+  "decomposition_two_zone": {
+   "declaration_factor": 37.58933696706789,
+   "credit": 2.1683302008681635,
+   "valuation_importer": 0.023052863628825096
+  },
+  "liability_gross_meur": 33.4384619292,
+  "liability_gap_meur": 31.056840108488217,
+  "benchmark_liability_meur": 2.381621820711781,
+  "covered_share_of_export_volume": 0.6128873204004917,
+  "export_volume_gwh_all": 695.645
+ }
+}

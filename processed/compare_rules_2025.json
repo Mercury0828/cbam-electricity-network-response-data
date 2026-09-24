@@ -1,0 +1,69 @@
+[
+  {
+    "border": "RS->HU",
+    "rule": "marginal_v2",
+    "determinacy_pct": 6.385322663336284,
+    "mwh_total": 1127398.0,
+    "mwh_aligned": 71988.0,
+    "mwh_misdirected": 0.0,
+    "agreement_pct": 87.35955056179775,
+    "coverage_failure_pct": 12.359550561797754,
+    "coverage_failure_volume_pct": 13.770350613991221,
+    "responders_outside": {
+      "importer:HU_lignite": 44,
+      "exporter:RS_lignite": 6
+    },
+    "validated_pct": 5.505952644939941,
+    "val_aligned": 62074.0,
+    "val_misdirected": 0.0
+  },
+  {
+    "border": "GB->FR",
+    "rule": "marginal_v2",
+    "determinacy_pct": 0.0,
+    "mwh_total": 674858.0,
+    "mwh_aligned": 0.0,
+    "mwh_misdirected": 0.0,
+    "agreement_pct": null,
+    "coverage_failure_pct": null,
+    "coverage_failure_volume_pct": null,
+    "responders_outside": {},
+    "validated_pct": 0.0,
+    "val_aligned": 0.0,
+    "val_misdirected": 0.0
+  },
+  {
+    "border": "RS->HU",
+    "rule": "marginal_v3",
+    "determinacy_pct": 21.845967440069966,
+    "mwh_total": 1127398.0,
+    "mwh_aligned": 66200.0,
+    "mwh_misdirected": 180091.0,
+    "agreement_pct": 82.5813221406086,
+    "coverage_failure_pct": 67.26128016789087,
+    "coverage_failure_volume_pct": 74.79607456220486,
+    "responders_outside": {
+      "exporter:RS_lignite": 614,
+      "importer:HU_ccgt": 138,
+      "importer:HU_lignite": 27
+    },
+    "validated_pct": 5.505952644939941,
+    "val_aligned": 62074.0,
+    "val_misdirected": 0.0
+  },
+  {
+    "border": "GB->FR",
+    "rule": "marginal_v3",
+    "determinacy_pct": 0.0,
+    "mwh_total": 674858.0,
+    "mwh_aligned": 0.0,
+    "mwh_misdirected": 0.0,
+    "agreement_pct": null,
+    "coverage_failure_pct": null,
+    "coverage_failure_volume_pct": null,
+    "responders_outside": {},
+    "validated_pct": 0.0,
+    "val_aligned": 0.0,
+    "val_misdirected": 0.0
+  }
+]

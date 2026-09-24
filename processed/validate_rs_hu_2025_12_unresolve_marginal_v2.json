@@ -1,0 +1,22 @@
+{
+  "border": "RS->HU",
+  "month": "2025-12",
+  "candidate_rule": "marginal_v2",
+  "intertemporal_policy": "unresolve",
+  "counts": {
+    "undetermined": 381,
+    "coverage-fail-undetermined": 345,
+    "determined": 90,
+    "agree": 90,
+    "coverage-fail-determined": 2
+  },
+  "agreement_rate_pct": 100.0,
+  "agreement_rate_volume_pct": 100.0,
+  "coverage_failure_rate_determined_pct": 2.2222222222222223,
+  "coverage_failure_volume_pct": 2.828824380092413,
+  "responders_outside_candidate_set": {
+    "importer:HU_ccgt": 309,
+    "exporter:RS_lignite": 50,
+    "importer:HU_wind": 5
+  }
+}

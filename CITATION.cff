@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the paper."
+title: "Where charged electricity imports are replaced: interconnector outages and a graph network-response model for the EU CBAM (data)"
+authors:
+  - family-names: Tong
+    given-names: Zirui
+    affiliation: University of Houston
+  - family-names: Shen
+    given-names: Jiachen
+    affiliation: University of Houston
+  - family-names: Shi
+    given-names: Jian
+    affiliation: University of Houston
+license: CC-BY-4.0
+repository: "https://github.com/Mercury0828/cbam-electricity-network-response-data"
+type: dataset

@@ -1,0 +1,22 @@
+exporter,exporter_code,charged_2026,electricity_default_tCO2eq_per_MWh,legal_basis,notes,date_checked
+Ukraine,UA,yes,0.907,"Reg (EU) 2025/2621 Annex III (electricity default listed); not in Annex III of Reg 2023/956 exclusions","Energy Community Contracting Party. Interconnected to HU, SK, RO, PL.",2026-09-20
+Serbia,RS,yes,1.041,"Reg (EU) 2025/2621 Annex III","Energy Community Contracting Party. Highest-but-one declared factor. Interconnected to HU, RO, BG, HR.",2026-09-20
+Bosnia and Herzegovina,BA,yes,1.148,"Reg (EU) 2025/2621 Annex III","HIGHEST declared factor of all listed territories. Lignite-heavy. Interconnected to HR. Studied by Cosic et al. (2025).",2026-09-20
+Montenegro,ME,yes,0.979,"Reg (EU) 2025/2621 Annex III","Subsea link to IT. Grid factor 0.422 vs electricity default 0.979 = 2.32x.",2026-09-20
+North Macedonia,MK,yes,0.887,"Reg (EU) 2025/2621 Annex III","Interconnected to GR, BG.",2026-09-20
+Kosovo,XK,yes,0.984,"Reg (EU) 2025/2621 Annex III","Lignite-dominated.",2026-09-20
+Albania,AL,yes,0.000,"Reg (EU) 2025/2621 Annex III","DECLARED FACTOR IS ZERO - essentially no fossil generation, so the fossil-denominator rule yields 0. Charged in law but at a zero rate. Analytically important edge case.",2026-09-20
+"Moldova, Republic of",MD,yes,0.530,"Reg (EU) 2025/2621 Annex III","Interconnected to RO. Coupled to UA.",2026-09-20
+Turkiye,TR,yes,0.718,"Reg (EU) 2025/2621 Annex III","Interconnected to BG, GR. Own transparency platform (EPIAS).",2026-09-20
+Morocco,MA,yes,0.907,"Reg (EU) 2025/2621 Annex III","Subsea link to ES. Hourly open data not expected.",2026-09-20
+United Kingdom,GB,yes,0.430,"Reg (EU) 2025/2621 Annex III","CHARGED from 2026-01-01. No exemption granted; EU has stated no CBAM exemption before ETS linkage completes, and linkage was not concluded. Interconnected to FR, BE, NL, IE, DK.",2026-09-20
+Belarus,BY,listed,0.383,"Reg (EU) 2025/2621 Annex III","Default value listed, but trade with EU is not active. Not a study candidate.",2026-09-20
+Russian Federation,RU,listed,0.585,"Reg (EU) 2025/2621 Annex III","Default value listed, but electricity trade with the EU is not active. Not a study candidate.",2026-09-20
+Georgia,GE,listed,0.440,"Reg (EU) 2025/2621 Annex III","No direct EU interconnection. Ratio to grid factor is 4.31x, the largest in the table.",2026-09-20
+Egypt,EG,listed,0.442,"Reg (EU) 2025/2621 Annex III","No direct EU interconnection at present.",2026-09-20
+Israel,IL,listed,0.480,"Reg (EU) 2025/2621 Annex III","No direct EU interconnection.",2026-09-20
+Tunisia,TN,listed,0.436,"Reg (EU) 2025/2621 Annex III","Ratio to grid factor 1.04x - almost all-gas system, so fossil and whole-grid denominators nearly coincide. Analytically useful contrast.",2026-09-20
+Norway,NO,NO - excluded,,"Reg (EU) 2023/956 Annex III point 1 (carbon pricing fully linked to EU ETS)","Absent from the 2025/2621 Annex III electricity table, consistent with exclusion.",2026-09-20
+Switzerland,CH,NO - excluded,,"Reg (EU) 2023/956 Annex III point 1","Absent from the 2025/2621 Annex III electricity table.",2026-09-20
+Iceland,IS,NO - excluded,,"Reg (EU) 2023/956 Annex III point 1","Absent from the 2025/2621 Annex III electricity table.",2026-09-20
+Liechtenstein,LI,NO - excluded,,"Reg (EU) 2023/956 Annex III point 1","Absent from the 2025/2621 Annex III electricity table.",2026-09-20

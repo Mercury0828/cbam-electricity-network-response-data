@@ -1,0 +1,50 @@
+{
+ "GB->NL": {
+  "gross_charge": 32.4,
+  "shift_eur": 3.0,
+  "shift_ci95": [
+   -2.0,
+   8.0
+  ],
+  "flow_share_diff_in_0_to_c": -0.022967007426135562,
+  "flow_share_diff_control_band": 0.1882054822602442,
+  "n2025": 5828,
+  "n2026": 5828
+ },
+ "GB->BE": {
+  "gross_charge": 32.4,
+  "shift_eur": -2.0,
+  "shift_ci95": [
+   -7.0,
+   3.0
+  ],
+  "flow_share_diff_in_0_to_c": 0.0018695300293006835,
+  "flow_share_diff_control_band": 0.041925899942554225,
+  "n2025": 5828,
+  "n2026": 5828
+ },
+ "GB->FR": {
+  "gross_charge": 32.4,
+  "shift_eur": -2.0,
+  "shift_ci95": [
+   -12.0,
+   8.0
+  ],
+  "flow_share_diff_in_0_to_c": -0.0715282698954037,
+  "flow_share_diff_control_band": -0.48348749999999996,
+  "n2025": 5828,
+  "n2026": 5828
+ },
+ "RS->HU": {
+  "gross_charge": 78.4,
+  "shift_eur": -2.0,
+  "shift_ci95": [
+   -12.0,
+   8.0
+  ],
+  "flow_share_diff_in_0_to_c": -0.02188629140212476,
+  "flow_share_diff_control_band": null,
+  "n2025": 5832,
+  "n2026": 5832
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "2025_validated": {
+  "hours_labelled": 8,
+  "multi_dest_hours": 0,
+  "opposite_sign_hours": 0,
+  "opposite_sign_mwh": 0,
+  "labelled_mwh": 2293.0,
+  "per_border_mis_ali_mwh": {
+   "nl": [
+    1919.0,
+    0
+   ],
+   "be": [
+    374.0,
+    0
+   ],
+   "fr": [
+    0,
+    0
+   ]
+  }
+ },
+ "2025_reclear": {
+  "hours_labelled": 4142,
+  "multi_dest_hours": 1822,
+  "opposite_sign_hours": 202,
+  "opposite_sign_mwh": 307421.0,
+  "labelled_mwh": 3792185.0,
+  "per_border_mis_ali_mwh": {
+   "nl": [
+    390194.0,
+    2017506.0
+   ],
+   "be": [
+    1155.0,
+    1314945.0
+   ],
+   "fr": [
+    3756.0,
+    64629.0
+   ]
+  }
+ },
+ "2026_validated": {
+  "hours_labelled": 14,
+  "multi_dest_hours": 0,
+  "opposite_sign_hours": 0,
+  "opposite_sign_mwh": 0,
+  "labelled_mwh": 5378.0,
+  "per_border_mis_ali_mwh": {
+   "nl": [
+    5378.0,
+    0
+   ],
+   "be": [
+    0,
+    0
+   ],
+   "fr": [
+    0,
+    0
+   ]
+  }
+ },
+ "2026_reclear": {
+  "hours_labelled": 2254,
+  "multi_dest_hours": 1132,
+  "opposite_sign_hours": 49,
+  "opposite_sign_mwh": 59239.0,
+  "labelled_mwh": 2141836.0,
+  "per_border_mis_ali_mwh": {
+   "nl": [
+    179859.0,
+    1163564.0
+   ],
+   "be": [
+    7714.0,
+    757957.0
+   ],
+   "fr": [
+    4069.0,
+    28673.0
+   ]
+  }
+ }
+}

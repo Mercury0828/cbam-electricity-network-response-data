@@ -1,0 +1,44 @@
+{
+  "label": "RS->HU 2025, daily fuel",
+  "border": "RS->HU",
+  "year": 2025,
+  "candidate_rule": "marginal_v2",
+  "intertemporal_policy": "unresolve",
+  "conditioned_on": "charged RS->HU import hours, all inputs present; NOT regime R1",
+  "import_hours": 5217,
+  "mwh_total": 1127398.0,
+  "mwh_determined": 90046.0,
+  "mwh_misdirected": 0.0,
+  "mwh_aligned": 90046.0,
+  "determinacy_pct": 7.987064018208299,
+  "labels": {
+    "UNDETERMINED": 3262,
+    "DETERMINED-ALIGNED": 388,
+    "UNRESOLVED": 1567
+  },
+  "validation": {
+    "determined_hours": 388,
+    "agreement_pct": 99.74226804123711,
+    "agreement_volume_pct": 99.99888945650001,
+    "coverage_failure_pct": 5.927835051546392,
+    "coverage_failure_volume_pct": 7.659418519423406,
+    "responders_outside": {
+      "exporter:RS_lignite": 6,
+      "importer:HU_ccgt": 23
+    }
+  },
+  "determinacy_by_month_pct": {
+    "1": 3.0637376716035476,
+    "2": 0.0,
+    "3": 3.2414214300255604,
+    "4": 4.719125235322233,
+    "5": 6.59236940501688,
+    "6": 1.2956221538626869,
+    "7": 6.508013179912709,
+    "8": 1.401812870780257,
+    "9": 4.25183689104015,
+    "10": 13.017470254678948,
+    "11": 19.475627494125984,
+    "12": 24.375166061464885
+  }
+}

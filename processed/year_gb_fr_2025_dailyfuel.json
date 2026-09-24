@@ -1,0 +1,46 @@
+{
+  "label": "GB->FR 2025, daily TTF",
+  "border": "GB->FR",
+  "year": 2025,
+  "candidate_rule": "marginal_v2",
+  "intertemporal_policy": "unresolve",
+  "conditioned_on": "GB->FR export hours, all inputs present; NOT regime R1",
+  "export_hours": 598,
+  "hours_total": 8745,
+  "mwh_total": 674858.0,
+  "mwh_determined": 47778.0,
+  "mwh_misdirected": 47778.0,
+  "mwh_aligned": 0.0,
+  "determinacy_pct": 7.079711583770215,
+  "labels": {
+    "UNRESOLVED": 307,
+    "UNDETERMINED": 259,
+    "DETERMINED-MISDIRECTED": 32
+  },
+  "validation": {
+    "determined_hours": 32,
+    "agreement_pct": 3.125,
+    "agreement_volume_pct": 0.3872075013604588,
+    "coverage_failure_pct": 96.875,
+    "coverage_failure_volume_pct": 99.61279249863954,
+    "responders_outside": {
+      "importer:FR_hydro_res": 25,
+      "importer:FR_pumped": 2,
+      "exporter:GB_ccgt": 2,
+      "importer:FR_ccgt": 4
+    }
+  },
+  "determinacy_by_month_pct": {
+    "1": 10.80600819637815,
+    "2": 11.158989048436284,
+    "3": 1.3208001928175463,
+    "5": 0.0,
+    "6": 5.864794274278349,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 10.1662214306916,
+    "11": 0.0,
+    "12": 0.0
+  }
+}

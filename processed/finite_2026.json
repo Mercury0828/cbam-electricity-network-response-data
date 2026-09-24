@@ -1,0 +1,146 @@
+[
+ {
+  "border": "GB->NL",
+  "hours": 4343,
+  "calibration": {
+   "observed_flow_gwh": 1302.586,
+   "modelled_flow_enacted_gwh": 191.15,
+   "hourly_corr": 0.17796569810203042
+  },
+  "scenarios": {
+   "none": {
+    "flow_mwh": 3149810.0,
+    "em_t": 39316787.955529265,
+    "charge_eur": 0.0
+   },
+   "enacted": {
+    "flow_mwh": 191150.0,
+    "em_t": 39335837.55365939,
+    "charge_eur": 6190014.08800001
+   },
+   "all_sources": {
+    "flow_mwh": 219870.0,
+    "em_t": 39317126.592285655,
+    "charge_eur": 3195699.0952000027
+   }
+  },
+  "enacted_vs_none": {
+   "d_imports_gwh": -2958.66,
+   "d_emissions_t": 19049.598130121827,
+   "gross_charge_eur": 6190014.08800001
+  },
+  "allsources_vs_enacted": {
+   "d_imports_gwh": 28.72,
+   "d_emissions_t": -18710.961373731494,
+   "d_charge_eur": -2994314.992800007
+  }
+ },
+ {
+  "border": "GB->BE",
+  "hours": 4343,
+  "calibration": {
+   "observed_flow_gwh": 921.674,
+   "modelled_flow_enacted_gwh": 64.29,
+   "hourly_corr": 0.2231654696158354
+  },
+  "scenarios": {
+   "none": {
+    "flow_mwh": 1912500.0,
+    "em_t": 18185978.053729642,
+    "charge_eur": 0.0
+   },
+   "enacted": {
+    "flow_mwh": 64290.0,
+    "em_t": 18154314.407900874,
+    "charge_eur": 2081675.7519999975
+   },
+   "all_sources": {
+    "flow_mwh": 87890.0,
+    "em_t": 18151168.347459156,
+    "charge_eur": 1277397.5200000014
+   }
+  },
+  "enacted_vs_none": {
+   "d_imports_gwh": -1848.21,
+   "d_emissions_t": -31663.64582876861,
+   "gross_charge_eur": 2081675.7519999975
+  },
+  "allsources_vs_enacted": {
+   "d_imports_gwh": 23.6,
+   "d_emissions_t": -3146.0604417175055,
+   "d_charge_eur": -804278.2319999961
+  }
+ },
+ {
+  "border": "GB->FR",
+  "hours": 4336,
+  "calibration": {
+   "observed_flow_gwh": 136.555,
+   "modelled_flow_enacted_gwh": 151.19,
+   "hourly_corr": 0.16587522922708753
+  },
+  "scenarios": {
+   "none": {
+    "flow_mwh": 1748920.0,
+    "em_t": 17846049.9921148,
+    "charge_eur": 0.0
+   },
+   "enacted": {
+    "flow_mwh": 151190.0,
+    "em_t": 17572718.538289677,
+    "charge_eur": 4899234.240000003
+   },
+   "all_sources": {
+    "flow_mwh": 339020.0,
+    "em_t": 17646513.324717164,
+    "charge_eur": 4930613.768799996
+   }
+  },
+  "enacted_vs_none": {
+   "d_imports_gwh": -1597.73,
+   "d_emissions_t": -273331.4538251236,
+   "gross_charge_eur": 4899234.240000003
+  },
+  "allsources_vs_enacted": {
+   "d_imports_gwh": 187.83,
+   "d_emissions_t": 73794.78642748669,
+   "d_charge_eur": 31379.528799992986
+  }
+ },
+ {
+  "border": "RS->HU",
+  "hours": 4344,
+  "calibration": {
+   "observed_flow_gwh": 366.193,
+   "modelled_flow_enacted_gwh": 1975.69,
+   "hourly_corr": 0.15553337605198997
+  },
+  "scenarios": {
+   "none": {
+    "flow_mwh": 2232240.0,
+    "em_t": 15308743.671750078,
+    "charge_eur": 0.0
+   },
+   "enacted": {
+    "flow_mwh": 1975690.0,
+    "em_t": 15328300.291040262,
+    "charge_eur": 154902677.96400177
+   },
+   "all_sources": {
+    "flow_mwh": 2226570.0,
+    "em_t": 15304983.88187186,
+    "charge_eur": 122259116.25360876
+   }
+  },
+  "enacted_vs_none": {
+   "d_imports_gwh": -256.55,
+   "d_emissions_t": 19556.61929018423,
+   "gross_charge_eur": 154902677.96400177
+  },
+  "allsources_vs_enacted": {
+   "d_imports_gwh": 250.88,
+   "d_emissions_t": -23316.409168401733,
+   "d_charge_eur": -32643561.71039301
+  }
+ }
+]

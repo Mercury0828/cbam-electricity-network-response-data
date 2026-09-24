@@ -1,0 +1,67 @@
+{
+ "GB->NL": {
+  "export_onset_shift": -2.0,
+  "import_onset_shift": 8.0,
+  "DDD": -10.0,
+  "DDD_ci95": [
+   -15.0,
+   0.0
+  ],
+  "export_hour_share_2025_2026": [
+   0.36890871654083734,
+   0.3478037062457104
+  ]
+ },
+ "GB->BE": {
+  "export_onset_shift": -2.0,
+  "import_onset_shift": -2.0,
+  "DDD": 0.0,
+  "DDD_ci95": [
+   -5.0,
+   5.0
+  ],
+  "export_hour_share_2025_2026": [
+   0.3397391901166781,
+   0.29512697323266984
+  ]
+ },
+ "GB->FR": {
+  "export_onset_shift": 8.0,
+  "import_onset_shift": 8.0,
+  "DDD": 0.0,
+  "DDD_ci95": [
+   -5.0,
+   20.0
+  ],
+  "export_hour_share_2025_2026": [
+   0.06640356897735072,
+   0.03225806451612903
+  ]
+ },
+ "GB->DK1": {
+  "export_onset_shift": -2.0,
+  "import_onset_shift": -2.0,
+  "DDD": 0.0,
+  "DDD_ci95": [
+   -10.0,
+   5.0
+  ],
+  "export_hour_share_2025_2026": [
+   0.29598490048043924,
+   0.3186341798215511
+  ]
+ },
+ "GB->NO2 (control)": {
+  "export_onset_shift": -30.0,
+  "import_onset_shift": -27.0,
+  "DDD": -3.0,
+  "DDD_ci95": [
+   -20.0,
+   8.0
+  ],
+  "export_hour_share_2025_2026": [
+   0.04512697323266987,
+   0.22117364447494853
+  ]
+ }
+}

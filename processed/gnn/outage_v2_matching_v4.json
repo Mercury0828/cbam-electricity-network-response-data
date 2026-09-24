@@ -1,0 +1,22 @@
+{
+ "GB->NL": {
+  "blocks": 46,
+  "blocks_with_window": 23,
+  "windows": 86,
+  "requested": 230,
+  "relaxed": 0,
+  "failed": 144,
+  "window_hours": 8037,
+  "treated_hours": 6292
+ },
+ "GB->BE": {
+  "blocks": 9,
+  "blocks_with_window": 9,
+  "windows": 36,
+  "requested": 45,
+  "relaxed": 2,
+  "failed": 9,
+  "window_hours": 3307,
+  "treated_hours": 897
+ }
+}

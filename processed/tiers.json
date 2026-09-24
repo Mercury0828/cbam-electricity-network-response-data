@@ -1,0 +1,256 @@
+[
+ {
+  "year": 2025,
+  "border": "GB->NL",
+  "mwh_total": 2468923.0,
+  "A": {
+   "mis": 1146.0,
+   "ali": 0,
+   "mis_pct": 0.04641700044918371,
+   "ali_pct": 0.0,
+   "resolved_pct": 0.04641700044918371,
+   "mis_contrast_tco2": 500.0854099462996
+  },
+  "B": {
+   "mis": 19604.0,
+   "ali": 1875394.0,
+   "mis_pct": 0.7940304335129124,
+   "ali_pct": 75.96000361291138,
+   "resolved_pct": 76.7540340464243,
+   "mis_contrast_tco2": 12103.375834096665
+  },
+  "C": {
+   "mis": 390194.0,
+   "ali": 2017506.0,
+   "mis_pct": 15.80421908662198,
+   "ali_pct": 81.71603569653651,
+   "resolved_pct": 97.52025478315849,
+   "mis_contrast_tco2": 173473.70551816438
+  },
+  "B_mis_spread_gt_charge_pct": 14.032850438685982
+ },
+ {
+  "year": 2025,
+  "border": "GB->BE",
+  "mwh_total": 1752116.0,
+  "A": {
+   "mis": 374.0,
+   "ali": 0,
+   "mis_pct": 0.021345618669083553,
+   "ali_pct": 0.0,
+   "resolved_pct": 0.021345618669083553,
+   "mis_contrast_tco2": 120.2541247397548
+  },
+  "B": {
+   "mis": 0,
+   "ali": 1218041.0,
+   "mis_pct": 0.0,
+   "ali_pct": 69.51828531900856,
+   "resolved_pct": 69.51828531900856,
+   "mis_contrast_tco2": 0
+  },
+  "C": {
+   "mis": 1155.0,
+   "ali": 1314868.0,
+   "mis_pct": 0.06592029294864038,
+   "ali_pct": 75.04457467427956,
+   "resolved_pct": 75.11049496722819,
+   "mis_contrast_tco2": 371.37303228552884
+  },
+  "B_mis_spread_gt_charge_pct": null
+ },
+ {
+  "year": 2025,
+  "border": "GB->FR",
+  "mwh_total": 617649.0,
+  "A": {
+   "mis": 0,
+   "ali": 0,
+   "mis_pct": 0.0,
+   "ali_pct": 0.0,
+   "resolved_pct": 0.0,
+   "mis_contrast_tco2": 0
+  },
+  "B": {
+   "mis": 0,
+   "ali": 24375.0,
+   "mis_pct": 0.0,
+   "ali_pct": 3.9464161684063277,
+   "resolved_pct": 3.9464161684063277,
+   "mis_contrast_tco2": 0
+  },
+  "C": {
+   "mis": 3756.0,
+   "ali": 64629.0,
+   "mis_pct": 0.6081123745039658,
+   "ali_pct": 10.463709971197233,
+   "resolved_pct": 11.071822345701198,
+   "mis_contrast_tco2": 1258.4449166719717
+  },
+  "B_mis_spread_gt_charge_pct": null
+ },
+ {
+  "year": 2025,
+  "border": "RS->HU",
+  "mwh_total": 1120608.0,
+  "A": {
+   "mis": 0,
+   "ali": 62074.0,
+   "mis_pct": 0.0,
+   "ali_pct": 5.53931437219795,
+   "resolved_pct": 5.53931437219795,
+   "mis_contrast_tco2": 0
+  },
+  "B": {
+   "mis": 0,
+   "ali": 578129.0,
+   "mis_pct": 0.0,
+   "ali_pct": 51.59065435906222,
+   "resolved_pct": 51.59065435906222,
+   "mis_contrast_tco2": 0
+  },
+  "C": {
+   "mis": 430776.0,
+   "ali": 578129.0,
+   "mis_pct": 38.44127473657158,
+   "ali_pct": 51.59065435906222,
+   "resolved_pct": 90.0319290956338,
+   "mis_contrast_tco2": 40941.05746789875
+  },
+  "B_mis_spread_gt_charge_pct": null
+ },
+ {
+  "year": 2025,
+  "border": "D2-tierB",
+  "multi_dest_hours": 1464,
+  "opposite_hours": 0,
+  "opposite_mwh": 0
+ },
+ {
+  "year": 2026,
+  "border": "GB->NL",
+  "mwh_total": 1358580.0,
+  "A": {
+   "mis": 4714.0,
+   "ali": 0,
+   "mis_pct": 0.3469799349320614,
+   "ali_pct": 0.0,
+   "resolved_pct": 0.3469799349320614,
+   "mis_contrast_tco2": 2057.070351210053
+  },
+  "B": {
+   "mis": 32447.0,
+   "ali": 1074071.0,
+   "mis_pct": 2.3883024923081453,
+   "ali_pct": 79.05835504718162,
+   "resolved_pct": 81.44665753948976,
+   "mis_contrast_tco2": 15406.219210477953
+  },
+  "C": {
+   "mis": 179859.0,
+   "ali": 1162515.0,
+   "mis_pct": 13.238749282338913,
+   "ali_pct": 85.5683875811509,
+   "resolved_pct": 98.80713686348982,
+   "mis_contrast_tco2": 79733.08696872518
+  },
+  "B_mis_spread_gt_charge_pct": 28.55904450009632
+ },
+ {
+  "year": 2026,
+  "border": "GB->BE",
+  "mwh_total": 1006656.0,
+  "A": {
+   "mis": 0,
+   "ali": 0,
+   "mis_pct": 0.0,
+   "ali_pct": 0.0,
+   "resolved_pct": 0.0,
+   "mis_contrast_tco2": 0
+  },
+  "B": {
+   "mis": 0,
+   "ali": 731537.0,
+   "mis_pct": 0.0,
+   "ali_pct": 72.67000842393033,
+   "resolved_pct": 72.67000842393033,
+   "mis_contrast_tco2": 0
+  },
+  "C": {
+   "mis": 7714.0,
+   "ali": 757000.0,
+   "mis_pct": 0.766299510458389,
+   "ali_pct": 75.1994723122894,
+   "resolved_pct": 75.9657718227478,
+   "mis_contrast_tco2": 2480.321706539715
+  },
+  "B_mis_spread_gt_charge_pct": null
+ },
+ {
+  "year": 2026,
+  "border": "GB->FR",
+  "mwh_total": 197654.0,
+  "A": {
+   "mis": 0,
+   "ali": 0,
+   "mis_pct": 0.0,
+   "ali_pct": 0.0,
+   "resolved_pct": 0.0,
+   "mis_contrast_tco2": 0
+  },
+  "B": {
+   "mis": 0,
+   "ali": 1634.0,
+   "mis_pct": 0.0,
+   "ali_pct": 0.8266971576593442,
+   "resolved_pct": 0.8266971576593442,
+   "mis_contrast_tco2": 0
+  },
+  "C": {
+   "mis": 4069.0,
+   "ali": 28673.0,
+   "mis_pct": 2.0586479403401903,
+   "ali_pct": 14.50666315885335,
+   "resolved_pct": 16.56531109919354,
+   "mis_contrast_tco2": 1308.3262929573857
+  },
+  "B_mis_spread_gt_charge_pct": null
+ },
+ {
+  "year": 2026,
+  "border": "RS->HU",
+  "mwh_total": 595322.0,
+  "A": {
+   "mis": 0,
+   "ali": 8094.0,
+   "mis_pct": 0.0,
+   "ali_pct": 1.3596003507345604,
+   "resolved_pct": 1.3596003507345604,
+   "mis_contrast_tco2": 0
+  },
+  "B": {
+   "mis": 0,
+   "ali": 106908.0,
+   "mis_pct": 0.0,
+   "ali_pct": 17.95801263853847,
+   "resolved_pct": 17.95801263853847,
+   "mis_contrast_tco2": 0
+  },
+  "C": {
+   "mis": 488405.0,
+   "ali": 106908.0,
+   "mis_pct": 82.040475574563,
+   "ali_pct": 17.95801263853847,
+   "resolved_pct": 99.99848821310148,
+   "mis_contrast_tco2": 46423.70882673249
+  },
+  "B_mis_spread_gt_charge_pct": null
+ },
+ {
+  "year": 2026,
+  "border": "D2-tierB",
+  "multi_dest_hours": 950,
+  "opposite_hours": 4,
+  "opposite_mwh": 2746.0
+ }
+]

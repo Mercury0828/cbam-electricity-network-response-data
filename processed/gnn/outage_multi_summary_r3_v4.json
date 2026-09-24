@@ -1,0 +1,197 @@
+{
+ "links": [
+  "DE-SE",
+  "GR-IT",
+  "NL-NO",
+  "PL-SE",
+  "DK-NL",
+  "ME-IT",
+  "BE-DE",
+  "DE-NO",
+  "GB-NO",
+  "DK-GB"
+ ],
+ "events": {
+  "DE-SE": 19,
+  "GR-IT": 15,
+  "NL-NO": 10,
+  "PL-SE": 9,
+  "DK-NL": 9,
+  "ME-IT": 6,
+  "BE-DE": 3,
+  "DE-NO": 4,
+  "GB-NO": 4,
+  "DK-GB": 7
+ },
+ "effective_events": {
+  "DE-SE": 2.4513601528779554,
+  "GR-IT": 4.662588127476426,
+  "NL-NO": 2.0893746831248032,
+  "PL-SE": 2.4216022247325912,
+  "DK-NL": 6.171066060840858,
+  "ME-IT": 3.0077030717779296,
+  "BE-DE": 2.611364262880921,
+  "DE-NO": 2.1517560311438757,
+  "GB-NO": 1.8600705790590184,
+  "DK-GB": 3.8993285714050647
+ },
+ "events_total": 86,
+ "pattern": {
+  "links_other_links_over_half_one_end": 8,
+  "links_other_links_over_half_both_ends": 3,
+  "end_zones_own_output_below_half": 13,
+  "end_zones": 20
+ },
+ "support": {
+  "events_with_blocks": 72,
+  "blocks": 168,
+  "blocks_with_window": 112,
+  "pseudo_blocks": 492
+ },
+ "descriptive_without_german_end_zones": {
+  "graph": {
+   "rmse": 0.41278277824127785,
+   "n": 34
+  },
+  "one_for_one": {
+   "rmse": 0.7976887168458459,
+   "n": 34
+  }
+ },
+ "descriptive_largest_errors": {
+  "graph": {
+   "largest": [
+    [
+     2.259,
+     "DE-SE",
+     "DE",
+     "NIother_a"
+    ],
+    [
+     1.754,
+     "DE-SE",
+     "DE",
+     "R_a"
+    ],
+    [
+     1.39,
+     "BE-DE",
+     "DE",
+     "NIother_b"
+    ],
+    [
+     0.776,
+     "BE-DE",
+     "BE",
+     "NIother_a"
+    ],
+    [
+     0.773,
+     "GB-NO",
+     "GB",
+     "NIother_a"
+    ]
+   ],
+   "german_share_sq_error": 0.6452273817562743
+  },
+  "one_for_one": {
+   "largest": [
+    [
+     1.604,
+     "DE-SE",
+     "DE",
+     "NIother_a"
+    ],
+    [
+     1.579,
+     "BE-DE",
+     "BE",
+     "NIother_a"
+    ],
+    [
+     1.266,
+     "DE-NO",
+     "DE",
+     "NIother_a"
+    ],
+    [
+     1.25,
+     "BE-DE",
+     "BE",
+     "R_a"
+    ],
+    [
+     1.126,
+     "DE-NO",
+     "NO",
+     "R_b"
+    ]
+   ],
+   "german_share_sq_error": 0.22886647355646633
+  }
+ },
+ "A_block|graph": {
+  "rmse": 0.6389339807483555,
+  "inside_share": 0.6,
+  "pearson": 0.568950595363466,
+  "misses": {
+   "DE-SE": 1,
+   "GR-IT": 3,
+   "NL-NO": 2,
+   "PL-SE": 3,
+   "ME-IT": 1,
+   "BE-DE": 2,
+   "DE-NO": 1,
+   "GB-NO": 3
+  },
+  "n": 40
+ },
+ "A_block|one_for_one": {
+  "rmse": 0.8374870866393573,
+  "inside_share": 0.4,
+  "pearson": 0.3634247929303381,
+  "misses": {
+   "GR-IT": 3,
+   "PL-SE": 3,
+   "DK-NL": 4,
+   "ME-IT": 3,
+   "BE-DE": 2,
+   "DE-NO": 2,
+   "GB-NO": 3,
+   "DK-GB": 4
+  },
+  "n": 40
+ },
+ "B_block_hour|graph": {
+  "rmse": 1.2133938369486894,
+  "inside_share": 0.75,
+  "pearson": 0.37399053411970196,
+  "misses": {
+   "DE-SE": 2,
+   "GR-IT": 2,
+   "NL-NO": 1,
+   "PL-SE": 1,
+   "BE-DE": 1,
+   "DE-NO": 2,
+   "GB-NO": 1
+  },
+  "n": 40
+ },
+ "B_block_hour|one_for_one": {
+  "rmse": 1.2673224968198933,
+  "inside_share": 0.45,
+  "pearson": 0.32936378694135854,
+  "misses": {
+   "DE-SE": 1,
+   "GR-IT": 2,
+   "PL-SE": 2,
+   "DK-NL": 4,
+   "ME-IT": 2,
+   "BE-DE": 2,
+   "DE-NO": 2,
+   "GB-NO": 3,
+   "DK-GB": 4
+  },
+  "n": 40
+ }
+}

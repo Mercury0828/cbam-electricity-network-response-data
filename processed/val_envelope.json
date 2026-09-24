@@ -1,0 +1,29 @@
+{
+ "GB->NL": {
+  "n": 250,
+  "wider": 11,
+  "sign_diff": 0,
+  "above_diff": 0,
+  "newly_unresolved": 0,
+  "both_resolved": 244,
+  "max_widening": 0.07754999999379603
+ },
+ "GB->BE": {
+  "n": 250,
+  "wider": 1,
+  "sign_diff": 0,
+  "above_diff": 0,
+  "newly_unresolved": 0,
+  "both_resolved": 183,
+  "max_widening": 0.13304999998935596
+ },
+ "RS->HU": {
+  "n": 250,
+  "wider": 0,
+  "sign_diff": 0,
+  "above_diff": 0,
+  "newly_unresolved": 0,
+  "both_resolved": 250,
+  "max_widening": 0.0
+ }
+}

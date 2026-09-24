@@ -1,0 +1,279 @@
+[
+ {
+  "label": "GB->FR 2026 marginal_v2",
+  "border": "GB->FR",
+  "year": 2026,
+  "candidate_rule": "marginal_v2",
+  "intertemporal_policy": "unresolve",
+  "conditioned_on": "GB->FR export hours, all inputs present; NOT regime R1",
+  "export_hours": 227,
+  "hours_total": 5783,
+  "mwh_total": 179415.0,
+  "mwh_determined": 394.0,
+  "mwh_misdirected": 394.0,
+  "mwh_aligned": 0.0,
+  "determinacy_pct": 0.2196025973302121,
+  "labels": {
+   "UNDETERMINED": 190,
+   "UNRESOLVED": 36,
+   "DETERMINED-MISDIRECTED": 1
+  },
+  "validation": {
+   "determined_hours": 1,
+   "agreement_pct": 0.0,
+   "agreement_volume_pct": 0.0,
+   "coverage_failure_pct": 100.0,
+   "coverage_failure_volume_pct": 100.0,
+   "responders_outside": {
+    "exporter:GB_pumped": 1,
+    "importer:FR_hydro_res": 1
+   },
+   "validated_mwh_aligned": 0.0,
+   "validated_mwh_misdirected": 0.0,
+   "local_emission_contrast_tco2_misdirected": 0.0,
+   "local_emission_contrast_tco2_aligned": 0.0,
+   "gross_levy_exposure_proxy_eur_misdirected": 0.0,
+   "gross_levy_exposure_proxy_eur_aligned": 0.0,
+   "validated_determinacy_pct": 0.0
+  },
+  "determinacy_by_month_pct": {
+   "1": 0.0,
+   "3": 0.0,
+   "4": 0.0,
+   "6": 0.0,
+   "7": 0.0,
+   "8": 0.7484091556653053
+  }
+ },
+ {
+  "label": "GB->FR 2026 marginal_v3",
+  "border": "GB->FR",
+  "year": 2026,
+  "candidate_rule": "marginal_v3",
+  "intertemporal_policy": "unresolve",
+  "conditioned_on": "GB->FR export hours, all inputs present; NOT regime R1",
+  "export_hours": 227,
+  "hours_total": 5783,
+  "mwh_total": 179415.0,
+  "mwh_determined": 0.0,
+  "mwh_misdirected": 0.0,
+  "mwh_aligned": 0.0,
+  "determinacy_pct": 0.0,
+  "labels": {
+   "UNRESOLVED": 227
+  },
+  "validation": {
+   "determined_hours": 0,
+   "agreement_pct": null,
+   "agreement_volume_pct": null,
+   "coverage_failure_pct": null,
+   "coverage_failure_volume_pct": null,
+   "responders_outside": {},
+   "validated_mwh_aligned": 0.0,
+   "validated_mwh_misdirected": 0.0,
+   "local_emission_contrast_tco2_misdirected": 0.0,
+   "local_emission_contrast_tco2_aligned": 0.0,
+   "gross_levy_exposure_proxy_eur_misdirected": 0.0,
+   "gross_levy_exposure_proxy_eur_aligned": 0.0,
+   "validated_determinacy_pct": 0.0
+  },
+  "determinacy_by_month_pct": {
+   "1": 0.0,
+   "3": 0.0,
+   "4": 0.0,
+   "6": 0.0,
+   "7": 0.0,
+   "8": 0.0
+  }
+ },
+ {
+  "label": "GB->NL 2026 marginal_v2",
+  "border": "GB->NL",
+  "year": 2026,
+  "candidate_rule": "marginal_v2",
+  "intertemporal_policy": "unresolve",
+  "conditioned_on": "GB->FR export hours, all inputs present; NOT regime R1",
+  "export_hours": 2023,
+  "hours_total": 5808,
+  "mwh_total": 1358580.0,
+  "mwh_determined": 42382.0,
+  "mwh_misdirected": 42382.0,
+  "mwh_aligned": 0.0,
+  "determinacy_pct": 3.119580738712479,
+  "labels": {
+   "UNDETERMINED": 1878,
+   "UNRESOLVED": 87,
+   "DETERMINED-MISDIRECTED": 58
+  },
+  "validation": {
+   "determined_hours": 58,
+   "agreement_pct": 72.41379310344827,
+   "agreement_volume_pct": 72.3373130102402,
+   "coverage_failure_pct": 81.03448275862068,
+   "coverage_failure_volume_pct": 88.87735359350668,
+   "responders_outside": {
+    "exporter:GB_ccgt": 40,
+    "importer:NL_ccgt": 12,
+    "exporter:GB_pumped": 4
+   },
+   "validated_mwh_aligned": 0.0,
+   "validated_mwh_misdirected": 4714.0,
+   "local_emission_contrast_tco2_misdirected": 2057.070351210053,
+   "local_emission_contrast_tco2_aligned": 0.0,
+   "gross_levy_exposure_proxy_eur_misdirected": 152618.45519999994,
+   "gross_levy_exposure_proxy_eur_aligned": 0.0,
+   "validated_determinacy_pct": 0.3469799349320614
+  },
+  "determinacy_by_month_pct": {
+   "1": 0.7186282611261953,
+   "2": 0.46463735309885884,
+   "3": 12.09428051738076,
+   "4": 4.434707650529494,
+   "5": 0.8127075319430322,
+   "6": 2.097798647597505,
+   "7": 0.6431577657009766,
+   "8": 0.13240790176187933
+  }
+ },
+ {
+  "label": "GB->NL 2026 marginal_v3",
+  "border": "GB->NL",
+  "year": 2026,
+  "candidate_rule": "marginal_v3",
+  "intertemporal_policy": "unresolve",
+  "conditioned_on": "GB->FR export hours, all inputs present; NOT regime R1",
+  "export_hours": 2023,
+  "hours_total": 5808,
+  "mwh_total": 1358580.0,
+  "mwh_determined": 7582.0,
+  "mwh_misdirected": 7582.0,
+  "mwh_aligned": 0.0,
+  "determinacy_pct": 0.5580827039997645,
+  "labels": {
+   "UNRESOLVED": 1394,
+   "UNDETERMINED": 618,
+   "DETERMINED-MISDIRECTED": 11
+  },
+  "validation": {
+   "determined_hours": 11,
+   "agreement_pct": 90.9090909090909,
+   "agreement_volume_pct": 85.59746768662622,
+   "coverage_failure_pct": 36.36363636363637,
+   "coverage_failure_volume_pct": 54.52387232920074,
+   "responders_outside": {
+    "exporter:GB_ccgt": 4
+   },
+   "validated_mwh_aligned": 0.0,
+   "validated_mwh_misdirected": 3448.0,
+   "local_emission_contrast_tco2_misdirected": 1504.6199768720828,
+   "local_emission_contrast_tco2_aligned": 0.0,
+   "gross_levy_exposure_proxy_eur_misdirected": 111628.65359999999,
+   "gross_levy_exposure_proxy_eur_aligned": 0.0,
+   "validated_determinacy_pct": 0.2537944029795816
+  },
+  "determinacy_by_month_pct": {
+   "1": 0.0,
+   "2": 0.46463735309885884,
+   "3": 0.2278698464025869,
+   "4": 1.3586847288660209,
+   "5": 0.6683683989732724,
+   "6": 0.981613243427677,
+   "7": 0.0,
+   "8": 0.0
+  }
+ },
+ {
+  "label": "GB->BE 2026 marginal_v2",
+  "border": "GB->BE",
+  "year": 2026,
+  "candidate_rule": "marginal_v2",
+  "intertemporal_policy": "unresolve",
+  "conditioned_on": "GB->FR export hours, all inputs present; NOT regime R1",
+  "export_hours": 1816,
+  "hours_total": 5808,
+  "mwh_total": 1006656.0,
+  "mwh_determined": 1402.0,
+  "mwh_misdirected": 1402.0,
+  "mwh_aligned": 0.0,
+  "determinacy_pct": 0.13927299891919384,
+  "labels": {
+   "UNDETERMINED": 1569,
+   "UNRESOLVED": 243,
+   "DETERMINED-MISDIRECTED": 4
+  },
+  "validation": {
+   "determined_hours": 4,
+   "agreement_pct": 0.0,
+   "agreement_volume_pct": 0.0,
+   "coverage_failure_pct": 100.0,
+   "coverage_failure_volume_pct": 100.0,
+   "responders_outside": {
+    "exporter:GB_ccgt": 2,
+    "importer:BE_pumped": 2,
+    "exporter:GB_pumped": 2,
+    "importer:BE_battery": 2
+   },
+   "validated_mwh_aligned": 0.0,
+   "validated_mwh_misdirected": 0.0,
+   "local_emission_contrast_tco2_misdirected": 0.0,
+   "local_emission_contrast_tco2_aligned": 0.0,
+   "gross_levy_exposure_proxy_eur_misdirected": 0.0,
+   "gross_levy_exposure_proxy_eur_aligned": 0.0,
+   "validated_determinacy_pct": 0.0
+  },
+  "determinacy_by_month_pct": {
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.6407885084424827,
+   "5": 0.0,
+   "6": 0.0,
+   "7": 0.16293058848057573,
+   "8": 0.23367070405397933
+  }
+ },
+ {
+  "label": "GB->BE 2026 marginal_v3",
+  "border": "GB->BE",
+  "year": 2026,
+  "candidate_rule": "marginal_v3",
+  "intertemporal_policy": "unresolve",
+  "conditioned_on": "GB->FR export hours, all inputs present; NOT regime R1",
+  "export_hours": 1816,
+  "hours_total": 5808,
+  "mwh_total": 1006656.0,
+  "mwh_determined": 0.0,
+  "mwh_misdirected": 0.0,
+  "mwh_aligned": 0.0,
+  "determinacy_pct": 0.0,
+  "labels": {
+   "UNRESOLVED": 1639,
+   "UNDETERMINED": 177
+  },
+  "validation": {
+   "determined_hours": 0,
+   "agreement_pct": null,
+   "agreement_volume_pct": null,
+   "coverage_failure_pct": null,
+   "coverage_failure_volume_pct": null,
+   "responders_outside": {},
+   "validated_mwh_aligned": 0.0,
+   "validated_mwh_misdirected": 0.0,
+   "local_emission_contrast_tco2_misdirected": 0.0,
+   "local_emission_contrast_tco2_aligned": 0.0,
+   "gross_levy_exposure_proxy_eur_misdirected": 0.0,
+   "gross_levy_exposure_proxy_eur_aligned": 0.0,
+   "validated_determinacy_pct": 0.0
+  },
+  "determinacy_by_month_pct": {
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.0,
+   "6": 0.0,
+   "7": 0.0,
+   "8": 0.0
+  }
+ }
+]

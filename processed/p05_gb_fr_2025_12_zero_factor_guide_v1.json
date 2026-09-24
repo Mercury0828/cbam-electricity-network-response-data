@@ -1,0 +1,41 @@
+{
+  "border": "GB->FR",
+  "month": "2025-12",
+  "intertemporal_policy": "zero_factor",
+  "candidate_rule": "guide_v1",
+  "conditioned_on": "GB->FR export hours, all inputs present; NOT regime R1",
+  "labels": {
+    "UNDETERMINED-SIGN": 41,
+    "OUT-OF-SCOPE (no GB->FR export)": 699
+  },
+  "reasons": {
+    "emission intervals overlap": 41
+  },
+  "mwh_total": 35149.0,
+  "mwh_determined": 0.0,
+  "mwh_misdirected": 0.0,
+  "mwh_aligned": 0.0,
+  "determinacy_rate_pct": 0.0,
+  "eta_link_range": [
+    0.9705,
+    0.9883
+  ],
+  "p_co2_gb": 71.00837700000001,
+  "p_co2_fr": 83.9,
+  "gb_price_excluded": {
+    "GB_ccgt": 27,
+    "GB_hydro_ror": 41,
+    "GB_wind_on": 41,
+    "GB_wind_off": 41,
+    "GB_solar": 2
+  },
+  "fr_price_excluded": {
+    "FR_coal": 31,
+    "FR_oil": 40,
+    "FR_hydro_ror": 41,
+    "FR_wind_on": 41,
+    "FR_wind_off": 41,
+    "FR_solar": 41,
+    "FR_ccgt": 18
+  }
+}

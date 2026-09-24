@@ -1,0 +1,386 @@
+{
+ "C1.tau_ref_GBNL": [
+  -4.6933307885506474,
+  -0.43447563502148745
+ ],
+ "C1.u_GBNL": [
+  0.0,
+  0.7459366123406984
+ ],
+ "C1.positive_target_share": {
+  "GB->NL": 22.0053307968867,
+  "GB->BE": 6.518750843881513
+ },
+ "C1.positive_by_month": {
+  "GB->NL": {
+   "1": 39.12170936135049,
+   "2": 0.0,
+   "3": 99.69424589174874,
+   "4": 0.0,
+   "5": 0.0,
+   "6": 0.0
+  },
+  "GB->BE": {
+   "1": 2.8101071975497702,
+   "2": 0.0,
+   "3": 100.0,
+   "4": 1.8241201130934972,
+   "5": 0.0,
+   "6": 0.0
+  }
+ },
+ "C1.hourly_max_regret_credited": 3.8894360000000034,
+ "C1.gb_dispatch_carbon_march": 66.31479999999999,
+ "C1.cert_Q1": 75.36,
+ "C2.credited_regret_max_S26_all": 0.9292129815799854,
+ "C2.credited_regret_max_NOCPS_all": 8.770582297176718,
+ "C2.credited_regret_max_S26": 0.9292129815799854,
+ "C2.credited_regret_max_NOCPS": 8.061722616321024,
+ "C2.uncredited_regret_range": [
+  7.007275820357199,
+  38.4241341644906
+ ],
+ "C2.gross_regret_range": [
+  24.858150711026106,
+  38.4241341644906
+ ],
+ "C2.t4_ranking": {
+  "GB->NL/S26/K": "all-sources proxy + credit",
+  "GB->NL/S26/AEF": "hourly average factor + credit",
+  "GB->NL/S26/REG": "all-sources proxy + credit",
+  "GB->NL/NOCPS/K": "default + credit (exporter carbon cost)",
+  "GB->NL/NOCPS/AEF": "hourly average factor + credit",
+  "GB->NL/NOCPS/REG": "default + credit (exporter carbon cost)",
+  "GB->BE/S26/K": "all-sources proxy + credit",
+  "GB->BE/S26/AEF": "hourly average factor + credit",
+  "GB->BE/S26/REG": "all-sources proxy + credit",
+  "GB->BE/NOCPS/K": "default + credit (exporter carbon cost)",
+  "GB->BE/NOCPS/AEF": "hourly average factor + credit",
+  "GB->BE/NOCPS/REG": "default + credit (exporter carbon cost)"
+ },
+ "C2.t4_regrets": {
+  "GB->NL/S26/K": {
+   "gross default": 32.38766330374544,
+   "default + credit (exporter carbon cost)": 0.9045910706559607,
+   "hourly average factor + credit": 0.6097348054052633,
+   "all-sources proxy": 14.536788413076374,
+   "all-sources proxy + credit": 0.5381912368637249
+  },
+  "GB->NL/S26/AEF": {
+   "gross default": 32.31018466057926,
+   "default + credit (exporter carbon cost)": 0.6587870553792115,
+   "hourly average factor + credit": 0.13325840323370983,
+   "all-sources proxy": 14.459309769910234,
+   "all-sources proxy + credit": 0.2573842393652276
+  },
+  "GB->NL/S26/REG": {
+   "gross default": 32.084977732859194,
+   "default + credit (exporter carbon cost)": 0.4292368875374471,
+   "hourly average factor + credit": 0.16486774871463128,
+   "all-sources proxy": 14.234102842190149,
+   "all-sources proxy + credit": 0.02582846277834521
+  },
+  "GB->NL/NOCPS/K": {
+   "gross default": 28.24254744722969,
+   "default + credit (exporter carbon cost)": 4.971603102895545,
+   "hourly average factor + credit": 8.770582297176718,
+   "all-sources proxy": 10.391672556560696,
+   "all-sources proxy + credit": 8.003490057867094
+  },
+  "GB->NL/NOCPS/AEF": {
+   "gross default": 30.03565840442531,
+   "default + credit (exporter carbon cost)": 4.905192071459401,
+   "hourly average factor + credit": 0.4176023784232244,
+   "all-sources proxy": 12.184783513756342,
+   "all-sources proxy + credit": 1.5341314348971054
+  },
+  "GB->NL/NOCPS/REG": {
+   "gross default": 24.858150711026106,
+   "default + credit (exporter carbon cost)": 0.9047269225810929,
+   "hourly average factor + credit": 5.173404288264531,
+   "all-sources proxy": 7.007275820357199,
+   "all-sources proxy + credit": 4.385797437225532
+  },
+  "GB->BE/S26/K": {
+   "gross default": 32.38542844763769,
+   "default + credit (exporter carbon cost)": 0.28046406180675004,
+   "hourly average factor + credit": 0.1638558014868434,
+   "all-sources proxy": 14.53539544875522,
+   "all-sources proxy + credit": 0.14835837350296197
+  },
+  "GB->BE/S26/AEF": {
+   "gross default": 32.31523041125157,
+   "default + credit (exporter carbon cost)": 0.19583888667528768,
+   "hourly average factor + credit": 0.030391800470881497,
+   "all-sources proxy": 14.4651974123691,
+   "all-sources proxy + credit": 0.05715618840911789
+  },
+  "GB->BE/S26/REG": {
+   "gross default": 32.299888043976104,
+   "default + credit (exporter carbon cost)": 0.18049651939981576,
+   "hourly average factor + credit": 0.039920804867643274,
+   "all-sources proxy": 14.44985504509363,
+   "all-sources proxy + credit": 0.03347698871408764
+  },
+  "GB->BE/NOCPS/K": {
+   "gross default": 28.57727516098236,
+   "default + credit (exporter carbon cost)": 4.345228232035985,
+   "hourly average factor + credit": 7.2099091728425675,
+   "all-sources proxy": 10.727242162100017,
+   "all-sources proxy + credit": 7.04793310554803
+  },
+  "GB->BE/NOCPS/AEF": {
+   "gross default": 30.13942350640267,
+   "default + credit (exporter carbon cost)": 3.058255510103134,
+   "hourly average factor + credit": 0.1491446434849029,
+   "all-sources proxy": 12.28939050752027,
+   "all-sources proxy + credit": 0.7763612689802715
+  },
+  "GB->BE/NOCPS/REG": {
+   "gross default": 26.057722878672248,
+   "default + credit (exporter carbon cost)": 1.256876064665733,
+   "hourly average factor + credit": 4.159523815919809,
+   "all-sources proxy": 8.207689879789816,
+   "all-sources proxy + credit": 3.987993611582676
+  }
+ },
+ "C3.decomp_GBNL": {
+  "factor": [
+   -16.841985698644507,
+   7.623283956175137
+  ],
+  "credit": [
+   26.368066536750987,
+   52.41765368948237
+  ],
+  "importer": [
+   -0.6169113181115755,
+   0.9530258654105078
+  ]
+ },
+ "C4.material_share_GBNL": 19.50541065236603,
+ "C4.R_inf_cert": {
+  "GB->NL": [
+   0.0588841660997406,
+   0.2776811391434174
+  ],
+  "GB->BE": [
+   0.022111027022720352,
+   0.06587789687421419
+  ],
+  "RS->HU": [
+   1.0466170864727415,
+   1.0466170864727418
+  ]
+ },
+ "C4.R_inf_150_200": {
+  "s=150": {
+   "GB->NL": [
+    0.08018867225748792,
+    9.723837124926092
+   ],
+   "GB->BE": [
+    0.030110877280776726,
+    9.390514728256875
+   ],
+   "RS->HU": [
+    35.419424536913645,
+    35.41942453691366
+   ]
+  },
+  "s=200": {
+   "GB->NL": [
+    0.09446017959788683,
+    17.342978365612716
+   ],
+   "GB->BE": [
+    0.035469833777331164,
+    17.48080362722132
+   ],
+   "RS->HU": [
+    59.01720121861179,
+    59.0172012186118
+   ]
+  }
+ },
+ "C5.GBNL_mis_mwh_2026": 32447.0,
+ "C5.GBNL_total_mwh_2026": 1358580.0,
+ "C5.GBNL_mis_pct_2026": 2.3883024923081453,
+ "C6.edec_above": {
+  "2025 GB->NL": 100.0,
+  "2025 GB->BE": 98.83649556546254,
+  "2025 GB->FR": 32.32550391470931,
+  "2025 RS->HU": 100.0,
+  "2026 GB->NL": 100.0,
+  "2026 GB->BE": 99.54896399327187,
+  "2026 GB->FR": 83.36209021444417,
+  "2026 RS->HU": 100.0
+ },
+ "C6.pooled_2025": 99.67698552523892,
+ "C6.pooled_2026": 99.87431994657109,
+ "C7.flow_ddd": [
+  -2.5,
+  [
+   -5.0,
+   2.5
+  ]
+ ],
+ "C7.cap_post": [
+  -3.187657217421477,
+  [
+   -6.538058761583513,
+   0.09139467509211831
+  ]
+ ],
+ "C7.cap_P_gt0_pp": [
+  -16.55774554157484,
+  [
+   -22.1213434109881,
+   -12.148102689536174
+  ]
+ ],
+ "C7.cap_P_gt_c_pp": {
+  "0.0": [
+   -16.55774554157484,
+   [
+    -22.1213434109881,
+    -12.148102689536174
+   ]
+  ],
+  "1.0": [
+   -2.175597137832483,
+   [
+    -7.207672084689549,
+    3.20919126538749
+   ]
+  ],
+  "2.0": [
+   -1.6463044917217018,
+   [
+    -6.328164346858632,
+    3.498837184055942
+   ]
+  ],
+  "5.0": [
+   -0.48372648753811026,
+   [
+    -4.330740166893177,
+    4.905481688262469
+   ]
+  ],
+  "10.0": [
+   0.3861934584026017,
+   [
+    -3.529868248435352,
+    5.269211811007558
+   ]
+  ],
+  "20.0": [
+   -0.19772676528557634,
+   [
+    -3.294275934890637,
+    4.056876662719173
+   ]
+  ]
+ },
+ "C8.exposure": {
+  "GWh": 5662.303,
+  "gross_m": 183.39020161279942,
+  "credit_uka_cps_m": 3.752085228085994,
+  "credit_uka_m": 36.75911094617991,
+  "allsrc_m": 82.31234630528013
+ },
+ "C8.group_FR": {
+  "GWh": 161.525,
+  "L_gross_eur": 5.232594182400014,
+  "L_credit_uka_cps_eur": 0.039296427974,
+  "L_credit_uka_eur": 0.4604716352399991,
+  "L_allsources_proxy_eur": 2.3485829702399985
+ },
+ "C8.group_IE": {
+  "GWh": 2284.67,
+  "L_gross_eur": 73.99677191439945,
+  "L_credit_uka_cps_eur": 1.6685866945619952,
+  "L_credit_uka_eur": 14.781878042949938,
+  "L_allsources_proxy_eur": 33.21250460344014
+ },
+ "C9.RS_tau_ref_model": [
+  70.57904643749369,
+  85.43887829418739
+ ],
+ "C9.RS_eout_daily": 0.41484290450577566,
+ "C2.regime_scen_GBNL": {
+  "S26": {
+   "gross default": [
+    31.641726691404713,
+    32.38766330374544
+   ],
+   "default + credit": [
+    0.15865445831526215,
+    0.9045910706559607
+   ],
+   "all-sources proxy": [
+    13.790851800735673,
+    14.536788413076374
+   ],
+   "all-sources proxy + credit": [
+    0.07605892476341704,
+    0.5381912368637249
+   ]
+  },
+  "W27": {
+   "gross default": [
+    32.001932151627095,
+    32.13350616203892
+   ],
+   "default + credit": [
+    0.023396623791700585,
+    0.09156785849134746
+   ],
+   "all-sources proxy": [
+    14.217733916069506,
+    14.349307926481321
+   ],
+   "all-sources proxy + credit": [
+    0.05544905480443027,
+    0.1870230652162441
+   ]
+  },
+  "NOCPS": {
+   "gross default": [
+    21.263969152164364,
+    28.24254744722969
+   ],
+   "default + credit": [
+    0.3902861021841685,
+    4.971603102895545
+   ],
+   "all-sources proxy": [
+    3.8774290126645554,
+    10.391672556560696
+   ],
+   "all-sources proxy + credit": [
+    1.2879674306943498,
+    8.003490057867094
+   ]
+  },
+  "CONV": {
+   "gross default": [
+    32.2666887818134,
+    32.2666887818134
+   ],
+   "default + credit": [
+    0.0,
+    0.0
+   ],
+   "all-sources proxy": [
+    14.482490546255839,
+    14.482490546255839
+   ],
+   "all-sources proxy + credit": [
+    0.0,
+    0.0
+   ]
+  }
+ }
+}

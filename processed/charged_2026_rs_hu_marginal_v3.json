@@ -1,0 +1,45 @@
+{
+ "label": "RS->HU 2026 marginal_v3",
+ "border": "RS->HU",
+ "year": 2026,
+ "candidate_rule": "marginal_v3",
+ "intertemporal_policy": "unresolve",
+ "conditioned_on": "charged RS->HU import hours, all inputs present; NOT regime R1",
+ "import_hours": 2357,
+ "mwh_total": 595322.0,
+ "mwh_determined": 92684.0,
+ "mwh_misdirected": 76936.0,
+ "mwh_aligned": 15748.0,
+ "determinacy_pct": 15.56871743359056,
+ "labels": {
+  "UNDETERMINED": 734,
+  "DETERMINED-MISDIRECTED": 215,
+  "UNRESOLVED": 1291,
+  "DETERMINED-ALIGNED": 117
+ },
+ "validation": {
+  "determined_hours": 332,
+  "agreement_pct": 80.12048192771084,
+  "agreement_volume_pct": 88.37123991195891,
+  "coverage_failure_pct": 80.42168674698796,
+  "coverage_failure_volume_pct": 91.26602218290104,
+  "responders_outside": {
+   "exporter:RS_lignite": 215,
+   "importer:HU_ccgt": 13,
+   "importer:HU_lignite": 53
+  },
+  "validated_mwh_aligned": 8094.0,
+  "validated_mwh_misdirected": 0.0,
+  "validated_determinacy_pct": 1.3596003507345604
+ },
+ "determinacy_by_month_pct": {
+  "1": 17.9551962270507,
+  "2": 77.0979020979021,
+  "3": 15.374751271280124,
+  "4": 24.46835224508373,
+  "5": 18.292287751134154,
+  "6": 13.352941741880292,
+  "7": 14.336892136345902,
+  "8": 5.594850331307957
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "Nemo (BE)": {
+  "export_mwh": 805786.0,
+  "phys_binding_pct": 41.18761060629001,
+  "phys_binding_breakpoint_ge_G_pct": 5.5231786106981255,
+  "median_flow_over_allocated": 0.6137440758293838,
+  "phys_cap_spread_gt_G_pct": 11.306724117817883,
+  "phys_cap_spread_gt_2G_pct": 3.673059596468541
+ },
+ "IFA (FR)": {
+  "export_mwh": 72049.0,
+  "phys_binding_pct": 0.0,
+  "phys_binding_breakpoint_ge_G_pct": 0.0,
+  "median_flow_over_allocated": 0.19066147859922178,
+  "phys_cap_spread_gt_G_pct": 0.0,
+  "phys_cap_spread_gt_2G_pct": 0.0
+ },
+ "IFA2 (FR)": {
+  "export_mwh": 58159.0,
+  "phys_binding_pct": 0.0,
+  "phys_binding_breakpoint_ge_G_pct": 0.0,
+  "median_flow_over_allocated": 0.015296367112810707,
+  "phys_cap_spread_gt_G_pct": 0.0,
+  "phys_cap_spread_gt_2G_pct": 0.0
+ },
+ "ElecLink (FR)": {
+  "export_mwh": 31317.0,
+  "phys_binding_pct": 0.0,
+  "phys_binding_breakpoint_ge_G_pct": 0.0,
+  "median_flow_over_allocated": 0.19822222222222222,
+  "phys_cap_spread_gt_G_pct": 0.0,
+  "phys_cap_spread_gt_2G_pct": 0.0
+ },
+ "Viking (DK1)": {
+  "export_mwh": 1266708.0,
+  "phys_binding_pct": 44.501810993536,
+  "phys_binding_breakpoint_ge_G_pct": 5.955200409249803,
+  "median_flow_over_allocated": 0.7589285714285714,
+  "phys_cap_spread_gt_G_pct": 13.8334170148132,
+  "phys_cap_spread_gt_2G_pct": 4.949522699785586
+ }
+}

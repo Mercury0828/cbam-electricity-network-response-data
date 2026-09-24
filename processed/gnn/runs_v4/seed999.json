@@ -1,0 +1,11 @@
+{
+ "note": "run stopped by CUDA OOM (another project exhausted the commit limit) after 24 of 30 epochs; the saved checkpoint is the best epoch up to that point",
+ "epochs_completed": 24,
+ "best_val_gen": 0.0158,
+ "best_epoch": 23,
+ "last_lines": [
+  "seed999 ep 21 train [0.0164 0.0106] val gen 0.0160 price 0.0064 (127s)",
+  "seed999 ep 22 train [0.0161 0.011 ] val gen 0.0163 price 0.0066 (127s)",
+  "seed999 ep 23 train [0.0159 0.011 ] val gen 0.0158 price 0.0064 (138s)"
+ ]
+}

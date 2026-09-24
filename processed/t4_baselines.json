@@ -1,0 +1,198 @@
+{
+ "GB->NL": {
+  "S26/K": {
+   "worst_case_regret": {
+    "gross default": 32.38766330374544,
+    "default + credit (exporter carbon cost)": 0.9045910706559607,
+    "hourly average factor + credit": 0.6097348054052633,
+    "all-sources proxy": 14.536788413076374,
+    "all-sources proxy + credit": 0.5381912368637249
+   },
+   "ranking": [
+    "all-sources proxy + credit",
+    "hourly average factor + credit",
+    "default + credit (exporter carbon cost)",
+    "all-sources proxy",
+    "gross default"
+   ]
+  },
+  "S26/AEF": {
+   "worst_case_regret": {
+    "gross default": 32.31018466057926,
+    "default + credit (exporter carbon cost)": 0.6587870553792115,
+    "hourly average factor + credit": 0.13325840323370983,
+    "all-sources proxy": 14.459309769910234,
+    "all-sources proxy + credit": 0.2573842393652276
+   },
+   "ranking": [
+    "hourly average factor + credit",
+    "all-sources proxy + credit",
+    "default + credit (exporter carbon cost)",
+    "all-sources proxy",
+    "gross default"
+   ]
+  },
+  "S26/REG": {
+   "worst_case_regret": {
+    "gross default": 32.084977732859194,
+    "default + credit (exporter carbon cost)": 0.4292368875374471,
+    "hourly average factor + credit": 0.16486774871463128,
+    "all-sources proxy": 14.234102842190149,
+    "all-sources proxy + credit": 0.02582846277834521
+   },
+   "ranking": [
+    "all-sources proxy + credit",
+    "hourly average factor + credit",
+    "default + credit (exporter carbon cost)",
+    "all-sources proxy",
+    "gross default"
+   ]
+  },
+  "NOCPS/K": {
+   "worst_case_regret": {
+    "gross default": 28.24254744722969,
+    "default + credit (exporter carbon cost)": 4.971603102895545,
+    "hourly average factor + credit": 8.770582297176718,
+    "all-sources proxy": 10.391672556560696,
+    "all-sources proxy + credit": 8.003490057867094
+   },
+   "ranking": [
+    "default + credit (exporter carbon cost)",
+    "all-sources proxy + credit",
+    "hourly average factor + credit",
+    "all-sources proxy",
+    "gross default"
+   ]
+  },
+  "NOCPS/AEF": {
+   "worst_case_regret": {
+    "gross default": 30.03565840442531,
+    "default + credit (exporter carbon cost)": 4.905192071459401,
+    "hourly average factor + credit": 0.4176023784232244,
+    "all-sources proxy": 12.184783513756342,
+    "all-sources proxy + credit": 1.5341314348971054
+   },
+   "ranking": [
+    "hourly average factor + credit",
+    "all-sources proxy + credit",
+    "default + credit (exporter carbon cost)",
+    "all-sources proxy",
+    "gross default"
+   ]
+  },
+  "NOCPS/REG": {
+   "worst_case_regret": {
+    "gross default": 24.858150711026106,
+    "default + credit (exporter carbon cost)": 0.9047269225810929,
+    "hourly average factor + credit": 5.173404288264531,
+    "all-sources proxy": 7.007275820357199,
+    "all-sources proxy + credit": 4.385797437225532
+   },
+   "ranking": [
+    "default + credit (exporter carbon cost)",
+    "all-sources proxy + credit",
+    "hourly average factor + credit",
+    "all-sources proxy",
+    "gross default"
+   ]
+  }
+ },
+ "GB->BE": {
+  "S26/K": {
+   "worst_case_regret": {
+    "gross default": 32.38542844763769,
+    "default + credit (exporter carbon cost)": 0.28046406180675004,
+    "hourly average factor + credit": 0.1638558014868434,
+    "all-sources proxy": 14.53539544875522,
+    "all-sources proxy + credit": 0.14835837350296197
+   },
+   "ranking": [
+    "all-sources proxy + credit",
+    "hourly average factor + credit",
+    "default + credit (exporter carbon cost)",
+    "all-sources proxy",
+    "gross default"
+   ]
+  },
+  "S26/AEF": {
+   "worst_case_regret": {
+    "gross default": 32.31523041125157,
+    "default + credit (exporter carbon cost)": 0.19583888667528768,
+    "hourly average factor + credit": 0.030391800470881497,
+    "all-sources proxy": 14.4651974123691,
+    "all-sources proxy + credit": 0.05715618840911789
+   },
+   "ranking": [
+    "hourly average factor + credit",
+    "all-sources proxy + credit",
+    "default + credit (exporter carbon cost)",
+    "all-sources proxy",
+    "gross default"
+   ]
+  },
+  "S26/REG": {
+   "worst_case_regret": {
+    "gross default": 32.299888043976104,
+    "default + credit (exporter carbon cost)": 0.18049651939981576,
+    "hourly average factor + credit": 0.039920804867643274,
+    "all-sources proxy": 14.44985504509363,
+    "all-sources proxy + credit": 0.03347698871408764
+   },
+   "ranking": [
+    "all-sources proxy + credit",
+    "hourly average factor + credit",
+    "default + credit (exporter carbon cost)",
+    "all-sources proxy",
+    "gross default"
+   ]
+  },
+  "NOCPS/K": {
+   "worst_case_regret": {
+    "gross default": 28.57727516098236,
+    "default + credit (exporter carbon cost)": 4.345228232035985,
+    "hourly average factor + credit": 7.2099091728425675,
+    "all-sources proxy": 10.727242162100017,
+    "all-sources proxy + credit": 7.04793310554803
+   },
+   "ranking": [
+    "default + credit (exporter carbon cost)",
+    "all-sources proxy + credit",
+    "hourly average factor + credit",
+    "all-sources proxy",
+    "gross default"
+   ]
+  },
+  "NOCPS/AEF": {
+   "worst_case_regret": {
+    "gross default": 30.13942350640267,
+    "default + credit (exporter carbon cost)": 3.058255510103134,
+    "hourly average factor + credit": 0.1491446434849029,
+    "all-sources proxy": 12.28939050752027,
+    "all-sources proxy + credit": 0.7763612689802715
+   },
+   "ranking": [
+    "hourly average factor + credit",
+    "all-sources proxy + credit",
+    "default + credit (exporter carbon cost)",
+    "all-sources proxy",
+    "gross default"
+   ]
+  },
+  "NOCPS/REG": {
+   "worst_case_regret": {
+    "gross default": 26.057722878672248,
+    "default + credit (exporter carbon cost)": 1.256876064665733,
+    "hourly average factor + credit": 4.159523815919809,
+    "all-sources proxy": 8.207689879789816,
+    "all-sources proxy + credit": 3.987993611582676
+   },
+   "ranking": [
+    "default + credit (exporter carbon cost)",
+    "all-sources proxy + credit",
+    "hourly average factor + credit",
+    "all-sources proxy",
+    "gross default"
+   ]
+  }
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "pooled_DDD": -2.5,
+ "ci95": [
+  -5.0,
+  2.5
+ ],
+ "n_boot": 300,
+ "gross_charge": 32.39,
+ "upper_bound_share_of_gross": 0.07718431614695893
+}

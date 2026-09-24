@@ -1,0 +1,58 @@
+{
+ "Nemo (BE)": {
+  "export_hours": 1377,
+  "export_mwh": 805786.0,
+  "market_cert_pct": 96.75496968177656,
+  "model_cert_pct": 0.0,
+  "both_pct": 0.0,
+  "both_2G_pct": 0.0,
+  "responsive_pct": 0.307774024368753,
+  "market_cert_median_breakpoint_eur": 3.04,
+  "market_cert_share_breakpoint_ge_G": 0.07548118485758776
+ },
+ "IFA (FR)": {
+  "export_hours": 171,
+  "export_mwh": 72049.0,
+  "market_cert_pct": 76.76997598856335,
+  "model_cert_pct": 0.0,
+  "both_pct": 0.0,
+  "both_2G_pct": 0.0,
+  "responsive_pct": 1.3990478701994475,
+  "market_cert_median_breakpoint_eur": 0.06,
+  "market_cert_share_breakpoint_ge_G": 0.0
+ },
+ "IFA2 (FR)": {
+  "export_hours": 517,
+  "export_mwh": 58159.0,
+  "market_cert_pct": 81.96323870768067,
+  "model_cert_pct": 0.0,
+  "both_pct": 0.0,
+  "both_2G_pct": 0.0,
+  "responsive_pct": 0.5570934851011882,
+  "market_cert_median_breakpoint_eur": 0.06,
+  "market_cert_share_breakpoint_ge_G": 0.0
+ },
+ "ElecLink (FR)": {
+  "export_hours": 108,
+  "export_mwh": 31317.0,
+  "market_cert_pct": 98.7546699875467,
+  "model_cert_pct": 0.0,
+  "both_pct": 0.0,
+  "both_2G_pct": 0.0,
+  "responsive_pct": 0.0,
+  "market_cert_median_breakpoint_eur": 0.35,
+  "market_cert_share_breakpoint_ge_G": 0.0
+ },
+ "Viking (DK1)": {
+  "export_hours": 1599,
+  "export_mwh": 1266708.0,
+  "market_cert_pct": 93.10638284434928,
+  "model_cert_pct": 0.0,
+  "both_pct": 0.0,
+  "both_2G_pct": 0.0,
+  "responsive_pct": 0.0,
+  "market_cert_median_breakpoint_eur": 3.14,
+  "market_cert_share_breakpoint_ge_G": 0.08054954018446887
+ },
+ "P-D21a": "FALSIFIED"
+}

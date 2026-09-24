@@ -1,0 +1,232 @@
+{
+ "base": {
+  "GB->NL": {
+   "S26": {
+    "regret": {
+     "gross default": 32.38766330374544,
+     "default + credit": 0.9045910706559607,
+     "all-sources proxy": 14.536788413076374,
+     "all-sources proxy + credit": 0.5381912368637249
+    },
+    "best": "all-sources proxy + credit",
+    "resolved_mwh": 1127036.0
+   },
+   "NOCPS": {
+    "regret": {
+     "gross default": 28.24254744722969,
+     "default + credit": 4.971603102895545,
+     "all-sources proxy": 10.391672556560696,
+     "all-sources proxy + credit": 8.003490057867094
+    },
+    "best": "default + credit",
+    "resolved_mwh": 1127036.0
+   }
+  },
+  "GB->BE": {
+   "S26": {
+    "regret": {
+     "gross default": 32.38542844763769,
+     "default + credit": 0.28046406180675004,
+     "all-sources proxy": 14.53539544875522,
+     "all-sources proxy + credit": 0.14835837350296197
+    },
+    "best": "all-sources proxy + credit",
+    "resolved_mwh": 614719.0
+   },
+   "NOCPS": {
+    "regret": {
+     "gross default": 28.57727516098236,
+     "default + credit": 4.345228232035985,
+     "all-sources proxy": 10.727242162100017,
+     "all-sources proxy + credit": 7.04793310554803
+    },
+    "best": "default + credit",
+    "resolved_mwh": 614719.0
+   }
+  }
+ },
+ "no_cps": {
+  "GB->NL": {
+   "S26": {
+    "regret": {
+     "gross default": 28.24254744722969,
+     "default + credit": 4.971603102895545,
+     "all-sources proxy": 10.391672556560696,
+     "all-sources proxy + credit": 8.003490057867094
+    },
+    "best": "default + credit",
+    "resolved_mwh": 1127036.0
+   },
+   "NOCPS": {
+    "regret": {
+     "gross default": 28.24254744722969,
+     "default + credit": 4.971603102895545,
+     "all-sources proxy": 10.391672556560696,
+     "all-sources proxy + credit": 8.003490057867094
+    },
+    "best": "default + credit",
+    "resolved_mwh": 1127036.0
+   }
+  },
+  "GB->BE": {
+   "S26": {
+    "regret": {
+     "gross default": 28.57727516098236,
+     "default + credit": 4.345228232035985,
+     "all-sources proxy": 10.727242162100017,
+     "all-sources proxy + credit": 7.04793310554803
+    },
+    "best": "default + credit",
+    "resolved_mwh": 614719.0
+   },
+   "NOCPS": {
+    "regret": {
+     "gross default": 28.57727516098236,
+     "default + credit": 4.345228232035985,
+     "all-sources proxy": 10.727242162100017,
+     "all-sources proxy + credit": 7.04793310554803
+    },
+    "best": "default + credit",
+    "resolved_mwh": 614719.0
+   }
+  }
+ },
+ "joint": {
+  "GB->NL": {
+   "S26": {
+    "regret": {
+     "gross default": 32.296317285884896,
+     "default + credit": 0.7941927414821195,
+     "all-sources proxy": 14.44544239521584,
+     "all-sources proxy + credit": 0.3907843167230147
+    },
+    "best": "all-sources proxy + credit",
+    "resolved_mwh": 1127036.0
+   },
+   "NOCPS": {
+    "regret": {
+     "gross default": 27.562728833563682,
+     "default + credit": 4.3198390853675175,
+     "all-sources proxy": 9.71185394289472,
+     "all-sources proxy + credit": 7.300006221089656
+    },
+    "best": "default + credit",
+    "resolved_mwh": 1127036.0
+   }
+  },
+  "GB->BE": {
+   "S26": {
+    "regret": {
+     "gross default": 32.34212542117603,
+     "default + credit": 0.22300209678129052,
+     "all-sources proxy": 14.492092422293563,
+     "all-sources proxy + credit": 0.07699966833251924
+    },
+    "best": "all-sources proxy + credit",
+    "resolved_mwh": 614719.0
+   },
+   "NOCPS": {
+    "regret": {
+     "gross default": 27.97384168932613,
+     "default + credit": 3.747982880019852,
+     "all-sources proxy": 10.123808690443775,
+     "all-sources proxy + credit": 6.4565394017673805
+    },
+    "best": "default + credit",
+    "resolved_mwh": 614719.0
+   }
+  }
+ },
+ "exclude": {
+  "GB->NL": {
+   "S26": {
+    "regret": {
+     "gross default": 32.388182686465626,
+     "default + credit": 0.9292129815799854,
+     "all-sources proxy": 14.537021531367067,
+     "all-sources proxy + credit": 0.5533852957351557
+    },
+    "best": "all-sources proxy + credit",
+    "resolved_mwh": 1081674.0
+   },
+   "NOCPS": {
+    "regret": {
+     "gross default": 28.237570517105787,
+     "default + credit": 5.003360061394936,
+     "all-sources proxy": 10.386409362007292,
+     "all-sources proxy + credit": 8.061722616321024
+    },
+    "best": "default + credit",
+    "resolved_mwh": 1081674.0
+   }
+  },
+  "GB->BE": {
+   "S26": {
+    "regret": {
+     "gross default": 32.38632600288809,
+     "default + credit": 0.294209584660046,
+     "all-sources proxy": 14.535769042401661,
+     "all-sources proxy + credit": 0.15583785366318284
+    },
+    "best": "all-sources proxy + credit",
+    "resolved_mwh": 571802.0
+   },
+   "NOCPS": {
+    "regret": {
+     "gross default": 28.594969948401403,
+     "default + credit": 4.380251473273913,
+     "all-sources proxy": 10.744412987915116,
+     "all-sources proxy + credit": 7.100245399293389
+    },
+    "best": "default + credit",
+    "resolved_mwh": 571802.0
+   }
+  }
+ },
+ "no_floor": {
+  "GB->NL": {
+   "S26": {
+    "regret": {
+     "gross default": 37.08099409229601,
+     "default + credit": 5.425253246974333,
+     "all-sources proxy": 19.230119201627076,
+     "all-sources proxy + credit": 5.021844822215231
+    },
+    "best": "all-sources proxy + credit",
+    "resolved_mwh": 1127036.0
+   },
+   "NOCPS": {
+    "regret": {
+     "gross default": 28.250847424795282,
+     "default + credit": 4.979903080461138,
+     "all-sources proxy": 10.399972534126288,
+     "all-sources proxy + credit": 8.011790035432686
+    },
+    "best": "default + credit",
+    "resolved_mwh": 1127036.0
+   }
+  },
+  "GB->BE": {
+   "S26": {
+    "regret": {
+     "gross default": 38.4241341644906,
+     "default + credit": 6.305010840095985,
+     "all-sources proxy": 20.574101165608248,
+     "all-sources proxy + credit": 6.159008411647202
+    },
+    "best": "all-sources proxy + credit",
+    "resolved_mwh": 614719.0
+   },
+   "NOCPS": {
+    "regret": {
+     "gross default": 28.57727516098236,
+     "default + credit": 4.345228232035985,
+     "all-sources proxy": 10.727242162100017,
+     "all-sources proxy + credit": 7.04793310554803
+    },
+    "best": "default + credit",
+    "resolved_mwh": 614719.0
+   }
+  }
+ }
+}

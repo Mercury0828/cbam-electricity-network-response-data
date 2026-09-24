@@ -1,0 +1,362 @@
+{
+ "GB->NL|graph|A_block|plus|output": {
+  "rmse": 0.15466583776819084,
+  "inside_share": 0.8888888888888888,
+  "n": 27
+ },
+ "GB->NL|graph|A_block|plus|output_trade": {
+  "rmse": 0.15975071517217498,
+  "inside_share": 0.896551724137931,
+  "n": 29
+ },
+ "GB->NL|graph|A_block|plus|emissions": {
+  "rmse": 0.07573103916424606,
+  "inside_share": 0.9259259259259259,
+  "n": 27
+ },
+ "GB->NL|graph|A_block|minus|output": {
+  "rmse": 0.17778904623412906,
+  "inside_share": 0.9629629629629629,
+  "n": 27
+ },
+ "GB->NL|graph|A_block|minus|output_trade": {
+  "rmse": 0.17564124809090412,
+  "inside_share": 0.9655172413793104,
+  "n": 29
+ },
+ "GB->NL|graph|A_block|minus|emissions": {
+  "rmse": 0.1593905798952733,
+  "inside_share": 0.8518518518518519,
+  "n": 27
+ },
+ "GB->NL|graph|A_block|pooled|output": {
+  "rmse": 0.10246014420042558,
+  "inside_share": 0.8888888888888888,
+  "n": 27
+ },
+ "GB->NL|graph|A_block|pooled|output_trade": {
+  "rmse": 0.09911879209714627,
+  "inside_share": 0.896551724137931,
+  "n": 29
+ },
+ "GB->NL|graph|A_block|pooled|emissions": {
+  "rmse": 0.08233768746248542,
+  "inside_share": 0.8888888888888888,
+  "n": 27
+ },
+ "GB->NL|graph|B_block_hour|plus|output": {
+  "rmse": 0.20984881805209435,
+  "inside_share": 0.8518518518518519,
+  "n": 27
+ },
+ "GB->NL|graph|B_block_hour|plus|output_trade": {
+  "rmse": 0.20718335323298478,
+  "inside_share": 0.8620689655172413,
+  "n": 29
+ },
+ "GB->NL|graph|B_block_hour|plus|emissions": {
+  "rmse": 0.16574786470425742,
+  "inside_share": 0.8518518518518519,
+  "n": 27
+ },
+ "GB->NL|graph|B_block_hour|minus|output": {
+  "rmse": 0.2844917990993523,
+  "inside_share": 0.9629629629629629,
+  "n": 27
+ },
+ "GB->NL|graph|B_block_hour|minus|output_trade": {
+  "rmse": 0.28528882646584575,
+  "inside_share": 0.9655172413793104,
+  "n": 29
+ },
+ "GB->NL|graph|B_block_hour|minus|emissions": {
+  "rmse": 0.22863542429225703,
+  "inside_share": 0.8148148148148148,
+  "n": 27
+ },
+ "GB->NL|graph|B_block_hour|pooled|output": {
+  "rmse": 0.15855523974192842,
+  "inside_share": 0.9629629629629629,
+  "n": 27
+ },
+ "GB->NL|graph|B_block_hour|pooled|output_trade": {
+  "rmse": 0.16459735294971106,
+  "inside_share": 0.9655172413793104,
+  "n": 29
+ },
+ "GB->NL|graph|B_block_hour|pooled|emissions": {
+  "rmse": 0.10141570054008221,
+  "inside_share": 0.8888888888888888,
+  "n": 27
+ },
+ "GB->NL|one_for_one|A_block|plus|output": {
+  "rmse": 0.2659914879802105,
+  "inside_share": 0.8148148148148148,
+  "n": 27
+ },
+ "GB->NL|one_for_one|A_block|plus|output_trade": {
+  "rmse": 0.3308305091271016,
+  "inside_share": 0.7931034482758621,
+  "n": 29
+ },
+ "GB->NL|one_for_one|A_block|plus|emissions": {
+  "rmse": 0.1205151465012085,
+  "inside_share": 0.8518518518518519,
+  "n": 27
+ },
+ "GB->NL|one_for_one|A_block|minus|output": {
+  "rmse": 0.21668318048333643,
+  "inside_share": 0.8888888888888888,
+  "n": 27
+ },
+ "GB->NL|one_for_one|A_block|minus|output_trade": {
+  "rmse": 0.22649012710621635,
+  "inside_share": 0.896551724137931,
+  "n": 29
+ },
+ "GB->NL|one_for_one|A_block|minus|emissions": {
+  "rmse": 0.19396643811336384,
+  "inside_share": 0.8148148148148148,
+  "n": 27
+ },
+ "GB->NL|one_for_one|A_block|pooled|output": {
+  "rmse": 0.18461960300278443,
+  "inside_share": 0.8518518518518519,
+  "n": 27
+ },
+ "GB->NL|one_for_one|A_block|pooled|output_trade": {
+  "rmse": 0.21854657040321152,
+  "inside_share": 0.8620689655172413,
+  "n": 29
+ },
+ "GB->NL|one_for_one|A_block|pooled|emissions": {
+  "rmse": 0.13056324026088575,
+  "inside_share": 0.8148148148148148,
+  "n": 27
+ },
+ "GB->NL|one_for_one|B_block_hour|plus|output": {
+  "rmse": 0.27895131467632933,
+  "inside_share": 0.8148148148148148,
+  "n": 27
+ },
+ "GB->NL|one_for_one|B_block_hour|plus|output_trade": {
+  "rmse": 0.3239315939056677,
+  "inside_share": 0.7931034482758621,
+  "n": 29
+ },
+ "GB->NL|one_for_one|B_block_hour|plus|emissions": {
+  "rmse": 0.18776539863108085,
+  "inside_share": 0.7777777777777778,
+  "n": 27
+ },
+ "GB->NL|one_for_one|B_block_hour|minus|output": {
+  "rmse": 0.3034290305507477,
+  "inside_share": 0.9259259259259259,
+  "n": 27
+ },
+ "GB->NL|one_for_one|B_block_hour|minus|output_trade": {
+  "rmse": 0.30444628326552575,
+  "inside_share": 0.9310344827586207,
+  "n": 29
+ },
+ "GB->NL|one_for_one|B_block_hour|minus|emissions": {
+  "rmse": 0.2556910684130316,
+  "inside_share": 0.8148148148148148,
+  "n": 27
+ },
+ "GB->NL|one_for_one|B_block_hour|pooled|output": {
+  "rmse": 0.1949949566598414,
+  "inside_share": 0.9629629629629629,
+  "n": 27
+ },
+ "GB->NL|one_for_one|B_block_hour|pooled|output_trade": {
+  "rmse": 0.21376560855174495,
+  "inside_share": 0.9655172413793104,
+  "n": 29
+ },
+ "GB->NL|one_for_one|B_block_hour|pooled|emissions": {
+  "rmse": 0.1396401717986464,
+  "inside_share": 0.8518518518518519,
+  "n": 27
+ },
+ "GB->BE|graph|A_block|plus|output": {
+  "rmse": 0.24117038939884816,
+  "inside_share": 0.8888888888888888,
+  "n": 27
+ },
+ "GB->BE|graph|A_block|plus|output_trade": {
+  "rmse": 0.2714798173996727,
+  "inside_share": 0.8620689655172413,
+  "n": 29
+ },
+ "GB->BE|graph|A_block|plus|emissions": {
+  "rmse": 0.10186265215179725,
+  "inside_share": 0.8888888888888888,
+  "n": 27
+ },
+ "GB->BE|graph|A_block|minus|output": {
+  "rmse": 0.29573648530892577,
+  "inside_share": 0.8888888888888888,
+  "n": 27
+ },
+ "GB->BE|graph|A_block|minus|output_trade": {
+  "rmse": 0.310732655165062,
+  "inside_share": 0.896551724137931,
+  "n": 29
+ },
+ "GB->BE|graph|A_block|minus|emissions": {
+  "rmse": 0.1588864682001214,
+  "inside_share": 0.9629629629629629,
+  "n": 27
+ },
+ "GB->BE|graph|A_block|pooled|output": {
+  "rmse": 0.14176831827056122,
+  "inside_share": 0.9259259259259259,
+  "n": 27
+ },
+ "GB->BE|graph|A_block|pooled|output_trade": {
+  "rmse": 0.13947983028194014,
+  "inside_share": 0.9310344827586207,
+  "n": 29
+ },
+ "GB->BE|graph|A_block|pooled|emissions": {
+  "rmse": 0.09422505233601078,
+  "inside_share": 0.8148148148148148,
+  "n": 27
+ },
+ "GB->BE|graph|B_block_hour|plus|output": {
+  "rmse": 0.41807979305373977,
+  "inside_share": 0.8888888888888888,
+  "n": 27
+ },
+ "GB->BE|graph|B_block_hour|plus|output_trade": {
+  "rmse": 0.4919981989081983,
+  "inside_share": 0.896551724137931,
+  "n": 29
+ },
+ "GB->BE|graph|B_block_hour|plus|emissions": {
+  "rmse": 0.17803377026116737,
+  "inside_share": 0.8518518518518519,
+  "n": 27
+ },
+ "GB->BE|graph|B_block_hour|minus|output": {
+  "rmse": 0.330029960185685,
+  "inside_share": 0.9629629629629629,
+  "n": 27
+ },
+ "GB->BE|graph|B_block_hour|minus|output_trade": {
+  "rmse": 0.3744690995206618,
+  "inside_share": 0.9655172413793104,
+  "n": 29
+ },
+ "GB->BE|graph|B_block_hour|minus|emissions": {
+  "rmse": 0.14980134013587576,
+  "inside_share": 0.9259259259259259,
+  "n": 27
+ },
+ "GB->BE|graph|B_block_hour|pooled|output": {
+  "rmse": 0.20888379402778395,
+  "inside_share": 0.9629629629629629,
+  "n": 27
+ },
+ "GB->BE|graph|B_block_hour|pooled|output_trade": {
+  "rmse": 0.2030450344746314,
+  "inside_share": 0.9655172413793104,
+  "n": 29
+ },
+ "GB->BE|graph|B_block_hour|pooled|emissions": {
+  "rmse": 0.12677575816968914,
+  "inside_share": 0.8888888888888888,
+  "n": 27
+ },
+ "GB->BE|one_for_one|A_block|plus|output": {
+  "rmse": 0.27803875013603,
+  "inside_share": 0.8518518518518519,
+  "n": 27
+ },
+ "GB->BE|one_for_one|A_block|plus|output_trade": {
+  "rmse": 0.35918095949466683,
+  "inside_share": 0.8620689655172413,
+  "n": 29
+ },
+ "GB->BE|one_for_one|A_block|plus|emissions": {
+  "rmse": 0.12253743399010525,
+  "inside_share": 0.8888888888888888,
+  "n": 27
+ },
+ "GB->BE|one_for_one|A_block|minus|output": {
+  "rmse": 0.33199766736556163,
+  "inside_share": 0.8888888888888888,
+  "n": 27
+ },
+ "GB->BE|one_for_one|A_block|minus|output_trade": {
+  "rmse": 0.38262133317289293,
+  "inside_share": 0.8620689655172413,
+  "n": 29
+ },
+ "GB->BE|one_for_one|A_block|minus|emissions": {
+  "rmse": 0.15010879327131268,
+  "inside_share": 0.9259259259259259,
+  "n": 27
+ },
+ "GB->BE|one_for_one|A_block|pooled|output": {
+  "rmse": 0.22855188224039094,
+  "inside_share": 0.9259259259259259,
+  "n": 27
+ },
+ "GB->BE|one_for_one|A_block|pooled|output_trade": {
+  "rmse": 0.286911347324064,
+  "inside_share": 0.896551724137931,
+  "n": 29
+ },
+ "GB->BE|one_for_one|A_block|pooled|emissions": {
+  "rmse": 0.10090793848416439,
+  "inside_share": 0.8518518518518519,
+  "n": 27
+ },
+ "GB->BE|one_for_one|B_block_hour|plus|output": {
+  "rmse": 0.393774803794867,
+  "inside_share": 0.8518518518518519,
+  "n": 27
+ },
+ "GB->BE|one_for_one|B_block_hour|plus|output_trade": {
+  "rmse": 0.4703173341340662,
+  "inside_share": 0.8620689655172413,
+  "n": 29
+ },
+ "GB->BE|one_for_one|B_block_hour|plus|emissions": {
+  "rmse": 0.16605801864888212,
+  "inside_share": 0.8148148148148148,
+  "n": 27
+ },
+ "GB->BE|one_for_one|B_block_hour|minus|output": {
+  "rmse": 0.35945025564991534,
+  "inside_share": 0.9629629629629629,
+  "n": 27
+ },
+ "GB->BE|one_for_one|B_block_hour|minus|output_trade": {
+  "rmse": 0.43819909648077715,
+  "inside_share": 0.9310344827586207,
+  "n": 29
+ },
+ "GB->BE|one_for_one|B_block_hour|minus|emissions": {
+  "rmse": 0.14873551530234974,
+  "inside_share": 0.8888888888888888,
+  "n": 27
+ },
+ "GB->BE|one_for_one|B_block_hour|pooled|output": {
+  "rmse": 0.24344286096252624,
+  "inside_share": 0.9259259259259259,
+  "n": 27
+ },
+ "GB->BE|one_for_one|B_block_hour|pooled|output_trade": {
+  "rmse": 0.2774507375226612,
+  "inside_share": 0.896551724137931,
+  "n": 29
+ },
+ "GB->BE|one_for_one|B_block_hour|pooled|emissions": {
+  "rmse": 0.12270645664115437,
+  "inside_share": 0.8518518518518519,
+  "n": 27
+ }
+}

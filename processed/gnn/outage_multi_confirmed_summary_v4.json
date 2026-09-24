@@ -1,0 +1,104 @@
+{
+ "links": [
+  "DE-SE",
+  "NL-NO",
+  "PL-SE",
+  "DK-NL",
+  "DE-NO",
+  "GB-NO",
+  "DK-GB"
+ ],
+ "events": {
+  "DE-SE": 7,
+  "NL-NO": 9,
+  "PL-SE": 8,
+  "DK-NL": 9,
+  "DE-NO": 4,
+  "GB-NO": 4,
+  "DK-GB": 7
+ },
+ "treated_hours": {
+  "DE-SE": 2291,
+  "NL-NO": 4245,
+  "PL-SE": 3062,
+  "DK-NL": 686,
+  "DE-NO": 123,
+  "GB-NO": 784,
+  "DK-GB": 1343
+ },
+ "effective_events": {
+  "DE-SE": 2.244705821190587,
+  "NL-NO": 2.0200282688987654,
+  "PL-SE": 2.418185103561379,
+  "DK-NL": 6.029708176564985,
+  "DE-NO": 2.1567780043151417,
+  "GB-NO": 2.018456245696758,
+  "DK-GB": 4.001180814701168
+ },
+ "graph": {
+  "confirmed": {
+   "rmse": 0.8820851393506451,
+   "inside": 19,
+   "n": 28
+  },
+  "all_events_same_links": {
+   "rmse": 0.6862867763143832,
+   "inside": 18,
+   "n": 28
+  },
+  "confirmed_without_german_ends": {
+   "rmse": 0.392638098687356,
+   "inside": 18,
+   "n": 24
+  },
+  "all_events_same_links_without_german_ends": {
+   "rmse": 0.38242035851824197,
+   "inside": 16,
+   "n": 24
+  }
+ },
+ "local": {
+  "confirmed": {
+   "rmse": 0.8827473155482493,
+   "inside": 19,
+   "n": 28
+  },
+  "all_events_same_links": {
+   "rmse": 0.6884992948430549,
+   "inside": 18,
+   "n": 28
+  },
+  "confirmed_without_german_ends": {
+   "rmse": 0.40285511069083346,
+   "inside": 18,
+   "n": 24
+  },
+  "all_events_same_links_without_german_ends": {
+   "rmse": 0.3920643185667397,
+   "inside": 16,
+   "n": 24
+  }
+ },
+ "one_for_one": {
+  "confirmed": {
+   "rmse": 0.961135592942829,
+   "inside": 12,
+   "n": 28
+  },
+  "all_events_same_links": {
+   "rmse": 0.8389740476375884,
+   "inside": 12,
+   "n": 28
+  },
+  "confirmed_without_german_ends": {
+   "rmse": 0.7784724192600245,
+   "inside": 9,
+   "n": 24
+  },
+  "all_events_same_links_without_german_ends": {
+   "rmse": 0.7633866296199946,
+   "inside": 9,
+   "n": 24
+  }
+ }
+}

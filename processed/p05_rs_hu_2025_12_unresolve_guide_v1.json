@@ -1,0 +1,37 @@
+{
+  "border": "RS->HU",
+  "month": "2025-12",
+  "intertemporal_policy": "unresolve",
+  "candidate_rule": "guide_v1",
+  "conditioned_on": "charged import hours with all inputs present; NOT regime R1",
+  "labels": {
+    "UNRESOLVED-IDENTIFICATION": 261,
+    "UNDETERMINED-SIGN": 210,
+    "OUT-OF-SCOPE (no RS->HU import)": 297
+  },
+  "reasons": {
+    "intertemporal-adjustment-plausible": 261,
+    "emission intervals overlap": 210
+  },
+  "mwh_total": 119119.0,
+  "mwh_determined": 0.0,
+  "mwh_misdirected": 0.0,
+  "mwh_aligned": 0.0,
+  "determinacy_rate_pct": 0.0,
+  "eta_link_range": [
+    0.9669,
+    1.0
+  ],
+  "p_co2_rs": 0.0,
+  "p_co2_hu": 83.9,
+  "rs_price_excluded": {
+    "RS_gas": 421,
+    "RS_hydro_ror": 471,
+    "RS_wind": 423
+  },
+  "hu_price_excluded": {
+    "HU_ccgt": 311,
+    "HU_nuclear": 291,
+    "HU_wind": 471
+  }
+}
