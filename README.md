@@ -33,7 +33,7 @@ processed/
     runs_netresp_r3_v4/         network-response layer weights, 24-hour-difference variant
     v4/                         prediction accuracy, local emission responses, response calibration
     netresp_r2_v4/              main model on the charged borders: per-hour responses (charged_*.npz), charged-import
-                                retention (taxbase_*.npz), reference charge and rule comparison (net_rules.json,
+                                reduction (taxbase_*.npz), reference charge and rule comparison (net_rules.json,
                                 net_states.json, net_taxbase.json), feasibility, information frontier
     netresp_r3_v4/              the same for the 24-hour-difference variant
     outage_*_v4.json / .npz     outage natural experiments: BritNed and Nemo Link estimates (outage_v2_v4.json),
@@ -46,6 +46,7 @@ processed/
 inputs/source/                  public price files read by the code: World Bank monthly commodity prices
                                 (wb_cmo_monthly_*.xlsx), ACER LNG price assessments, ECB exchange rates, UK allowance
                                 prices (DESNZ page); the EEX auction reports are not included (see the code README)
+                                naturalearth/: Natural Earth 1:50m country boundaries for the maps (public domain)
 law/
   default_values.csv            CBAM default values for electricity by exporting country, with legal basis
   charged_borders.csv           exporting countries charged in 2026
